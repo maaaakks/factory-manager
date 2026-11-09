@@ -1,0 +1,13 @@
+const assert=require('node:assert/strict'),{transportReport}=require('../dist/factory-metrics.js'),{vertices}=require('../dist/factory-preview.js');
+function fixture(){const b=[{id:'p',category:'machine',position:[0,0,0],rateModel:{supported:true,outputs:[{id:'item',rate:120}],inputs:[]}},{id:'belt',name:'Bande',position:[4,0,0],category:'conveyor',type:'Build_ConveyorBeltMk1_C',passThrough:true,points:[[0,0,0],[8,0,0]]},{id:'s',category:'storage',position:[10,0,0]},{id:'after',category:'machine',position:[20,0,0]}],ports=[];b.forEach(o=>o.ports=[]);function link(from,to){const a={id:'o'+ports.length,owner:from,peerOwner:to,direction:'out',state:'connected'},c={id:'i'+ports.length,owner:to,peerOwner:from,direction:'in',state:'connected'};a.peer=c.id;c.peer=a.id;ports.push(a,c);b.find(o=>o.id===from).ports.push(a.id);b.find(o=>o.id===to).ports.push(c.id);}link('p','belt');link('belt','s');link('s','after');return {b,ports};}
+let {b,ports}=fixture(),item={id:'item',production:120};
+let r=transportReport(item,b.slice(0,1),b,ports,{boundary:true});assert.equal(r.toBoundary,60);assert.equal(r.toStorage,0);assert.equal(r.exported,60);assert.equal(r.limited,true);assert.deepEqual(r.exits.map(e=>e.id),['belt']);
+r=transportReport(item,b.slice(0,3),b,ports,{boundary:true});assert.equal(r.toStorage,60);assert.equal(r.toBoundary,0);assert.equal(r.exits.length,0,'A chest is terminal even when it feeds another factory');
+({b,ports}=fixture());ports=ports.filter(p=>!['s','after'].includes(p.owner)&&!['s','after'].includes(p.peerOwner));b[1].ports=b[1].ports.filter(id=>ports.some(p=>p.id===id));b[1].ports.push('open');ports.push({id:'open',owner:'belt',direction:'out',state:'open'});
+r=transportReport(item,b.slice(0,2),b,ports,{boundary:true,rect:{minX:-1,maxX:5,minY:-2,maxY:2}});assert.equal(r.toBoundary,60);assert.equal(r.exits[0].kind,'open-belt');
+r=transportReport(item,b.slice(0,2),b,ports,{boundary:true,rect:{minX:-1,maxX:9,minY:-2,maxY:2}});assert.equal(r.toBoundary,0,'An open conveyor inside the factory is not automatically an output');
+const roof={type:'Build_Roof_Tar_03_C',category:'roof',position:[0,0,2],yaw:0},v=vertices(roof);
+const centre=i=>(v[i][2]+v[i+4][2])/2;assert.equal(centre(0),3);assert.equal(centre(1),1);assert.equal(centre(2),1);assert.equal(centre(3),3);
+const wall=vertices({type:'Build_Wall_Concrete_Tris_8x2_C',category:'wall',position:[0,-4,1],yaw:Math.PI/2});
+assert.ok(Math.abs(wall[4][0]-4)<1e-8&&wall[4][2]===1);assert.ok(Math.abs(wall[6][0]+4)<1e-8&&wall[6][2]===3,'Roof decline meets the triangular wall edge at both ends');
+console.log('PASS: conveyor exports, outside capacity, terminal storage, directed open boundary and centred descending roof alignment');

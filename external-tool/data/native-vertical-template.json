@@ -1,0 +1,209 @@
+{
+  "schemaVersion": 1,
+  "lift": {
+    "headers": [
+      {
+        "__type__": "ActorHeader",
+        "typePath": "/Game/FactoryGame/Buildable/Factory/ConveyorLiftMk1/Build_ConveyorLiftMk1.Build_ConveyorLiftMk1_C",
+        "rootObject": "Persistent_Level",
+        "instanceName": "Persistent_Level:PersistentLevel.Build_ConveyorLiftMk1_C_2146410502",
+        "flags": 8,
+        "needTransform": true,
+        "rotation": [
+          0.0,
+          0.0,
+          0.7071067690849304,
+          -0.7071067690849304
+        ],
+        "position": [
+          300.0,
+          1500.0,
+          99.98857879638672
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "wasPlacedInLevel": false
+      },
+      {
+        "__type__": "ComponentHeader",
+        "className": "/Script/FactoryGame.FGFactoryConnectionComponent",
+        "rootObject": "Persistent_Level",
+        "instanceName": "Persistent_Level:PersistentLevel.Build_ConveyorLiftMk1_C_2146410502.ConveyorAny0",
+        "flags": 262152,
+        "parentActorName": "Persistent_Level:PersistentLevel.Build_ConveyorLiftMk1_C_2146410502"
+      },
+      {
+        "__type__": "ComponentHeader",
+        "className": "/Script/FactoryGame.FGFactoryConnectionComponent",
+        "rootObject": "Persistent_Level",
+        "instanceName": "Persistent_Level:PersistentLevel.Build_ConveyorLiftMk1_C_2146410502.ConveyorAny1",
+        "flags": 262152,
+        "parentActorName": "Persistent_Level:PersistentLevel.Build_ConveyorLiftMk1_C_2146410502"
+      }
+    ],
+    "objects": [
+      [
+        {
+          "__type__": "ObjectReference",
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+        },
+        [
+          {
+            "__type__": "ObjectReference",
+            "levelName": "Persistent_Level",
+            "pathName": "Persistent_Level:PersistentLevel.Build_ConveyorLiftMk1_C_2146410502.ConveyorAny1"
+          },
+          {
+            "__type__": "ObjectReference",
+            "levelName": "Persistent_Level",
+            "pathName": "Persistent_Level:PersistentLevel.Build_ConveyorLiftMk1_C_2146410502.ConveyorAny0"
+          }
+        ],
+        [
+          [
+            "mTopTransform",
+            [
+              [
+                [
+                  "Rotation",
+                  [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.9999999999999998
+                  ]
+                ],
+                [
+                  "Translation",
+                  [
+                    0.0,
+                    0.0,
+                    1200.0
+                  ]
+                ]
+              ],
+              [
+                [
+                  "Rotation",
+                  "StructProperty",
+                  0,
+                  "Quat",
+                  null,
+                  0
+                ],
+                [
+                  "Translation",
+                  "StructProperty",
+                  0,
+                  "Vector",
+                  null,
+                  0
+                ]
+              ]
+            ]
+          ],
+          [
+            "mSnappedPassthroughs",
+            [
+              {
+                "__type__": "ObjectReference",
+                "levelName": "",
+                "pathName": ""
+              },
+              {
+                "__type__": "ObjectReference",
+                "levelName": "",
+                "pathName": ""
+              }
+            ]
+          ],
+          [
+            "mCustomizationData",
+            [
+              [
+                [
+                  "SwatchDesc",
+                  {
+                    "__type__": "ObjectReference",
+                    "levelName": "",
+                    "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+                  }
+                ]
+              ],
+              [
+                [
+                  "SwatchDesc",
+                  "ObjectProperty",
+                  0
+                ]
+              ]
+            ]
+          ],
+          [
+            "mBuiltWithRecipe",
+            {
+              "__type__": "ObjectReference",
+              "levelName": "",
+              "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorLiftMk1.Recipe_ConveyorLiftMk1_C"
+            }
+          ]
+        ],
+        [
+          [
+            "mTopTransform",
+            "StructProperty",
+            0,
+            "Transform",
+            null,
+            0
+          ],
+          [
+            "mSnappedPassthroughs",
+            "ArrayProperty",
+            0,
+            "ObjectProperty",
+            0
+          ],
+          [
+            "mCustomizationData",
+            "StructProperty",
+            0,
+            "FactoryCustomizationData",
+            null,
+            0
+          ],
+          [
+            "mBuiltWithRecipe",
+            "ObjectProperty",
+            0
+          ]
+        ],
+        null
+      ],
+      [
+        [],
+        []
+      ],
+      [
+        [],
+        []
+      ]
+    ]
+  },
+  "height": 1200,
+  "inputPort": [
+    0,
+    0,
+    0
+  ],
+  "outputPort": [
+    0,
+    0,
+    1200
+  ],
+  "source": "Native lift with a straight 12m top transform, connected to belts on both ends in local REINFORCED IRON PLATE blueprint. Unmodified default forward flow, old connections removed."
+}

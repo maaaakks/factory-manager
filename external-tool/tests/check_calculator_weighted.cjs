@@ -1,0 +1,13 @@
+const assert=require('node:assert/strict'),A=require('../dist/workshop-assist'),M=require('../dist/workshop-model'),data=require('../dist/planner-data.json');
+const row=(id,rate)=>({id,rate}),iron='Desc_OreIron_C',plate='Desc_IronPlate_C',rod='Desc_IronRod_C',screw='Desc_IronScrew_C';
+const close=(a,b)=>assert.ok(Math.abs(a-b)<1e-6,a+' != '+b);
+const flows={resourceWeighted:true,inputs:[row(iron,60)],outputs:[plate,rod,screw].map(id=>row(id,null))};
+const before=JSON.stringify(flows),r=A.resolveFlexible(flows,data);[40/3,20,80].forEach((rate,i)=>close(r.outputs[i].rate,rate));close(r.inputs[0].rate,60);assert.deepEqual(r.unused,[]);assert.equal(JSON.stringify(flows),before);
+const fixed=A.resolveFlexible({...flows,outputs:[row(plate,10),row(rod,null),row(screw,null)]},data);[10,22.5,90].forEach((rate,i)=>close(fixed.outputs[i].rate,rate));
+const equal=A.resolveFlexible({...flows,resourceWeighted:false},data);equal.outputs.forEach(o=>close(o.rate,60/2.75));
+const ingot=A.resolveFlexible({...flows,inputs:[row('Desc_IronIngot_C',60)]},data);ingot.outputs.forEach((o,i)=>close(o.rate,r.outputs[i].rate));
+const perm=A.resolveFlexible({...flows,outputs:[...flows.outputs].reverse()},data);perm.outputs.forEach(o=>close(o.rate,r.outputs.find(x=>x.id===o.id).rate));
+const p=M.fresh('weighted');p.flows=flows;assert.equal(M.read(JSON.stringify(p)).flows.resourceWeighted,true);
+assert.throws(()=>A.resolveFlexible({...flows,inputs:[row(iron,1)],outputs:[row(plate,10),row(rod,null)]},data),/insuffisante/);
+const multi=A.resolveFlexible({...flows,inputs:[row(iron,60),row('Desc_OreCopper_C',30)],outputs:[row(plate,null),row('Desc_CopperSheet_C',null)]},data);close(multi.outputs[0].rate,40);close(multi.outputs[1].rate,15);
+console.log('PASS: weighted iron ore/ingot allocation, fixed targets, legacy equal rates, output order, multiple budgets, persistence, insufficient inputs and non-mutation');

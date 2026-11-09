@@ -1,0 +1,110 @@
+
+ SMELTERX2 {'Build_SmelterMk1_C': 2, 'Build_ConveyorAttachmentSplitter_C': 1, 'Build_ConveyorBeltMk1_C': 4, 'Build_ConveyorAttachmentMerger_C': 1, 'Build_ConveyorLiftMk1_C': 2, 'Build_PowerPoleWall_C': 1, 'Build_PowerLine_C': 2}
+Build_SmelterMk1_C [-13.0, -7.0, 0.0] yaw -180.0 recipe Recipe_IngotIron_C
+Build_ConveyorAttachmentSplitter_C [-13.0, -0.0, 1.0] yaw 0.0 recipe None
+Build_SmelterMk1_C [-13.0, 7.0, 0.0] yaw 0.0 recipe Recipe_IngotIron_C
+Build_ConveyorAttachmentMerger_C [-13.0, -0.0, 9.0] yaw 0.0 recipe None
+LIFTS [([-13.0, -11.0, 1.0], [-13.0, -11.0, 9.0], 8.0, 90.0), ([-13.0, 11.0, 1.0], [-13.0, 11.0, 9.0], 8.0, -90.0)]
+SHORTEST BELTS [(3.0, ['Build_SmelterMk1_C', 'Build_ConveyorAttachmentSplitter_C']), (3.0, ['Build_SmelterMk1_C', 'Build_ConveyorAttachmentSplitter_C']), (10.0, ['Build_ConveyorAttachmentMerger_C', 'Build_ConveyorLiftMk1_C']), (10.0, ['Build_ConveyorAttachmentMerger_C', 'Build_ConveyorLiftMk1_C'])]
+NEAREST SAME LEVEL JUNCTIONS []
+
+ CONSTRUCTORx2 {'Build_ConstructorMk1_C': 2, 'Build_ConveyorAttachmentSplitter_C': 1, 'Build_ConveyorBeltMk1_C': 4, 'Build_ConveyorAttachmentMerger_C': 1, 'Build_ConveyorLiftMk1_C': 2, 'Build_PowerPoleWall_C': 1, 'Build_PowerLine_C': 2}
+Build_ConstructorMk1_C [-12.0, 5.0, 0.0] yaw 0.0 recipe Recipe_IronRod_C
+Build_ConveyorAttachmentSplitter_C [-12.0, -1.0, 1.0] yaw 0.0 recipe None
+Build_ConstructorMk1_C [-12.0, -7.0, 0.0] yaw -180.0 recipe Recipe_IronRod_C
+Build_ConveyorAttachmentMerger_C [-12.0, -1.0, 6.0] yaw 0.0 recipe None
+LIFTS [([-12.0, -11.0, 1.0], [-12.0, -11.0, 6.0], 5.0, 90.0), ([-12.0, 9.0, 1.0], [-12.0, 9.0, 6.0], 5.0, -90.0)]
+SHORTEST BELTS [(2.0, ['Build_ConstructorMk1_C', 'Build_ConveyorAttachmentSplitter_C']), (2.0, ['Build_ConstructorMk1_C', 'Build_ConveyorAttachmentSplitter_C']), (9.0, ['Build_ConveyorAttachmentMerger_C', 'Build_ConveyorLiftMk1_C']), (9.0, ['Build_ConveyorAttachmentMerger_C', 'Build_ConveyorLiftMk1_C'])]
+NEAREST SAME LEVEL JUNCTIONS []
+
+ ROTORS 4x4 - 10.667 {'Build_SmelterMk1_C': 4, 'Build_ConveyorAttachmentSplitter_C': 16, 'Build_ConveyorBeltMk1_C': 38, 'Build_ConveyorAttachmentMerger_C': 10, 'Build_ConveyorLiftMk1_C': 19, 'Build_PowerPoleWall_C': 9, 'Build_PowerLine_C': 34, 'Build_ConveyorBeltMk2_C': 15, 'Build_ConveyorLiftMk2_C': 10, 'Build_ConstructorMk1_C': 15, 'Build_Beam_Painted_C': 19, 'Build_Flat_Frame_01_C': 36, 'Build_ConveyorBeltMk3_C': 5, 'Build_AssemblerMk1_C': 3, 'Build_ConveyorLiftMk3_C': 3, 'Build_PowerPoleMk1_C': 3, 'Build_CatwalkCross_C': 27, 'Build_CatwalkT_C': 19, 'Build_Wall_Orange_Tris_8x8_C': 13, 'Build_Wall_Orange_FlipTris_8x8_C': 16, 'Build_Wall_Orange_8x1_C': 253, 'Build_Wall_Window_Thin_8x4_02_C': 58, 'Build_Roof_Tar_01_C': 12, 'Build_FoundationGlass_01_C': 4, 'Build_Ladder_C': 1, 'Build_Wall_Gate_8x4_01_C': 1, 'Build_Pillar_Small_Metal_C': 57, 'Build_Wall_Conveyor_8x4_03_C': 1, 'Build_PowerPoleWall_Mk2_C': 1}
+Build_SmelterMk1_C [3.0, -13.0, 0.0] yaw -90.0 recipe Recipe_IngotIron_C
+Build_ConveyorAttachmentSplitter_C [-4.0, -13.0, 1.0] yaw 90.0 recipe None
+Build_SmelterMk1_C [-11.0, -13.0, 0.0] yaw 90.0 recipe Recipe_IngotIron_C
+Build_ConveyorAttachmentMerger_C [-4.0, -13.0, 9.0] yaw 90.0 recipe None
+Build_SmelterMk1_C [3.0, -8.0, 0.0] yaw -90.0 recipe Recipe_IngotIron_C
+Build_ConveyorAttachmentSplitter_C [-4.0, -8.0, 1.0] yaw 90.0 recipe None
+Build_SmelterMk1_C [-11.0, -8.0, 0.0] yaw 90.0 recipe Recipe_IngotIron_C
+Build_ConveyorAttachmentMerger_C [-4.0, -8.0, 9.0] yaw 90.0 recipe None
+Build_ConstructorMk1_C [-10.0, -1.4, 0.0] yaw 90.0 recipe Recipe_IronRod_C
+Build_ConveyorAttachmentSplitter_C [-4.0, -1.4, 1.0] yaw 90.0 recipe None
+Build_ConstructorMk1_C [2.0, -1.4, 0.0] yaw -90.0 recipe Recipe_IronRod_C
+Build_ConveyorAttachmentMerger_C [-4.0, -1.4, 6.0] yaw 90.0 recipe None
+Build_ConstructorMk1_C [-10.0, 6.6, 0.0] yaw 90.0 recipe Recipe_IronRod_C
+Build_ConveyorAttachmentSplitter_C [-4.0, 6.6, 1.0] yaw 90.0 recipe None
+Build_ConstructorMk1_C [2.0, 6.6, 0.0] yaw -90.0 recipe Recipe_IronRod_C
+Build_ConveyorAttachmentMerger_C [-4.0, 6.6, 6.0] yaw 90.0 recipe None
+Build_Flat_Frame_01_C [-12.0, 12.0, 11.2] yaw 0.0 recipe None
+Build_Flat_Frame_01_C [-4.0, 12.0, 11.2] yaw 0.0 recipe None
+Build_Flat_Frame_01_C [4.0, 12.0, 11.2] yaw 0.0 recipe None
+Build_Flat_Frame_01_C [4.0, -12.0, 11.2] yaw 0.0 recipe None
+Build_Flat_Frame_01_C [-4.0, -12.0, 11.2] yaw 0.0 recipe None
+Build_Flat_Frame_01_C [-12.0, -12.0, 11.2] yaw 0.0 recipe None
+Build_Flat_Frame_01_C [-12.0, -4.0, 11.2] yaw 0.0 recipe None
+Build_Flat_Frame_01_C [-12.0, 4.0, 11.2] yaw 0.0 recipe None
+Build_Flat_Frame_01_C [4.0, 4.0, 11.2] yaw 0.0 recipe None
+Build_Flat_Frame_01_C [-4.0, 4.0, 11.2] yaw 0.0 recipe None
+Build_Flat_Frame_01_C [4.0, -4.0, 11.2] yaw 0.0 recipe None
+Build_Flat_Frame_01_C [-4.0, -4.0, 11.2] yaw 0.0 recipe None
+Build_ConstructorMk1_C [2.0, 12.0, 10.8] yaw -90.0 recipe Recipe_IronRod_C
+Build_ConveyorAttachmentSplitter_C [-4.0, 12.0, 11.8] yaw -90.0 recipe None
+Build_ConstructorMk1_C [-10.0, 12.0, 10.8] yaw 90.0 recipe Recipe_IronRod_C
+Build_ConveyorAttachmentMerger_C [-4.0, 12.0, 16.8] yaw -90.0 recipe None
+Build_ConstructorMk1_C [2.0, 4.0, 10.8] yaw -90.0 recipe Recipe_IronRod_C
+Build_ConveyorAttachmentSplitter_C [-4.0, 4.0, 11.8] yaw -90.0 recipe None
+Build_ConstructorMk1_C [-10.0, 4.0, 10.8] yaw 90.0 recipe Recipe_IronRod_C
+Build_ConveyorAttachmentMerger_C [-4.0, 4.0, 16.8] yaw -90.0 recipe None
+Build_ConstructorMk1_C [2.0, -4.0, 10.8] yaw -90.0 recipe Recipe_Screw_C
+Build_ConveyorAttachmentSplitter_C [-4.0, -4.0, 11.8] yaw -90.0 recipe None
+Build_ConstructorMk1_C [-10.0, -4.0, 10.8] yaw 90.0 recipe Recipe_Screw_C
+Build_ConveyorAttachmentMerger_C [-4.0, -4.0, 16.8] yaw -90.0 recipe None
+Build_ConstructorMk1_C [2.0, -12.0, 10.8] yaw -90.0 recipe Recipe_Screw_C
+Build_ConveyorAttachmentSplitter_C [-4.0, -12.0, 11.8] yaw -90.0 recipe None
+Build_ConstructorMk1_C [-10.0, -12.0, 10.8] yaw 90.0 recipe Recipe_Screw_C
+Build_ConveyorAttachmentMerger_C [-4.0, -12.0, 16.8] yaw -90.0 recipe None
+Build_Flat_Frame_01_C [-12.0, 12.0, 19.2] yaw -180.0 recipe None
+Build_Flat_Frame_01_C [-4.0, 12.0, 19.2] yaw -180.0 recipe None
+Build_Flat_Frame_01_C [4.0, 12.0, 19.2] yaw -180.0 recipe None
+Build_Flat_Frame_01_C [4.0, -12.0, 19.2] yaw -180.0 recipe None
+Build_Flat_Frame_01_C [-4.0, -12.0, 19.2] yaw -180.0 recipe None
+Build_Flat_Frame_01_C [-12.0, -12.0, 19.2] yaw -180.0 recipe None
+Build_Flat_Frame_01_C [-12.0, -4.0, 19.2] yaw -180.0 recipe None
+Build_Flat_Frame_01_C [-12.0, 4.0, 19.2] yaw -180.0 recipe None
+Build_Flat_Frame_01_C [4.0, 4.0, 19.2] yaw -180.0 recipe None
+Build_Flat_Frame_01_C [-4.0, 4.0, 19.2] yaw -180.0 recipe None
+Build_Flat_Frame_01_C [4.0, -4.0, 19.2] yaw -180.0 recipe None
+Build_Flat_Frame_01_C [-4.0, -4.0, 19.2] yaw -180.0 recipe None
+Build_ConstructorMk1_C [-10.0, -12.0, 18.8] yaw 90.0 recipe Recipe_Screw_C
+Build_ConveyorAttachmentSplitter_C [-4.0, -12.0, 19.8] yaw 90.0 recipe None
+Build_ConstructorMk1_C [2.0, -12.0, 18.8] yaw -90.0 recipe Recipe_Screw_C
+Build_ConveyorAttachmentMerger_C [-4.0, -12.0, 24.8] yaw 90.0 recipe None
+Build_ConstructorMk1_C [-10.0, -4.0, 18.8] yaw 90.0 recipe Recipe_Screw_C
+Build_ConveyorAttachmentSplitter_C [-4.0, -4.0, 19.8] yaw 90.0 recipe None
+Build_ConveyorAttachmentMerger_C [-4.0, -4.0, 24.8] yaw 0.0 recipe None
+Build_AssemblerMk1_C [-10.6, 8.6, 18.8] yaw 0.0 recipe Recipe_Rotor_C
+Build_AssemblerMk1_C [-1.6, 8.6, 18.8] yaw 0.0 recipe Recipe_Rotor_C
+Build_AssemblerMk1_C [7.4, 8.6, 18.8] yaw 0.0 recipe Recipe_Rotor_C
+Build_ConveyorAttachmentSplitter_C [0.4, 0.6, 26.8] yaw 180.0 recipe None
+Build_ConveyorAttachmentSplitter_C [-3.6, 0.6, 23.8] yaw -180.0 recipe None
+Build_ConveyorAttachmentSplitter_C [-8.6, 0.6, 26.8] yaw 180.0 recipe None
+Build_ConveyorAttachmentSplitter_C [-12.6, 0.6, 23.8] yaw -180.0 recipe None
+Build_ConveyorAttachmentSplitter_C [5.4, 0.6, 23.8] yaw -180.0 recipe None
+Build_ConveyorAttachmentSplitter_C [9.4, 0.6, 26.8] yaw 90.0 recipe None
+Build_PowerPoleMk1_C [12.0, 8.0, 18.8] yaw 135.0 recipe None
+Build_PowerPoleMk1_C [3.0, 8.0, 18.8] yaw 135.0 recipe None
+Build_PowerPoleMk1_C [-6.0, 8.0, 18.8] yaw 135.0 recipe None
+Build_Flat_Frame_01_C [4.0, 12.0, 0.2] yaw -180.0 recipe None
+Build_Flat_Frame_01_C [-4.0, 12.0, 0.2] yaw -180.0 recipe None
+Build_Flat_Frame_01_C [-12.0, 12.0, 0.2] yaw -180.0 recipe None
+Build_Flat_Frame_01_C [-12.0, 4.0, 0.2] yaw -180.0 recipe None
+Build_Flat_Frame_01_C [-4.0, 4.0, 0.2] yaw -180.0 recipe None
+Build_Flat_Frame_01_C [4.0, 4.0, 0.2] yaw -180.0 recipe None
+Build_Flat_Frame_01_C [-12.0, -4.0, 0.2] yaw -180.0 recipe None
+Build_Flat_Frame_01_C [-4.0, -4.0, 0.2] yaw -180.0 recipe None
+Build_Flat_Frame_01_C [4.0, -4.0, 0.2] yaw -180.0 recipe None
+Build_Flat_Frame_01_C [4.0, -12.0, 0.2] yaw -180.0 recipe None
+Build_Flat_Frame_01_C [-4.0, -12.0, 0.2] yaw -180.0 recipe None
+Build_Flat_Frame_01_C [-12.0, -12.0, 0.2] yaw -180.0 recipe None
+LIFTS [([7.0, -13.0, 1.0], [7.0, -13.0, 9.0], 8.0, -180.0), ([-15.0, -13.0, 1.0], [-15.0, -13.0, 9.0], 8.0, -0.0), ([7.0, -8.0, 1.0], [7.0, -8.0, 9.0], 8.0, -180.0), ([-15.0, -8.0, 1.0], [-15.0, -8.0, 9.0], 8.0, -0.0), ([-4.0, -5.8, 9.0], [-4.0, -5.8, 1.0], 8.0, -90.0), ([6.0, -1.4, 1.0], [6.0, -1.4, 6.0], 5.0, -180.0), ([-14.0, -1.4, 1.0], [-14.0, -1.4, 6.0], 5.0, 0.0), ([6.0, 6.6, 1.0], [6.0, 6.6, 6.0], 5.0, -180.0), ([-14.0, 6.6, 1.0], [-14.0, 6.6, 6.0], 5.0, 0.0), ([-14.0, 12.0, 11.8], [-14.0, 12.0, 16.8], 5.0, 0.0), ([6.0, 12.0, 11.8], [6.0, 12.0, 16.8], 5.0, -180.0), ([-14.0, 4.0, 11.8], [-14.0, 4.0, 16.8], 5.0, 0.0), ([6.0, 4.0, 11.8], [6.0, 4.0, 16.8], 5.0, -180.0), ([-4.0, 2.0, 16.8], [-4.0, 2.0, 11.8], 5.0, 90.0), ([-14.0, -4.0, 11.8], [-14.0, -4.0, 16.8], 5.0, 0.0), ([6.0, -4.0, 11.8], [6.0, -4.0, 16.8], 5.0, -180.0), ([-14.0, -12.0, 11.8], [-14.0, -12.0, 16.8], 5.0, 0.0), ([6.0, -12.0, 11.8], [6.0, -12.0, 16.8], 5.0, -180.0), ([-4.0, 14.0, 5.8], [-4.0, 14.0, 16.8], 11.0, -90.0), ([-4.0, 14.0, 0.8], [-4.0, 14.0, 11.8], 11.0, -90.0), ([6.0, -12.0, 19.8], [6.0, -12.0, 24.8], 5.0, -180.0), ([-14.0, -12.0, 19.8], [-14.0, -12.0, 24.8], 5.0, 0.0), ([-14.0, -4.0, 19.8], [-14.0, -4.0, 24.8], 5.0, 0.0), ([0.4, 1.6, 26.8], [0.4, 1.6, 19.8], 7.0, -90.0), ([-3.6, 1.6, 23.8], [-3.6, 1.6, 19.8], 4.0, -90.0), ([-12.6, 1.6, 23.8], [-12.6, 1.6, 19.8], 4.0, -90.0), ([-8.6, 1.6, 26.8], [-8.6, 1.6, 19.8], 7.0, -90.0), ([5.4, 1.6, 23.8], [5.4, 1.6, 19.8], 4.0, -90.0), ([9.4, 0.6, 19.8], [9.4, 0.6, 23.8], 4.0, -90.0), ([9.4, 1.6, 26.8], [9.4, 1.6, 19.8], 7.0, -90.0), ([-4.0, -14.0, 11.8], [-4.0, -14.0, 19.8], 8.0, 90.0), ([-4.0, -14.0, 16.8], [-4.0, -14.0, 24.8], 8.0, 90.0)]
+SHORTEST BELTS [(2.0, ['Build_ConstructorMk1_C', 'Build_ConveyorAttachmentSplitter_C']), (2.0, ['Build_ConstructorMk1_C', 'Build_ConveyorAttachmentSplitter_C']), (2.0, ['Build_ConstructorMk1_C', 'Build_ConveyorAttachmentSplitter_C']), (2.0, ['Build_ConstructorMk1_C', 'Build_ConveyorAttachmentSplitter_C']), (2.0, ['Build_ConstructorMk1_C', 'Build_ConveyorAttachmentSplitter_C']), (2.0, ['Build_ConstructorMk1_C', 'Build_ConveyorAttachmentSplitter_C']), (2.0, ['Build_ConstructorMk1_C', 'Build_ConveyorAttachmentSplitter_C']), (2.0, ['Build_ConstructorMk1_C', 'Build_ConveyorAttachmentSplitter_C']), (2.0, ['Build_ConstructorMk1_C', 'Build_ConveyorAttachmentSplitter_C']), (2.0, ['Build_ConstructorMk1_C', 'Build_ConveyorAttachmentSplitter_C']), (2.0, ['Build_ConstructorMk1_C', 'Build_ConveyorAttachmentSplitter_C']), (2.0, ['Build_ConstructorMk1_C', 'Build_ConveyorAttachmentSplitter_C'])]
+NEAREST SAME LEVEL JUNCTIONS [(5.0, 0.0), (5.0, 0.0), (6.6, 0.0), (8.0, 0.0), (8.0, 0.0), (8.0, 0.0), (8.0, 0.0), (8.0, 0.0)]

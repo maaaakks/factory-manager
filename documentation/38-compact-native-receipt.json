@@ -1,0 +1,33 @@
+{
+  "name": "FT_Plaques_120_10_Paires_acdb6ad82e",
+  "directory": "C:\\Users\\YOUR_USER\\AppData\\Local\\FactoryGame\\Saved\\SaveGames\\blueprints\\SANDBOX",
+  "session": "SANDBOX",
+  "files": [
+    {
+      "path": "C:\\Users\\YOUR_USER\\AppData\\Local\\FactoryGame\\Saved\\SaveGames\\blueprints\\SANDBOX\\FT_Plaques_120_10_Paires_acdb6ad82e.sbp",
+      "bytes": 22281,
+      "sha256": "491675db777c8109c236c1bb59cd1b8e91c6a4872f9dc5d3a50579a5e566b289"
+    },
+    {
+      "path": "C:\\Users\\YOUR_USER\\AppData\\Local\\FactoryGame\\Saved\\SaveGames\\blueprints\\SANDBOX\\FT_Plaques_120_10_Paires_acdb6ad82e.sbpcfg",
+      "bytes": 412,
+      "sha256": "9b26eacb1cd68bd447332eac8c942e768491140d82c339d114625fd29478f79d"
+    }
+  ],
+  "verified": {
+    "objects": 65,
+    "foundations": 16,
+    "frames": 32,
+    "belts": 54,
+    "lifts": 21,
+    "wires": 24,
+    "size": 32,
+    "powerMW": 75.88,
+    "warnings": [
+      "Cadres ajourés aux niveaux supérieurs ; fonctionnement et dégagements en jeu à vérifier."
+    ],
+    "inGameValidated": false,
+    "profile": "iron-plates-pairs-v1"
+  },
+  "inGameValidated": false
+}

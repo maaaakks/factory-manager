@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.sav
+*.log
+.pytest_cache/
+
+.run/
+data/factories.json
+
+
+data/save-cache/
+data/native-backups/

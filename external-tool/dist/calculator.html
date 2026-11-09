@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Factory Manager · Calculateur</title><link rel="stylesheet" href="/calculator.css"><link rel="stylesheet" href="/navigation.css"><script src="/i18n.js"></script></head>
+<body><header data-navigation></header><script src="/navigation.js"></script>
+<main class="calculator-page">
+ <div class="page-heading"><div><span class="eyebrow">PRODUCTION</span><h1>Calculateur de recettes</h1><p>Choisissez vos produits et leurs débits pour connaître les ingrédients, les machines et la puissance nécessaires.</p></div><a href="/design">Ouvrir l’atelier →</a></div>
+ <p id="message" role="status" hidden></p>
+ <div class="calculator-grid">
+  <section class="target-panel"><div class="section-heading"><span class="step">01</span><h2>Objectifs de production</h2></div>
+   <form id="targetsForm"><label class="format-field">Calculer à partir des<select id="calcMode"><option value="output">Sorties souhaitées</option><option value="input">Entrées disponibles</option><option value="both">Entrées et sorties</option></select></label><p id="modeHelp" class="quiet"></p>
+    <div id="inputEditor" hidden><h3>Entrées disponibles</h3><div id="inputRows"></div><button id="addInput" type="button" class="secondary full">＋ Ajouter une entrée</button></div>
+    <div id="targets"></div><button id="addTarget" type="button" class="secondary full">＋ Ajouter un produit</button><button type="submit" class="primary full" style="margin-top:12px">Calculer la recette</button>
+   </form>
+  </section>
+  <section class="result-panel"><div class="section-heading"><span class="step">02</span><h2>Votre recette</h2><span id="machineCount" class="count"></span></div><p id="resultEmpty">Chargement du catalogue…</p>
+   <div id="result" hidden><div class="flow-strip"><div><span class="eyebrow">INGRÉDIENTS / MIN</span><div id="requirements"></div></div><div class="flow-arrow">→</div><div><span class="eyebrow">PRODUITS / MIN</span><div id="outputs"></div></div></div>
+    <div class="table-wrap"><table><thead><tr><th>Recette</th><th>Machine</th><th>Nombre</th><th>Cadence</th></tr></thead><tbody id="machines"></tbody></table></div><p id="powerInfo"></p><div id="byproducts"></div><p id="placementInfo" class="quiet"></p>
+    <div class="result-action"><div><strong>Continuer avec cette recette</strong><p>Vous pouvez ensuite préparer son implantation dans l’atelier.</p><label class="format-field">Format pour l’atelier<select id="calcFormat"><option value="32">4 × 4 · 32 m</option><option value="40">5 × 5 · 40 m</option><option value="48" selected>6 × 6 · 48 m</option></select></label></div><button id="toWorkshop" type="button" class="secondary">Préparer dans l’atelier →</button></div>
+    <p id="layoutLimit" class="quiet" hidden></p><a id="external" target="_blank" rel="noopener">Voir dans Satisfactory Calculator ↗</a>
+   </div>
+  </section>
+ </div>
+ <form id="linkForm" class="link-import" style="margin-top:26px"><label for="source">Importer des objectifs depuis Satisfactory Calculator</label><div><input id="source" placeholder="Lien de partage ou objectifs JSON"><button type="submit">Importer la recette</button></div><small>Les recettes standard sont recalculées localement.</small></form><p id="importedInputs" hidden></p><button id="clearInputs" hidden>Retirer les entrées importées</button>
+</main><script src="/workshop-model.js"></script><script src="/flow-core.js"></script><script src="/workshop-assist.js"></script><script src="/calculator.js"></script></body></html>

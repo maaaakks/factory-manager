@@ -1,0 +1,11 @@
+const assert=require('node:assert/strict'),fs=require('node:fs'),cp=require('node:child_process'),path=require('node:path'),P=require('../dist/workshop-planning.js'),M=require('../dist/workshop-model.js'),D=require('../dist/workshop-design.js'),data=require('../dist/planner-data.json');
+const python=process.env.WORKCELL_PYTHON||'C:/Users/maxbr/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe';
+function compact(body){return JSON.parse(cp.execFileSync(python,['-X','utf8','-c','import sys,json,native_workcells as w;print(json.dumps(w.proposal(json.load(sys.stdin))))'],{cwd:path.resolve(__dirname,'..'),input:JSON.stringify({...body.options,outputRate:body.outputs[0].rate,inputItem:body.inputs[0].id}),encoding:'utf8'}));}
+(async()=>{
+ const source={...M.fresh('test-5x5'),name:'test',size:64,depth:176,height:48},before=JSON.stringify(source),flows={inputs:[{id:'Desc_OreIron_C',rate:60}],outputs:[{id:'Desc_IronPlateReinforced_C',rate:5}]},samples=[];
+ for(const options of [{},{dimensions:{size:40,depth:40,height:40}},{dimensions:{size:48,depth:48,height:48}}]){
+  const p=await P.build({id:source.id,source,flows,data,generation:D.generation({storeyMode:'auto',layoutStyle:'balanced'}),...options},{compact});assert.equal(p.nativeProfile,'iron-plates-workcells-v1');assert.equal(p.floors.length,1);assert.equal(p.objects.filter(o=>o.recipe).length,8);assert.deepEqual([...new Set(p.objects.filter(o=>o.recipe).map(o=>o.z))],[1]);assert.equal(p.size,options.dimensions?.size||40);assert.deepEqual(M.problems(p),[]);assert.doesNotThrow(()=>M.read(p));assert.equal(JSON.stringify(source),before);samples.push(p);
+ }
+ await assert.rejects(P.build({source,id:source.id,flows,data,generation:D.generation({storeyMode:'single'}),dimensions:{size:32,depth:32,height:32}},{compact}),/dimensions automatiques/);assert.equal(JSON.stringify(source),before);
+ const output=process.env.WORKCELL_SCENES||path.resolve(__dirname,'../data/workcells-scenes.json');fs.writeFileSync(output,JSON.stringify(samples));console.log('PASS: 60 -> 5 uses 5x5 calibrated ground-floor cells, eight machines; larger fixed plots, complete model/JSON validation, source preserved, 4x4 atomically rejected.');
+})().catch(e=>{console.error(e,e.cause);process.exitCode=1;});

@@ -1,0 +1,34 @@
+{
+  "name": "FT_TEST_03_PlaquesEtages",
+  "session": "SANDBOX",
+  "verification": {
+    "actors": 22,
+    "components": 24,
+    "designer": 4,
+    "inputRate": 30,
+    "rate": 20,
+    "powerMW": 8,
+    "belts": 2,
+    "lifts": 1,
+    "liftHeightM": 12,
+    "floors": 2,
+    "foundations": 12,
+    "poles": 2,
+    "wires": 3,
+    "shaft": "open-edge"
+  },
+  "files": [
+    {
+      "path": "C:\\Users\\YOUR_USER\\AppData\\Local\\FactoryGame\\Saved\\SaveGames\\blueprints\\SANDBOX\\FT_TEST_03_PlaquesEtages.sbp",
+      "bytes": 3896,
+      "sha256": "3a55072b17444258125188e004d56858e59cf978c316cf91a088eb903afe567e"
+    },
+    {
+      "path": "C:\\Users\\YOUR_USER\\AppData\\Local\\FactoryGame\\Saved\\SaveGames\\blueprints\\SANDBOX\\FT_TEST_03_PlaquesEtages.sbpcfg",
+      "bytes": 297,
+      "sha256": "5f191ffc5bbd3f0bf821ad24ac5f635eab282d1c247baceaf1c2c6033f15abed"
+    }
+  ],
+  "previousTestsPresent": true,
+  "inGameValidated": false
+}

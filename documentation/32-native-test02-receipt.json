@@ -1,0 +1,30 @@
+{
+  "name": "FT_TEST_02_PlaquesFer",
+  "session": "SANDBOX",
+  "verification": {
+    "actors": 14,
+    "components": 19,
+    "designer": 4,
+    "recipe": "Minerai de fer → lingots → plaques de fer",
+    "inputRate": 30,
+    "rate": 20,
+    "powerMW": 8,
+    "belts": 1,
+    "wires": 2,
+    "foundations": 8
+  },
+  "files": [
+    {
+      "path": "C:\\Users\\YOUR_USER\\AppData\\Local\\FactoryGame\\Saved\\SaveGames\\blueprints\\SANDBOX\\FT_TEST_02_PlaquesFer.sbp",
+      "bytes": 3369,
+      "sha256": "9bf245c23cc25d45caa956a6e25f95f64f4a40f9bd744c0b96fc73e036db7ad2"
+    },
+    {
+      "path": "C:\\Users\\YOUR_USER\\AppData\\Local\\FactoryGame\\Saved\\SaveGames\\blueprints\\SANDBOX\\FT_TEST_02_PlaquesFer.sbpcfg",
+      "bytes": 288,
+      "sha256": "1ffb92d96f20546788081544803971607a657fde667793ba7b4f8914747e7efc"
+    }
+  ],
+  "inGameValidated": false,
+  "previousTestPresent": true
+}

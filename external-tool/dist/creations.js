@@ -1,0 +1,30 @@
+'use strict';
+(()=>{
+ const previews=[];
+ function drawPreview(svg,study){
+  const faces=[],add=(coords,color,glass=false)=>{const poly=document.createElementNS('http://www.w3.org/2000/svg','polygon');poly.setAttribute('fill',color);poly.setAttribute('stroke','#405454');if(glass&&study.sourceArchitecture){poly.setAttribute('data-glass','true');poly.setAttribute('fill-opacity','.28');poly.setAttribute('stroke','none');}faces.push({coords,source:poly});};
+  const a=study.grammar?.assemblies[study.dimensions[0]+'x'+study.dimensions[1]+'x'+(study.defaultLevels??3)];const cells=a?a.studyFloors[0].cells:Array.from({length:48},(_,i)=>[i%8,Math.floor(i/8)]);for(const[ix,iy]of cells){const x=ix*8,y=iy*8;add([[x,y,0],[x+8,y,0],[x+8,y+8,0],[x,y+8,0]],(x/8+y/8)%2?'#8d938b':'#92988f');}
+  for(const q of study.parts){if(study.creationKind==='interior'&&(['roof','ceiling','technical'].includes(q.studyLayer)||(q.studyLayer!=='interior'&&q.y<24)))continue;let item=q;if(!['module','beam'].includes(q.component)){const a=(q.rotation-(['wall','window','trim','gable'].includes(q.component)?90:0))*Math.PI/360;item={...q,component:'module',sourceModule:'C1',sourceIndex:0,quat:[0,0,Math.sin(a),Math.cos(a)],z:q.z+(q.component==='roof'?q.h/2:0)};}for(const f of(q.component==='beam'?M05Modules.beamGeometry(q):M05Modules.geometry(item)))add(f.coords,f.color,f.glass);}
+  const yaw=study.sourceArchitecture?.72:3.8,pitch=.43,s=Math.sin(yaw),c=Math.cos(yaw),sp=Math.sin(pitch),cp=Math.cos(pitch),view={svg,near:[s*cp,c*cp,sp],project:([x,y,z])=>[c*(x-study.dimensions[0]/2)-s*(y-study.dimensions[1]/2),sp*(s*(x-study.dimensions[0]/2)+c*(y-study.dimensions[1]/2))-cp*(z-12)]},key={};
+  const radius=Math.max(47,study.dimensions[0]*.76,study.dimensions[1]*.76);svg.setAttribute('viewBox',[-radius,-radius*.68,radius*2,radius*1.36].join(' '));
+  const draw=()=>{if(!svg.getBoundingClientRect().width)return;if(PreviewGPU.draw(view,key,faces,[],{opaque:true}))return;svg.replaceChildren();faces.slice().sort((a,b)=>{const depth=f=>f.coords.reduce((n,p)=>n+p.reduce((v,x,i)=>v+x*view.near[i],0),0)/f.coords.length;return depth(a)-depth(b);}).forEach(f=>{const n=f.source.cloneNode();n.setAttribute('points',f.coords.map(p=>view.project(p).join(',')).join(' '));n.setAttribute('stroke-width','.04');svg.append(n);});};
+  previews.push(draw);requestAnimationFrame(draw);
+ }
+ window.addEventListener('resize',()=>{for(const draw of previews)draw();});
+ const grid=document.getElementById('creationGrid'),entries=Object.entries(ArchitectureCatalog.studies).filter(([id])=>Object.values(ArchitectureCatalog.families).some(f=>f.nativeStudy===id&&!f.hidden));
+ const node=(tag,cls,text)=>{const e=document.createElement(tag);if(cls)e.className=cls;if(text)e.textContent=text;return e;};
+ document.getElementById('creationCount').textContent=String(entries.length).padStart(2,'0');
+ for(const [i,[id,study]]of entries.entries()){
+  const article=node('article','creation-card');article.dataset.category=study.category||'Industriel';article.dataset.collection=study.collection||1;article.dataset.kind=study.creationKind||(study.category==='Intérieurs'?'interior':'exterior');
+  const visual=node('a','creation-visual');visual.href='/creation?study='+encodeURIComponent(id);visual.setAttribute('aria-label','Explorer '+study.title);
+  const preview=node('div','card-preview'),svg=document.createElementNS('http://www.w3.org/2000/svg','svg');svg.setAttribute('aria-hidden','true');preview.append(svg);
+  const index=node('span','drawing-index',String(i+1).padStart(2,'0')+' / COMPOSITION');const open=node('span','preview-open','EXPLORER ↗');visual.append(preview,index,open);
+  const info=node('div','card-info'),top=node('div','card-top'),h=node('h2','',study.displayName||({atlas:'Atlas',lumen:'Lumen'}[id])||study.title);top.append(h,node('span','category',study.category||'Étude'));
+  info.append(top,node('p','subtitle',study.subtitle||study.title),node('p','summary',study.summary||study.description));
+  const bottom=node('div','card-bottom');bottom.append(node('span','', study.squareModule?'ÉTUDE · MODULE 48 × 48 m':study.creationKind==='interior'?'INTÉRIEUR · UN NIVEAU':'L '+study.resize.length.min+'–'+study.resize.length.max+' m · l '+study.resize.width.min+'–'+study.resize.width.max+' m'));const link=node('a','explore-link','Ouvrir l’étude ↗');link.href=visual.href;bottom.append(link);info.append(bottom);article.append(visual,info);grid.append(article);drawPreview(svg,study);
+ }
+ for(const[k,label]of [['interior','Intérieurs'],['exterior','Extérieurs']]){const b=node('button','',label);b.dataset.filter='kind:'+k;b.setAttribute('aria-pressed','false');document.querySelector('.filters').append(b);}
+ const latest=Math.max(...entries.map(([,s])=>s.collection||1));if(latest>1){const recent=node('button','','Nouvelles études');recent.dataset.filter='recent';recent.setAttribute('aria-pressed','false');document.querySelector('.filters').append(recent);}
+ for(const category of new Set(entries.map(([,study])=>study.category||'Étude').filter(c=>!['Intérieurs','Extérieurs'].includes(c)))){const button=node('button','',category);button.dataset.filter=category;button.setAttribute('aria-pressed','false');document.querySelector('.filters').append(button);}
+ for(const button of document.querySelectorAll('[data-filter]'))button.onclick=()=>{for(const b of document.querySelectorAll('[data-filter]'))b.setAttribute('aria-pressed',String(b===button));let visible=0;for(const card of grid.children){card.hidden=button.dataset.filter.startsWith('kind:')?card.dataset.kind!==button.dataset.filter.slice(5):button.dataset.filter==='recent'?Number(card.dataset.collection)!==latest:button.dataset.filter!=='all'&&card.dataset.category!==button.dataset.filter;if(!card.hidden)visible++;}grid.classList.toggle('recent',button.dataset.filter==='recent'||button.dataset.filter.startsWith('kind:'));document.getElementById('empty').hidden=visible!==0;requestAnimationFrame(()=>{for(const draw of previews)draw();});};
+})();

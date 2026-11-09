@@ -1,0 +1,11 @@
+const assert=require('node:assert/strict'),A=require('../dist/workshop-assist.js'),M=require('../dist/workshop-model.js'),data=require('../dist/planner-data.json');
+const link='https://satisfactory-calculator.com/fr/planners/production/index/json/%7B%22Desc_IronPlateReinforced_C%22%3A%2210%22%7D';
+const flows=A.parseCalculator(link),result=A.calculate(flows,data,{size:48});
+assert.deepEqual(flows.outputs,[{id:'Desc_IronPlateReinforced_C',rate:10}]);
+assert.deepEqual(result.required,[{id:'Desc_OreIron_C',rate:120}]);
+assert.equal(result.objects.length,14);assert.equal(result.objects.filter(o=>o.type==='assembler').length,2);
+assert.equal(M.problems({size:48,objects:result.objects}).length,0);
+const project={...M.fresh('calculator'),objects:result.objects,flows};assert.deepEqual(M.read(JSON.stringify(project)),project);
+const counts={};for(const o of result.objects)counts[o.recipe]=(counts[o.recipe]||0)+o.clock;
+assert.equal(counts.Recipe_IngotIron_C,4);assert.equal(counts.Recipe_IronPlate_C,3);assert.equal(counts.Recipe_Screw_C,3);assert.equal(counts.Recipe_IronRod_C,2);assert.equal(counts.Recipe_IronPlateReinforced_C,2);
+console.log('PASS: exact user SCIM link, reinforced plates 10/min, iron demand 120/min, 14 machines, collision-free handoff');

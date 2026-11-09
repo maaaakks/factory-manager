@@ -1,0 +1,12 @@
+const assert=require('node:assert/strict'),T=require('../dist/transport-geometry.js'),D=require('../dist/workshop-design.js'),M=require('../dist/workshop-model.js');
+for(const points of [[[0,0,0],[8,0,0],[8,5,3]],[[2,2,0],[2,2,15]],[[0,0,0],[0,0,0],[1,1,1]]]){const mesh=T.mesh(points);assert.ok(mesh.length>=6);assert.ok(mesh.flat(2).every(Number.isFinite));assert.ok(mesh.every(f=>f.length===4));}
+assert.deepEqual(T.mesh([[0,0,0],[0,0,0]]),[]);const ribbon=T.mesh([[0,0,0],[8,0,0]]).flat();assert.equal(Math.max(...ribbon.map(p=>p[1]))-.4,0);assert.equal(Math.max(...ribbon.map(p=>p[2]))-.1,0);
+const scene={...M.fresh('styles'),size:32,objects:[],design:D.settings({enabled:true,style:'glass',roof:true,roofStyle:'skylights',roofForm:'auto',packs:['concrete','metal','glass']})};
+const one=D.envelope(scene),before=JSON.stringify(scene),roofTwo={...scene,design:{...scene.design,roofSeed:2}},wallsTwo={...scene,design:{...scene.design,seed:2}};
+assert.equal(D.openings(scene),0,'No implicit entrance removes facade panels');assert.ok(one.filter(p=>p.component==='wall'||p.component==='window').some(p=>p.y===.9&&p.z===0&&p.x===12));
+assert.deepEqual(D.envelope(roofTwo).filter(p=>['wall','window','trim','corner'].includes(p.component)),one.filter(p=>['wall','window','trim','corner'].includes(p.component)),'Roof refresh preserves walls');
+assert.deepEqual(D.envelope(wallsTwo).filter(p=>p.component==='roof'),one.filter(p=>p.component==='roof'),'Wall refresh preserves roof');
+assert.notDeepEqual(D.envelope(roofTwo).filter(p=>p.component==='roof'),one.filter(p=>p.component==='roof'));assert.ok(D.envelope(roofTwo).some(p=>p.component==='gable'));
+for(const size of [32,40,48])for(const roofSeed of [1,2,3,4,999]){const p={...scene,size,design:{...scene.design,roofSeed}},parts=D.envelope(p);assert.deepEqual(parts,D.envelope(p));for(const part of parts){const b=M.bounds(part);assert.ok(b.minX>=0&&b.minY>=0&&b.maxX<=size&&b.maxY<=size);assert.ok(part.z>=0&&part.z+part.h<=size);}assert.deepEqual(M.read(p).design,p.design);}
+assert.equal(JSON.stringify(scene),before);assert.throws(()=>D.settings({roofSeed:0}),/invalide/);assert.throws(()=>D.envelope({...scene,objects:[{x:16,y:16,w:8,d:10,z:28,h:4,rotation:0,type:'constructor'}],design:{...scene.design,roofForm:'ridges'}}),/dépasse/);
+console.log('PASS: solid 3D belt meshes, vertical/degenerate paths, independent seeded walls/roofs, no implicit facade opening, all formats and atomic height rejection');

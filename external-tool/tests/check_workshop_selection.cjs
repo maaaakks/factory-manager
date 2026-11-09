@@ -1,0 +1,12 @@
+const assert=require('node:assert/strict'),M=require('../dist/workshop-model.js');
+const p=M.fresh('selection'),object=(id,x,y,z=0)=>({id,type:'smelter',name:id,x,y,z,h:6,w:4,d:4,rotation:0,recipe:null,clock:1});
+p.objects=[object('a',8,8),object('b',14,8),object('other',26,8),object('upstairs',8,8,8)];
+p.links=[{kind:'belt',from:'a',to:'b'},{kind:'belt',from:'b',to:'other'},{kind:'power',from:'other',to:'upstairs'}];
+assert.deepEqual(M.boxSelection(p,{x:4,y:4},{x:18,y:12},0),['a','b']);
+assert.deepEqual(M.boxSelection(p,{x:18,y:12},{x:4,y:4},0),['a','b'],'Both directions');
+assert.deepEqual(M.boxSelection(p,{x:4,y:4},{x:18,y:12},8),['upstairs']);
+assert.deepEqual(M.boxSelection(p,{x:6,y:6},{x:6,y:6},0),[],'Blank click does not select a group');
+const moved=M.moveSelection(p,['a','b'],6,0);assert.equal(moved.objects[0].x,14);assert.equal(moved.objects[1].x,20);assert.equal(moved.objects[2].x,26);assert.equal(moved.objects[3].x,8);assert.deepEqual(moved.links,p.links);assert.equal(p.objects[0].x,8,'No mutation before commit');
+assert.throws(()=>M.moveSelection(p,['a','b'],12,0),/chevauche/);assert.throws(()=>M.moveSelection(p,['a','b'],-8,0),/dépasse/);assert.equal(p.objects[1].x,14);
+const removed=M.removeSelection(p,['a','b']);assert.deepEqual(removed.objects.map(o=>o.id),['other','upstairs']);assert.deepEqual(removed.links,[p.links[2]]);assert.deepEqual(M.read(JSON.stringify(removed)),removed);
+console.log('PASS: marquee direction/floor, atomic group movement, collision and bounds rejection, deletion with link cleanup');

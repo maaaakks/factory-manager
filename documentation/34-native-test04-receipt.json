@@ -1,0 +1,39 @@
+{
+  "name": "FT_TEST_04_PlaquesRenforcees",
+  "module": "reinforced",
+  "session": "SANDBOX",
+  "directory": "C:\\Users\\YOUR_USER\\AppData\\Local\\FactoryGame\\Saved\\SaveGames\\blueprints\\SANDBOX",
+  "savedThrough": "Chrome workshop native export button",
+  "verifiedAt": "2026-10-19T12:24:19.864542+00:00",
+  "files": [
+    {
+      "path": "C:\\Users\\YOUR_USER\\AppData\\Local\\FactoryGame\\Saved\\SaveGames\\blueprints\\SANDBOX\\FT_TEST_04_PlaquesRenforcees.sbp",
+      "bytes": 20322,
+      "sha256": "a1703991c72f6c7ed13b485211fe8b51d9151bd5a399af9aea21bfc60a7f3057"
+    },
+    {
+      "path": "C:\\Users\\YOUR_USER\\AppData\\Local\\FactoryGame\\Saved\\SaveGames\\blueprints\\SANDBOX\\FT_TEST_04_PlaquesRenforcees.sbpcfg",
+      "bytes": 381,
+      "sha256": "0023f2c53ac140997b73206843bb7f9c815b72db7025a3713240b9dc169c0e74"
+    }
+  ],
+  "verified": {
+    "actors": 174,
+    "components": 340,
+    "inputPerMinute": 120,
+    "outputPerMinute": 10,
+    "powerMW": 78,
+    "floors": [
+      1,
+      10.5,
+      20
+    ],
+    "footprintMeters": [
+      32,
+      32
+    ],
+    "inGameValidated": false
+  },
+  "inGameValidated": false,
+  "previousTest03": "User reported successful in-game behavior before requesting test 04."
+}

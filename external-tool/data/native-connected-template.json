@@ -1,0 +1,1462 @@
+{
+  "schemaVersion": 1,
+  "constructor": {
+    "headers": [
+      {
+        "__type__": "ActorHeader",
+        "typePath": "/Game/FactoryGame/Buildable/Factory/ConstructorMk1/Build_ConstructorMk1.Build_ConstructorMk1_C",
+        "rootObject": "Persistent_Level",
+        "instanceName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147026229",
+        "flags": 8,
+        "needTransform": true,
+        "rotation": [
+          0.0,
+          0.0,
+          0.7071067690849304,
+          0.7071067690849304
+        ],
+        "position": [
+          -600.0,
+          -1200.0,
+          0.000177052294020541
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "wasPlacedInLevel": false
+      },
+      {
+        "__type__": "ComponentHeader",
+        "className": "/Script/FactoryGame.FGFactoryLegsComponent",
+        "rootObject": "Persistent_Level",
+        "instanceName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147026229.FGFactoryLegs",
+        "flags": 2097152,
+        "parentActorName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147026229"
+      },
+      {
+        "__type__": "ComponentHeader",
+        "className": "/Script/FactoryGame.FGPowerConnectionComponent",
+        "rootObject": "Persistent_Level",
+        "instanceName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147026229.PowerInput",
+        "flags": 2097152,
+        "parentActorName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147026229"
+      },
+      {
+        "__type__": "ComponentHeader",
+        "className": "/Script/FactoryGame.FGFactoryConnectionComponent",
+        "rootObject": "Persistent_Level",
+        "instanceName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147026229.Input0",
+        "flags": 2097152,
+        "parentActorName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147026229"
+      },
+      {
+        "__type__": "ComponentHeader",
+        "className": "/Script/FactoryGame.FGFactoryConnectionComponent",
+        "rootObject": "Persistent_Level",
+        "instanceName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147026229.Output0",
+        "flags": 2097152,
+        "parentActorName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147026229"
+      },
+      {
+        "__type__": "ComponentHeader",
+        "className": "/Script/FactoryGame.FGInventoryComponent",
+        "rootObject": "Persistent_Level",
+        "instanceName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147026229.InputInventory",
+        "flags": 262152,
+        "parentActorName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147026229"
+      },
+      {
+        "__type__": "ComponentHeader",
+        "className": "/Script/FactoryGame.FGInventoryComponent",
+        "rootObject": "Persistent_Level",
+        "instanceName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147026229.OutputInventory",
+        "flags": 262152,
+        "parentActorName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147026229"
+      },
+      {
+        "__type__": "ComponentHeader",
+        "className": "/Script/FactoryGame.FGPowerInfoComponent",
+        "rootObject": "Persistent_Level",
+        "instanceName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147026229.powerInfo",
+        "flags": 262152,
+        "parentActorName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147026229"
+      },
+      {
+        "__type__": "ComponentHeader",
+        "className": "/Script/FactoryGame.FGInventoryComponent",
+        "rootObject": "Persistent_Level",
+        "instanceName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147026229.InventoryPotential",
+        "flags": 262152,
+        "parentActorName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147026229"
+      }
+    ],
+    "objects": [
+      [
+        {
+          "__type__": "ObjectReference",
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+        },
+        [
+          {
+            "__type__": "ObjectReference",
+            "levelName": "Persistent_Level",
+            "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147026229.FGFactoryLegs"
+          },
+          {
+            "__type__": "ObjectReference",
+            "levelName": "Persistent_Level",
+            "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147026229.InventoryPotential"
+          },
+          {
+            "__type__": "ObjectReference",
+            "levelName": "Persistent_Level",
+            "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147026229.powerInfo"
+          },
+          {
+            "__type__": "ObjectReference",
+            "levelName": "Persistent_Level",
+            "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147026229.InputInventory"
+          },
+          {
+            "__type__": "ObjectReference",
+            "levelName": "Persistent_Level",
+            "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147026229.OutputInventory"
+          },
+          {
+            "__type__": "ObjectReference",
+            "levelName": "Persistent_Level",
+            "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147026229.Output0"
+          },
+          {
+            "__type__": "ObjectReference",
+            "levelName": "Persistent_Level",
+            "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147026229.Input0"
+          },
+          {
+            "__type__": "ObjectReference",
+            "levelName": "Persistent_Level",
+            "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147026229.PowerInput"
+          }
+        ],
+        [
+          [
+            "mInputInventory",
+            {
+              "__type__": "ObjectReference",
+              "levelName": "Persistent_Level",
+              "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147026229.InputInventory"
+            }
+          ],
+          [
+            "mOutputInventory",
+            {
+              "__type__": "ObjectReference",
+              "levelName": "Persistent_Level",
+              "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147026229.OutputInventory"
+            }
+          ],
+          [
+            "mCurrentRecipe",
+            {
+              "__type__": "ObjectReference",
+              "levelName": "",
+              "pathName": "/Game/FactoryGame/Recipes/Constructor/Recipe_IronPlate.Recipe_IronPlate_C"
+            }
+          ],
+          [
+            "mPowerInfo",
+            {
+              "__type__": "ObjectReference",
+              "levelName": "Persistent_Level",
+              "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147026229.powerInfo"
+            }
+          ],
+          [
+            "mTimeSinceStartStopProducing",
+            3.3999999521443642e+38
+          ],
+          [
+            "mInventoryPotential",
+            {
+              "__type__": "ObjectReference",
+              "levelName": "Persistent_Level",
+              "pathName": "Persistent_Level:PersistentLevel.Build_ConstructorMk1_C_2147026229.InventoryPotential"
+            }
+          ],
+          [
+            "mCustomizationData",
+            [
+              [
+                [
+                  "SwatchDesc",
+                  {
+                    "__type__": "ObjectReference",
+                    "levelName": "",
+                    "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+                  }
+                ]
+              ],
+              [
+                [
+                  "SwatchDesc",
+                  "ObjectProperty",
+                  0
+                ]
+              ]
+            ]
+          ],
+          [
+            "mBuiltWithRecipe",
+            {
+              "__type__": "ObjectReference",
+              "levelName": "",
+              "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_ConstructorMk1.Recipe_ConstructorMk1_C"
+            }
+          ]
+        ],
+        [
+          [
+            "mInputInventory",
+            "ObjectProperty",
+            0
+          ],
+          [
+            "mOutputInventory",
+            "ObjectProperty",
+            0
+          ],
+          [
+            "mCurrentRecipe",
+            "ObjectProperty",
+            0
+          ],
+          [
+            "mPowerInfo",
+            "ObjectProperty",
+            0
+          ],
+          [
+            "mTimeSinceStartStopProducing",
+            "FloatProperty",
+            0
+          ],
+          [
+            "mInventoryPotential",
+            "ObjectProperty",
+            0
+          ],
+          [
+            "mCustomizationData",
+            "StructProperty",
+            0,
+            "FactoryCustomizationData",
+            null,
+            0
+          ],
+          [
+            "mBuiltWithRecipe",
+            "ObjectProperty",
+            0
+          ]
+        ],
+        null
+      ],
+      [
+        [
+          [
+            "mCachedFeetOffset",
+            [
+              [
+                [
+                  [
+                    "FeetIndex",
+                    [
+                      "None",
+                      1
+                    ]
+                  ],
+                  [
+                    "OffsetZ",
+                    -0.00027441978454589844
+                  ]
+                ],
+                [
+                  [
+                    "FeetIndex",
+                    "ByteProperty",
+                    0
+                  ],
+                  [
+                    "OffsetZ",
+                    "FloatProperty",
+                    0
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    "FeetIndex",
+                    [
+                      "None",
+                      2
+                    ]
+                  ],
+                  [
+                    "OffsetZ",
+                    -9.655953181209043e-05
+                  ]
+                ],
+                [
+                  [
+                    "FeetIndex",
+                    "ByteProperty",
+                    0
+                  ],
+                  [
+                    "OffsetZ",
+                    "FloatProperty",
+                    0
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    "FeetIndex",
+                    [
+                      "None",
+                      3
+                    ]
+                  ],
+                  [
+                    "OffsetZ",
+                    -0.00016093255544546992
+                  ]
+                ],
+                [
+                  [
+                    "FeetIndex",
+                    "ByteProperty",
+                    0
+                  ],
+                  [
+                    "OffsetZ",
+                    "FloatProperty",
+                    0
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    "FeetIndex",
+                    [
+                      "None",
+                      4
+                    ]
+                  ],
+                  [
+                    "OffsetZ",
+                    0.0
+                  ]
+                ],
+                [
+                  [
+                    "FeetIndex",
+                    "ByteProperty",
+                    0
+                  ],
+                  [
+                    "OffsetZ",
+                    "FloatProperty",
+                    0
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ],
+        [
+          [
+            "mCachedFeetOffset",
+            "ArrayProperty",
+            0,
+            "StructProperty",
+            0,
+            "FeetOffset",
+            null
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "mWires",
+            []
+          ]
+        ],
+        [
+          [
+            "mWires",
+            "ArrayProperty",
+            0,
+            "ObjectProperty",
+            0
+          ]
+        ]
+      ],
+      [
+        [],
+        []
+      ],
+      [
+        [],
+        []
+      ],
+      [
+        [
+          [
+            "mInventoryStacks",
+            [
+              [
+                [
+                  [
+                    "Item",
+                    [
+                      "",
+                      1
+                    ]
+                  ],
+                  [
+                    "NumItems",
+                    0
+                  ]
+                ],
+                [
+                  [
+                    "Item",
+                    "StructProperty",
+                    0,
+                    "InventoryItem",
+                    null,
+                    0
+                  ],
+                  [
+                    "NumItems",
+                    "IntProperty",
+                    0
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "mArbitrarySlotSizes",
+            [
+              0
+            ]
+          ],
+          [
+            "mAllowedItemDescriptors",
+            [
+              {
+                "__type__": "ObjectReference",
+                "levelName": "",
+                "pathName": "/Game/FactoryGame/Resource/Parts/IronIngot/Desc_IronIngot.Desc_IronIngot_C"
+              }
+            ]
+          ]
+        ],
+        [
+          [
+            "mInventoryStacks",
+            "ArrayProperty",
+            0,
+            "StructProperty",
+            0,
+            "InventoryStack",
+            null
+          ],
+          [
+            "mArbitrarySlotSizes",
+            "ArrayProperty",
+            0,
+            "IntProperty",
+            0
+          ],
+          [
+            "mAllowedItemDescriptors",
+            "ArrayProperty",
+            0,
+            "ObjectProperty",
+            0
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "mInventoryStacks",
+            [
+              [
+                [
+                  [
+                    "Item",
+                    [
+                      "",
+                      1
+                    ]
+                  ],
+                  [
+                    "NumItems",
+                    0
+                  ]
+                ],
+                [
+                  [
+                    "Item",
+                    "StructProperty",
+                    0,
+                    "InventoryItem",
+                    null,
+                    0
+                  ],
+                  [
+                    "NumItems",
+                    "IntProperty",
+                    0
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    "Item",
+                    [
+                      "",
+                      1
+                    ]
+                  ],
+                  [
+                    "NumItems",
+                    0
+                  ]
+                ],
+                [
+                  [
+                    "Item",
+                    "StructProperty",
+                    0,
+                    "InventoryItem",
+                    null,
+                    0
+                  ],
+                  [
+                    "NumItems",
+                    "IntProperty",
+                    0
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "mArbitrarySlotSizes",
+            [
+              0,
+              0
+            ]
+          ],
+          [
+            "mAllowedItemDescriptors",
+            [
+              {
+                "__type__": "ObjectReference",
+                "levelName": "",
+                "pathName": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C"
+              },
+              {
+                "__type__": "ObjectReference",
+                "levelName": "",
+                "pathName": "/Script/FactoryGame.FGItemDescriptor"
+              }
+            ]
+          ]
+        ],
+        [
+          [
+            "mInventoryStacks",
+            "ArrayProperty",
+            0,
+            "StructProperty",
+            0,
+            "InventoryStack",
+            null
+          ],
+          [
+            "mArbitrarySlotSizes",
+            "ArrayProperty",
+            0,
+            "IntProperty",
+            0
+          ],
+          [
+            "mAllowedItemDescriptors",
+            "ArrayProperty",
+            0,
+            "ObjectProperty",
+            0
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "mTargetConsumption",
+            0.10000000149011612
+          ]
+        ],
+        [
+          [
+            "mTargetConsumption",
+            "FloatProperty",
+            0
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "mInventoryStacks",
+            [
+              [
+                [
+                  [
+                    "Item",
+                    [
+                      "",
+                      1
+                    ]
+                  ],
+                  [
+                    "NumItems",
+                    0
+                  ]
+                ],
+                [
+                  [
+                    "Item",
+                    "StructProperty",
+                    0,
+                    "InventoryItem",
+                    null,
+                    0
+                  ],
+                  [
+                    "NumItems",
+                    "IntProperty",
+                    0
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    "Item",
+                    [
+                      "",
+                      1
+                    ]
+                  ],
+                  [
+                    "NumItems",
+                    0
+                  ]
+                ],
+                [
+                  [
+                    "Item",
+                    "StructProperty",
+                    0,
+                    "InventoryItem",
+                    null,
+                    0
+                  ],
+                  [
+                    "NumItems",
+                    "IntProperty",
+                    0
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    "Item",
+                    [
+                      "",
+                      1
+                    ]
+                  ],
+                  [
+                    "NumItems",
+                    0
+                  ]
+                ],
+                [
+                  [
+                    "Item",
+                    "StructProperty",
+                    0,
+                    "InventoryItem",
+                    null,
+                    0
+                  ],
+                  [
+                    "NumItems",
+                    "IntProperty",
+                    0
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    "Item",
+                    [
+                      "",
+                      1
+                    ]
+                  ],
+                  [
+                    "NumItems",
+                    0
+                  ]
+                ],
+                [
+                  [
+                    "Item",
+                    "StructProperty",
+                    0,
+                    "InventoryItem",
+                    null,
+                    0
+                  ],
+                  [
+                    "NumItems",
+                    "IntProperty",
+                    0
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "mArbitrarySlotSizes",
+            [
+              1,
+              1,
+              1,
+              1
+            ]
+          ],
+          [
+            "mAllowedItemDescriptors",
+            [
+              {
+                "__type__": "ObjectReference",
+                "levelName": "",
+                "pathName": ""
+              },
+              {
+                "__type__": "ObjectReference",
+                "levelName": "",
+                "pathName": ""
+              },
+              {
+                "__type__": "ObjectReference",
+                "levelName": "",
+                "pathName": ""
+              },
+              {
+                "__type__": "ObjectReference",
+                "levelName": "",
+                "pathName": ""
+              }
+            ]
+          ]
+        ],
+        [
+          [
+            "mInventoryStacks",
+            "ArrayProperty",
+            0,
+            "StructProperty",
+            0,
+            "InventoryStack",
+            null
+          ],
+          [
+            "mArbitrarySlotSizes",
+            "ArrayProperty",
+            0,
+            "IntProperty",
+            0
+          ],
+          [
+            "mAllowedItemDescriptors",
+            "ArrayProperty",
+            0,
+            "ObjectProperty",
+            0
+          ]
+        ]
+      ]
+    ]
+  },
+  "belt": {
+    "headers": [
+      {
+        "__type__": "ActorHeader",
+        "typePath": "/Game/FactoryGame/Buildable/Factory/ConveyorBeltMk1/Build_ConveyorBeltMk1.Build_ConveyorBeltMk1_C",
+        "rootObject": "Persistent_Level",
+        "instanceName": "Persistent_Level:PersistentLevel.Build_ConveyorBeltMk1_C_2146445739",
+        "flags": 8,
+        "needTransform": true,
+        "rotation": [
+          0.0,
+          0.0,
+          0.7071067690849304,
+          0.7071067690849304
+        ],
+        "position": [
+          200.0,
+          -400.0,
+          99.98863220214844
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "wasPlacedInLevel": false
+      },
+      {
+        "__type__": "ComponentHeader",
+        "className": "/Script/FactoryGame.FGFactoryConnectionComponent",
+        "rootObject": "Persistent_Level",
+        "instanceName": "Persistent_Level:PersistentLevel.Build_ConveyorBeltMk1_C_2146445739.ConveyorAny0",
+        "flags": 262152,
+        "parentActorName": "Persistent_Level:PersistentLevel.Build_ConveyorBeltMk1_C_2146445739"
+      },
+      {
+        "__type__": "ComponentHeader",
+        "className": "/Script/FactoryGame.FGFactoryConnectionComponent",
+        "rootObject": "Persistent_Level",
+        "instanceName": "Persistent_Level:PersistentLevel.Build_ConveyorBeltMk1_C_2146445739.ConveyorAny1",
+        "flags": 262152,
+        "parentActorName": "Persistent_Level:PersistentLevel.Build_ConveyorBeltMk1_C_2146445739"
+      }
+    ],
+    "objects": [
+      [
+        {
+          "__type__": "ObjectReference",
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+        },
+        [
+          {
+            "__type__": "ObjectReference",
+            "levelName": "Persistent_Level",
+            "pathName": "Persistent_Level:PersistentLevel.Build_ConveyorBeltMk1_C_2146445739.ConveyorAny1"
+          },
+          {
+            "__type__": "ObjectReference",
+            "levelName": "Persistent_Level",
+            "pathName": "Persistent_Level:PersistentLevel.Build_ConveyorBeltMk1_C_2146445739.ConveyorAny0"
+          }
+        ],
+        [
+          [
+            "mSplineData",
+            [
+              [
+                [
+                  [
+                    "Location",
+                    [
+                      -2.5704503059387207e-06,
+                      200.0,
+                      0.0
+                    ]
+                  ],
+                  [
+                    "ArriveTangent",
+                    [
+                      1.2852251529693604e-08,
+                      -1.0,
+                      -0.0
+                    ]
+                  ],
+                  [
+                    "LeaveTangent",
+                    [
+                      1.2852251529693604e-06,
+                      -100.0,
+                      -0.0
+                    ]
+                  ]
+                ],
+                [
+                  [
+                    "Location",
+                    "StructProperty",
+                    0,
+                    "Vector",
+                    null,
+                    0
+                  ],
+                  [
+                    "ArriveTangent",
+                    "StructProperty",
+                    0,
+                    "Vector",
+                    null,
+                    0
+                  ],
+                  [
+                    "LeaveTangent",
+                    "StructProperty",
+                    0,
+                    "Vector",
+                    null,
+                    0
+                  ]
+                ]
+              ],
+              [
+                [
+                  [
+                    "Location",
+                    [
+                      0.0,
+                      0.0,
+                      0.0
+                    ]
+                  ],
+                  [
+                    "ArriveTangent",
+                    [
+                      -1.2246467991473534e-14,
+                      -100.0,
+                      -0.0
+                    ]
+                  ],
+                  [
+                    "LeaveTangent",
+                    [
+                      -1.2246467991473535e-16,
+                      -1.0,
+                      -0.0
+                    ]
+                  ]
+                ],
+                [
+                  [
+                    "Location",
+                    "StructProperty",
+                    0,
+                    "Vector",
+                    null,
+                    0
+                  ],
+                  [
+                    "ArriveTangent",
+                    "StructProperty",
+                    0,
+                    "Vector",
+                    null,
+                    0
+                  ],
+                  [
+                    "LeaveTangent",
+                    "StructProperty",
+                    0,
+                    "Vector",
+                    null,
+                    0
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "mCustomizationData",
+            [
+              [
+                [
+                  "SwatchDesc",
+                  {
+                    "__type__": "ObjectReference",
+                    "levelName": "",
+                    "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+                  }
+                ]
+              ],
+              [
+                [
+                  "SwatchDesc",
+                  "ObjectProperty",
+                  0
+                ]
+              ]
+            ]
+          ],
+          [
+            "mBuiltWithRecipe",
+            {
+              "__type__": "ObjectReference",
+              "levelName": "",
+              "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_ConveyorBeltMk1.Recipe_ConveyorBeltMk1_C"
+            }
+          ]
+        ],
+        [
+          [
+            "mSplineData",
+            "ArrayProperty",
+            0,
+            "StructProperty",
+            0,
+            "SplinePointData",
+            null
+          ],
+          [
+            "mCustomizationData",
+            "StructProperty",
+            0,
+            "FactoryCustomizationData",
+            null,
+            0
+          ],
+          [
+            "mBuiltWithRecipe",
+            "ObjectProperty",
+            0
+          ]
+        ],
+        null
+      ],
+      [
+        [],
+        []
+      ],
+      [
+        [],
+        []
+      ]
+    ]
+  },
+  "pole": {
+    "headers": [
+      {
+        "__type__": "ActorHeader",
+        "typePath": "/Game/FactoryGame/Buildable/Factory/PowerPoleMk1/Build_PowerPoleMk1.Build_PowerPoleMk1_C",
+        "rootObject": "Persistent_Level",
+        "instanceName": "Persistent_Level:PersistentLevel.Build_PowerPoleMk1_C_2147110407",
+        "flags": 8,
+        "needTransform": true,
+        "rotation": [
+          0.0,
+          0.0,
+          0.7071067690849304,
+          -0.7071067690849304
+        ],
+        "position": [
+          1550.0,
+          -1550.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "wasPlacedInLevel": false
+      },
+      {
+        "__type__": "ComponentHeader",
+        "className": "/Script/FactoryGame.FGPowerConnectionComponent",
+        "rootObject": "Persistent_Level",
+        "instanceName": "Persistent_Level:PersistentLevel.Build_PowerPoleMk1_C_2147110407.PowerConnection",
+        "flags": 2097152,
+        "parentActorName": "Persistent_Level:PersistentLevel.Build_PowerPoleMk1_C_2147110407"
+      }
+    ],
+    "objects": [
+      [
+        {
+          "__type__": "ObjectReference",
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+        },
+        [
+          {
+            "__type__": "ObjectReference",
+            "levelName": "Persistent_Level",
+            "pathName": "Persistent_Level:PersistentLevel.Build_PowerPoleMk1_C_2147110407.PowerConnection"
+          }
+        ],
+        [
+          [
+            "mCustomizationData",
+            [
+              [
+                [
+                  "SwatchDesc",
+                  {
+                    "__type__": "ObjectReference",
+                    "levelName": "",
+                    "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+                  }
+                ]
+              ],
+              [
+                [
+                  "SwatchDesc",
+                  "ObjectProperty",
+                  0
+                ]
+              ]
+            ]
+          ],
+          [
+            "mBuiltWithRecipe",
+            {
+              "__type__": "ObjectReference",
+              "levelName": "",
+              "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PowerPoleMk1.Recipe_PowerPoleMk1_C"
+            }
+          ]
+        ],
+        [
+          [
+            "mCustomizationData",
+            "StructProperty",
+            0,
+            "FactoryCustomizationData",
+            null,
+            0
+          ],
+          [
+            "mBuiltWithRecipe",
+            "ObjectProperty",
+            0
+          ]
+        ],
+        null
+      ],
+      [
+        [
+          [
+            "mWires",
+            []
+          ]
+        ],
+        [
+          [
+            "mWires",
+            "ArrayProperty",
+            0,
+            "ObjectProperty",
+            0
+          ]
+        ]
+      ]
+    ]
+  },
+  "wire": {
+    "headers": [
+      {
+        "__type__": "ActorHeader",
+        "typePath": "/Game/FactoryGame/Buildable/Factory/PowerLine/Build_PowerLine.Build_PowerLine_C",
+        "rootObject": "Persistent_Level",
+        "instanceName": "Persistent_Level:PersistentLevel.Build_PowerLine_C_2147107826",
+        "flags": 8,
+        "needTransform": true,
+        "rotation": [
+          0.0,
+          0.0,
+          -0.26775917410850525,
+          0.9634858965873718
+        ],
+        "position": [
+          1550.0,
+          1550.0,
+          700.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "wasPlacedInLevel": false
+      }
+    ],
+    "objects": [
+      [
+        {
+          "__type__": "ObjectReference",
+          "levelName": "Persistent_Level",
+          "pathName": "Persistent_Level:PersistentLevel.BuildableSubsystem"
+        },
+        [],
+        [
+          [
+            "mWireInstances",
+            [
+              [
+                [
+                  [
+                    "Locations",
+                    [
+                      -28650.0,
+                      225550.0,
+                      -399.988525390625
+                    ]
+                  ],
+                  [
+                    "Locations",
+                    [
+                      -25550.0,
+                      225550.0,
+                      -399.988525390625
+                    ]
+                  ],
+                  [
+                    "CachedRelativeLocations",
+                    [
+                      1599.489568662003,
+                      -2655.4911259014657,
+                      0.0
+                    ]
+                  ],
+                  [
+                    "CachedRelativeLocations",
+                    [
+                      0.0,
+                      0.0,
+                      0.0
+                    ]
+                  ]
+                ],
+                [
+                  [
+                    "Locations",
+                    "StructProperty",
+                    0,
+                    "Vector",
+                    null,
+                    0
+                  ],
+                  [
+                    "Locations",
+                    "StructProperty",
+                    1,
+                    "Vector",
+                    null,
+                    0
+                  ],
+                  [
+                    "CachedRelativeLocations",
+                    "StructProperty",
+                    0,
+                    "Vector",
+                    null,
+                    0
+                  ],
+                  [
+                    "CachedRelativeLocations",
+                    "StructProperty",
+                    1,
+                    "Vector",
+                    null,
+                    0
+                  ]
+                ]
+              ]
+            ]
+          ],
+          [
+            "mCachedLength",
+            3100.0
+          ],
+          [
+            "mCustomizationData",
+            [
+              [
+                [
+                  "SwatchDesc",
+                  {
+                    "__type__": "ObjectReference",
+                    "levelName": "",
+                    "pathName": "/Game/FactoryGame/Buildable/-Shared/Customization/Swatches/SwatchDesc_Slot0.SwatchDesc_Slot0_C"
+                  }
+                ]
+              ],
+              [
+                [
+                  "SwatchDesc",
+                  "ObjectProperty",
+                  0
+                ]
+              ]
+            ]
+          ],
+          [
+            "mBuiltWithRecipe",
+            {
+              "__type__": "ObjectReference",
+              "levelName": "",
+              "pathName": "/Game/FactoryGame/Recipes/Buildings/Recipe_PowerLine.Recipe_PowerLine_C"
+            }
+          ]
+        ],
+        [
+          [
+            "mWireInstances",
+            "ArrayProperty",
+            0,
+            "StructProperty",
+            0,
+            "WireInstance",
+            null
+          ],
+          [
+            "mCachedLength",
+            "FloatProperty",
+            0
+          ],
+          [
+            "mCustomizationData",
+            "StructProperty",
+            0,
+            "FactoryCustomizationData",
+            null,
+            0
+          ],
+          [
+            "mBuiltWithRecipe",
+            "ObjectProperty",
+            0
+          ]
+        ],
+        [
+          {
+            "__type__": "ObjectReference",
+            "levelName": "Persistent_Level",
+            "pathName": "Persistent_Level:PersistentLevel.Build_PowerPoleMk1_C_2147110407.PowerConnection"
+          },
+          {
+            "__type__": "ObjectReference",
+            "levelName": "Persistent_Level",
+            "pathName": "Persistent_Level:PersistentLevel.Build_PowerPoleMk1_C_2147107821.PowerConnection"
+          }
+        ]
+      ]
+    ]
+  },
+  "source": "Vanilla actor records from local user blueprints. Connections removed before regenerating. Port offsets measured from native connected belts and cached wire coordinates.",
+  "ingredients": [
+    [
+      41,
+      {
+        "__type__": "ObjectReference",
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C"
+      }
+    ],
+    [
+      6,
+      {
+        "__type__": "ObjectReference",
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C"
+      }
+    ],
+    [
+      11,
+      {
+        "__type__": "ObjectReference",
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Resource/Parts/Wire/Desc_Wire.Desc_Wire_C"
+      }
+    ],
+    [
+      2,
+      {
+        "__type__": "ObjectReference",
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Resource/Parts/IronPlateReinforced/Desc_IronPlateReinforced.Desc_IronPlateReinforced_C"
+      }
+    ],
+    [
+      10,
+      {
+        "__type__": "ObjectReference",
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Resource/Parts/Cable/Desc_Cable.Desc_Cable_C"
+      }
+    ],
+    [
+      6,
+      {
+        "__type__": "ObjectReference",
+        "levelName": "",
+        "pathName": "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C"
+      }
+    ]
+  ],
+  "ports": {
+    "smelterInput": [
+      0,
+      -300,
+      100
+    ],
+    "smelterOutput": [
+      0,
+      200,
+      100
+    ],
+    "constructorInput": [
+      0,
+      -300,
+      100
+    ],
+    "constructorOutput": [
+      0,
+      300,
+      100
+    ],
+    "smelterPower": [
+      220,
+      -310,
+      480
+    ],
+    "constructorPower": [
+      210,
+      -470,
+      687.1653620805591
+    ],
+    "polePower": [
+      0,
+      0,
+      700
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "FT_TEST_01_Fonderie",
+  "directory": "C:\\Users\\YOUR_USER\\AppData\\Local\\FactoryGame\\Saved\\SaveGames\\blueprints\\SANDBOX",
+  "verification": {
+    "actors": 3,
+    "components": 8,
+    "designer": 4,
+    "recipe": "Lingot de fer",
+    "rate": 30,
+    "powerMW": 4
+  },
+  "configDescription": "Factory Tools - TEST 01 : 2 fondations de 1 m et 1 fonderie. Lingots de fer, 100 %. Brancher le courant manuellement. Aucun convoyeur.",
+  "files": [
+    {
+      "name": "FT_TEST_01_Fonderie.sbp",
+      "bytes": 1720,
+      "sha256": "e7c9fed64311a262830495b19db98f15eeb19d8b39b22bdeaa8cdd1c9084554d"
+    },
+    {
+      "name": "FT_TEST_01_Fonderie.sbpcfg",
+      "bytes": 185,
+      "sha256": "4525dc1eeb6024e9d6b8fbdb12c0b814943e4c0394f273ef56a891e1cde64bbb"
+    }
+  ],
+  "inGameValidated": false
+}

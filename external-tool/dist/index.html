@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="fr">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Factory Manager · Explorateur local</title><link rel="stylesheet" href="/style.css"><link rel="stylesheet" href="/navigation.css"><script src="/i18n.js"></script></head>
+<body data-page="explorer">
+<header data-navigation></header><script src="/navigation.js"></script><input id="file" type="file" accept=".sav" hidden>
+<div class="workspace inspection-closed">
+<aside class="left">
+ <div class="eyebrow">01 / VOTRE MONDE</div><h1>Explorateur</h1>
+ <section class="import"><label for="saves">Sauvegardes de ce PC</label><select id="saves"><option value="">Recherche…</option></select><button id="load" class="button primary"><span aria-hidden="true">＋</span> Ouvrir la sauvegarde</button></section>
+ <section><div class="sectionheading"><h2>Calques</h2><span id="total" class="badge">—</span></div><div id="layers"></div></section>
+ <section id="savedFactorySection" hidden><label for="savedFactories">Usines enregistrées</label><select id="savedFactories"><option value="">Aucune usine enregistrée</option></select><button id="restoreFactory" class="button">Ouvrir cette usine</button></section><div id="saveInfo" class="saveinfo" hidden><div class="eyebrow">INSTANTANÉ CHARGÉ</div><strong id="session"></strong><p id="saveMeta"></p><p id="fileName" class="micro"></p></div>
+
+ <section><label for="search">Rechercher un bâtiment</label><div class="searchwrap"><span>⌕</span><input id="search" type="search" placeholder="Constructor, convoyeur, identifiant…" autocomplete="off"></div><div id="results"></div></section>
+
+</aside>
+<main>
+
+ <div id="map" class="map"><div id="zoneLabels"></div><canvas id="canvas" aria-label="Carte schématique interactive des bâtiments"></canvas><div id="empty" class="empty"><div class="emptyicon">⌘</div><h2>Votre usine commence ici.</h2><p>Chargez une sauvegarde pour explorer<br>les bâtiments et leurs connexions.</p><label for="file" class="button primary">Choisir un fichier .sav</label><small>Aucun compte. Aucun envoi vers un service externe.</small></div><div id="busy" class="busy" hidden><span class="spinner"></span><strong>Lecture de la sauvegarde…</strong><small>Extraction locale des bâtiments et connexions</small></div><div id="tooltip" class="tooltip" hidden></div><button id="region" class="button primary map-region" aria-pressed="false">＋ Délimiter une usine</button><label class="map-background" for="background">Fond <select id="background" aria-label="Fond de carte"><option value="grid">Grille</option><option value="terrain">Carte du monde</option></select></label><button id="inspectToggle" class="button inspection-toggle" hidden>Inspection ↗</button><div class="zoom"><button id="plus" aria-label="Zoom avant">＋</button><button id="minus" aria-label="Zoom arrière">−</button></div><div id="scale" class="scale">100 m</div></div>
+ <div class="maphint">Glisser pour déplacer · Molette pour zoomer · Clic : usine · Double-clic : bâtiment</div>
+ <footer><span id="status" role="status" aria-live="polite">Prêt à ouvrir une sauvegarde.</span><span>Géométrie schématique · Positions en mètres</span></footer>
+</main>
+<aside class="right"><div class="sectionheading"><div class="eyebrow">02 / INSPECTION</div><button id="clear" aria-label="Fermer l’inspection">×</button></div><div id="noSelection" class="noselection"><div>↖</div><h2>Choisissez un bâtiment</h2><p>Cliquez sur la carte ou utilisez la recherche pour afficher sa fiche.</p></div><div id="detail" hidden></div><section id="factoryScope" hidden></section><section id="scope" hidden></section><div class="truth"><span>ⓘ</span><p>Une connexion enregistrée indique un lien physique. Elle ne prouve pas qu’un objet y circule, ni à quel débit.</p></div></aside>
+</div><script src="/factory-metrics.js"></script><script src="/transport-geometry.js"></script><script src="/preview-gpu.js"></script><script src="/factory-preview.js"></script><script src="/explorer-cache.js"></script><script src="/app.js"></script>
+</body></html>

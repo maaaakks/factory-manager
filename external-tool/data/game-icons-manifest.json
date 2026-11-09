@@ -1,0 +1,725 @@
+{
+  "source": "https://github.com/greeny/SatisfactoryTools",
+  "revision": "fb43f813c03eb306b0e8d0047a8c53ae010044e0",
+  "artworkOwner": "Coffee Stain Studios",
+  "usage": "Local fan tool; game artwork is not covered by the application code license.",
+  "icons": {
+    "BP_ItemDescriptorPortableMiner_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/bp-itemdescriptorportableminer-c_64.png",
+      "sha256": "62f3f450b7dbbf1518c425cd716ab979293d24b053437ce596ed51678512639c"
+    },
+    "Desc_AlienDNACapsule_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-aliendnacapsule-c_64.png",
+      "sha256": "f133c6233fdb4e4947392ca7f05965ecfde677a99c94b32867331b81c3c2dc4f"
+    },
+    "Desc_AlienPowerFuel_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-alienpowerfuel-c_64.png",
+      "sha256": "7a8f307179bb4f1722101e3302e24113e860024a7aa365e73167a67b6121c8c3"
+    },
+    "Desc_AlienProtein_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-alienprotein-c_64.png",
+      "sha256": "9282dc0994ba5845dcc26120d852b8751c27ad4089ce61c4c8475a9d566ec727"
+    },
+    "Desc_AluminaSolution_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-aluminasolution-c_64.png",
+      "sha256": "fe5b87278ba03c294b8740066b5b451f2bf6d233488c157df8f6679a608e7b65"
+    },
+    "Desc_AluminumCasing_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-aluminumcasing-c_64.png",
+      "sha256": "8329734c613f6da612ee6d525e7701ef510bf0b238ef11bbeb8e4b225802765d"
+    },
+    "Desc_AluminumIngot_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-aluminumingot-c_64.png",
+      "sha256": "555a991ad604b4680f15e878c17210bf12cc823ded775a4544edbaad6f64c729"
+    },
+    "Desc_AluminumPlateReinforced_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-aluminumplatereinforced-c_64.png",
+      "sha256": "5f8905e46295cb281dd1ac846d85cfe114603e2ed1527fda5b5737926628d57d"
+    },
+    "Desc_AluminumPlate_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-aluminumplate-c_64.png",
+      "sha256": "80b29f1ddafc132069feaebb26beec56aff83821ab2bf5334d571a85fcb69396"
+    },
+    "Desc_AluminumScrap_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-aluminumscrap-c_64.png",
+      "sha256": "e4b59c0a1ee55253bb1bd3024c5e642269598fb1756853d051d81b9e9a27197d"
+    },
+    "Desc_AssemblerMk1_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-assemblermk1-c_64.png",
+      "sha256": "653e29696ece577e059906a773d66798d3c41af79edc5ba6457b77932b39e264"
+    },
+    "Desc_Battery_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-battery-c_64.png",
+      "sha256": "d53d258f9f979fc49bbce1a590a494735dc1548654a216ba18d9d9f926220a33"
+    },
+    "Desc_Beam_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-beam-c_64.png",
+      "sha256": "b03042fde859476701743b4e8fb71373358c9ee9521ad3aee85e9c3921dc66b3"
+    },
+    "Desc_Beam_Painted_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-beam-painted-c_64.png",
+      "sha256": "9b0b5bdb8d41783c3bd002210165d45c2911ea94ded8e77d6632969f6147b1a9"
+    },
+    "Desc_Biofuel_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-biofuel-c_64.png",
+      "sha256": "c08eb8e73e0c680b21f56c27dcd9de5886eb36a26d53ce003a6a02fd9d74ef2c"
+    },
+    "Desc_Cable_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-cable-c_64.png",
+      "sha256": "8ed50484f87f3fd5209b8f6da4b848a9236bae82e442b7dcc0eafb64d7924e7f"
+    },
+    "Desc_CandyCane_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-candycane-c_64.png",
+      "sha256": "356282f4b6da9b5d6553e27a054af127a05ad057037acacd3348cb98af0d7439"
+    },
+    "Desc_CartridgeChaos_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-cartridgechaos-c_64.png",
+      "sha256": "320e08d2eb734f4feb3154a2c28195641f55b6c931d1b78ec0f6397ca7cc5a65"
+    },
+    "Desc_CartridgeSmartProjectile_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-cartridgesmartprojectile-c_64.png",
+      "sha256": "3b260bc4f277fb4c7c854382170e7007a7c750fb76b9d543ae83eb0eaaa7e457"
+    },
+    "Desc_CartridgeStandard_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-cartridgestandard-c_64.png",
+      "sha256": "adda50ce063fe43ff650394f90b39dceee06cb91ca6fe65b027c0da79a83e5e6"
+    },
+    "Desc_Cement_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-cement-c_64.png",
+      "sha256": "965853916d28d179491cf1e056ba53e403005aac5a3bf21cacc8902df2f83064"
+    },
+    "Desc_CircuitBoardHighSpeed_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-circuitboardhighspeed-c_64.png",
+      "sha256": "6ed99ea55b26791d49e0f8a3799d6c5bdb8e54c14f2e8167a9b3b061ed6be23f"
+    },
+    "Desc_CircuitBoard_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-circuitboard-c_64.png",
+      "sha256": "3d956d1877da4fdfcce27fa033dbf3a55b4d193ce3d98440cb203322305253d0"
+    },
+    "Desc_Coal_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-coal-c_64.png",
+      "sha256": "805859fd111e183aed7a20798399421456f98e49e229f482c8889ff83c8f60f9"
+    },
+    "Desc_CompactedCoal_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-compactedcoal-c_64.png",
+      "sha256": "446039e369e58d85f3086b0e88dcbb5a9128c1baae0bb4e870b64ec71c3084ee"
+    },
+    "Desc_ComputerSuper_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-computersuper-c_64.png",
+      "sha256": "a2177a97ae10c903da5e6b0a6021e8df9b5838850ca6fd6863b792eeebe42fc5"
+    },
+    "Desc_Computer_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-computer-c_64.png",
+      "sha256": "28a6e1e77262425ff72431552a05db6d9cac59884926725fedd314da585707c6"
+    },
+    "Desc_ConstructorMk1_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-constructormk1-c_64.png",
+      "sha256": "fc6b19eb5d20e1695991855f25ef6cd25956d28c1be1bd8d7dcfce77fc47cac6"
+    },
+    "Desc_ConveyorAttachmentMerger_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-conveyorattachmentmerger-c_64.png",
+      "sha256": "ad3d5bd45da2de562d08309187bf2830e597278dec62e6714bdb7bf485e8d218"
+    },
+    "Desc_ConveyorAttachmentSplitter_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-conveyorattachmentsplitter-c_64.png",
+      "sha256": "75d6487b350c3358ec0d06921e5a9f9bb67ecff5c5e7dc83998aea0718e65e9b"
+    },
+    "Desc_ConveyorLiftMk1_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-conveyorliftmk1-c_64.png",
+      "sha256": "87cdee6644ee8e3fb6d614f709b2fbdc11c2b37b590ce73b24a82bdd66d537de"
+    },
+    "Desc_CoolingSystem_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-coolingsystem-c_64.png",
+      "sha256": "0c265d71ef32c964ddef4d87922cde85371119d0d4724975a0e855f5ff543238"
+    },
+    "Desc_CopperDust_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-copperdust-c_64.png",
+      "sha256": "93c6b8da7b2bb5372c00de8b43ab797a908c52a18ad07812c8710032c94055fd"
+    },
+    "Desc_CopperIngot_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-copperingot-c_64.png",
+      "sha256": "0033e3ed6c189485e555d9a0bc2758e26553f66816fab95f3116742ee923c48e"
+    },
+    "Desc_CopperSheet_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-coppersheet-c_64.png",
+      "sha256": "abe4883b4b3f5ef3e7015a611cd18bec433097d6ddae5af9406bbae9cbfc2cf0"
+    },
+    "Desc_CrystalOscillator_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-crystaloscillator-c_64.png",
+      "sha256": "33fff71b1f327412a49a7123773eadad88495fb42e6160e99a1c63f32a17fb24"
+    },
+    "Desc_CrystalShard_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-crystalshard-c_64.png",
+      "sha256": "2d0abf5d0c55ce6001c683e08b3e45e6ee4f3723bdf21641bc744b7e9d64014c"
+    },
+    "Desc_Crystal_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-crystal-c_64.png",
+      "sha256": "5acffa27ef8fe5ba44148c282be3a2628189e5927f84447f06d4ece94a6d1c07"
+    },
+    "Desc_Crystal_mk2_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-crystal-mk2-c_64.png",
+      "sha256": "6ebbbe499492c2b0225b28c1d79722c51e1b4e73dd8e99d5c591c342f291a622"
+    },
+    "Desc_Crystal_mk3_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-crystal-mk3-c_64.png",
+      "sha256": "e51d21a215f80cefbfeddfb233d04d5b8f88c43329d7661c0f8d9c8e6700d2e4"
+    },
+    "Desc_DarkEnergy_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-darkenergy-c_64.png",
+      "sha256": "ea96eeedabbee235822a19c37e33d36796001aa215fd52be5b9a7a9dffcaaa9c"
+    },
+    "Desc_DarkMatter_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-darkmatter-c_64.png",
+      "sha256": "879887f9423da2f3c5fe1bfad0cad097dcd6db3cac21b9d0a07dded87258faa2"
+    },
+    "Desc_Diamond_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-diamond-c_64.png",
+      "sha256": "bc6ce45809160592a2c309b50e8b8300ade5194069fcbd1a43119edfd7d8980e"
+    },
+    "Desc_DissolvedSilica_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-dissolvedsilica-c_64.png",
+      "sha256": "049d6614da24807c8ffc8fe9b6365dbd46d5155bff618ec9325a54b8f896c757"
+    },
+    "Desc_ElectromagneticControlRod_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-electromagneticcontrolrod-c_64.png",
+      "sha256": "aff07b3d6772dcd37c1a2c0af196bdc7d521da3f768283075c527367c0ca2f3d"
+    },
+    "Desc_Fabric_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-fabric-c_64.png",
+      "sha256": "573095f6ba031df979571a8dc701da2f15c5cc4c1e8ae38ee8000a65f177a535"
+    },
+    "Desc_FicsiteIngot_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-ficsiteingot-c_64.png",
+      "sha256": "60c8321ff45cbe2d4a585f527986477a052ec5661cc0ee22514799a40d8d59d6"
+    },
+    "Desc_FicsiteMesh_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-ficsitemesh-c_64.png",
+      "sha256": "4302bdc1e0a0186b3e232f7c820cb8cfc343712c5eaf3cc1b746617025a66b2c"
+    },
+    "Desc_FicsoniumFuelRod_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-ficsoniumfuelrod-c_64.png",
+      "sha256": "f712ceea6fc0394f26c6b0933e68d997b6e542f8f8b625bc5bbd3a6d54aa8e45"
+    },
+    "Desc_Ficsonium_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-ficsonium-c_64.png",
+      "sha256": "193da5ec2ed7e6bde03e490cf236714c800a036cd9a57afe5bbb953b6f5094e6"
+    },
+    "Desc_Filter_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-filter-c_64.png",
+      "sha256": "e41652b20161a6be3ccc2f5ddc3bd9c9934f24a44a40a45115ef3c1393d45f6f"
+    },
+    "Desc_Fireworks_Projectile_01_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-fireworks-projectile-01-c_64.png",
+      "sha256": "f2f073eaf38508d1b85673c900fb6b97039794989643865e96312d3f7fbb6728"
+    },
+    "Desc_Fireworks_Projectile_02_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-fireworks-projectile-02-c_64.png",
+      "sha256": "0c8b33c3004e99c1a97f8e224a17bf240a176b5ca7358c19e83490a34ce86825"
+    },
+    "Desc_Fireworks_Projectile_03_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-fireworks-projectile-03-c_64.png",
+      "sha256": "ccdbe9f348bc2e1e87d3ee654a1ec953fcf2353b38158566503b34c64f0f2b84"
+    },
+    "Desc_FluidCanister_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-fluidcanister-c_64.png",
+      "sha256": "17becc6b9ee306589488eca200e9d3fa0a910664d6be6131b2c54cd050a80eba"
+    },
+    "Desc_Fuel_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-fuel-c_64.png",
+      "sha256": "317b501247acd855b583e5c234da512dfc4ec7daf7c14b2f784999bec656a9bf"
+    },
+    "Desc_GasTank_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-gastank-c_64.png",
+      "sha256": "0ac8dae16e5432fbf170eaee5868f9fcdfe9d1c821cafdac95046260d52c2c6f"
+    },
+    "Desc_GenericBiomass_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-genericbiomass-c_64.png",
+      "sha256": "eee7390ca14fb7d341bb8dfdf588b7d2f81b7c47f2feb59c93eed1e3ea86d7be"
+    },
+    "Desc_Gift_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-gift-c_64.png",
+      "sha256": "a8212a0910171e65b9fcf94639291645ed9ab49b0bc71b14cf6d844fd2d3e799"
+    },
+    "Desc_GoldIngot_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-goldingot-c_64.png",
+      "sha256": "cdb3ecd6577156aab068cbb05f59e10d38e9e7b0c160d108888d25470499fed3"
+    },
+    "Desc_GunpowderMK2_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-gunpowdermk2-c_64.png",
+      "sha256": "630c02fd161a096519dca943af66c8a526d5ca7482ef88e882ce5657b5d5e737"
+    },
+    "Desc_Gunpowder_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-gunpowder-c_64.png",
+      "sha256": "854c3a3d55dc096a506d28d2d93e61b7797ac07de7b213ee3904d467f753f7c3"
+    },
+    "Desc_HatcherParts_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-hatcherparts-c_64.png",
+      "sha256": "f1d0bed7ea6cb84021e2119b4408ce10a05144d28a20333b336d220af702d137"
+    },
+    "Desc_HazmatFilter_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-hazmatfilter-c_64.png",
+      "sha256": "964cce86e25253358add30fc2834b377f4451d662b3c7b128018289472014b97"
+    },
+    "Desc_HeavyOilResidue_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-heavyoilresidue-c_64.png",
+      "sha256": "259c04f59c2ddeb87e6078639d28ce09276afa80d54d9ca02a69365c071f0e37"
+    },
+    "Desc_HighSpeedConnector_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-highspeedconnector-c_64.png",
+      "sha256": "cbfe317d17e115604776725ec0da1b03f5e9e24ae2ba036050f803925b00d90e"
+    },
+    "Desc_HighSpeedWire_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-highspeedwire-c_64.png",
+      "sha256": "ad660e799b6802009b9e0e5edf9dd27f6fa17104d2ec62f42c25e34be97b3f17"
+    },
+    "Desc_HogParts_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-hogparts-c_64.png",
+      "sha256": "eafcdbe3a077b2e9dce901dd09d11fabdf0933fc9f198bdaa72093aeb545b53b"
+    },
+    "Desc_IonizedFuel_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-ionizedfuel-c_64.png",
+      "sha256": "066d8ef96d1ac4e26f1935a53dd6863322332a712e1f636edb2e0a454a95f897"
+    },
+    "Desc_IronIngot_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-ironingot-c_64.png",
+      "sha256": "5a238cecf9bfa1228415a8b80a0d1a0327164314378575806c21a561f9553c17"
+    },
+    "Desc_IronPlateReinforced_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-ironplatereinforced-c_64.png",
+      "sha256": "7dc0ce5f60943885401c1167f1ab0cfff7e1aa19aad3967f15e412ccbf5f36e5"
+    },
+    "Desc_IronPlate_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-ironplate-c_64.png",
+      "sha256": "752d0251621ca36e4fe78140267a3edbfed40c50976ea9d3545b0dc6ca6c7d60"
+    },
+    "Desc_IronRod_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-ironrod-c_64.png",
+      "sha256": "ae073a8963f832f4b0fe0b76875147d53272151558d108c0078b614253b54b42"
+    },
+    "Desc_IronScrew_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-ironscrew-c_64.png",
+      "sha256": "2b317a31e3c5f625f21bc5432cca9a4eb624149b23a0ca3e821d8d2a391e1de7"
+    },
+    "Desc_Leaves_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-leaves-c_64.png",
+      "sha256": "1e9907dad7327779af54b66fa48c6729d05e07517ccbe75a045ebdbedc61b733"
+    },
+    "Desc_LiquidBiofuel_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-liquidbiofuel-c_64.png",
+      "sha256": "4be469ea3db4e8ec4c380f1829692510a82876386f839bd39c3ae39afef56093"
+    },
+    "Desc_LiquidFuel_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-liquidfuel-c_64.png",
+      "sha256": "4226532d9aa30e16979edce942d18b99e1d924cc1e7d7764eb4bd81fc1c5442b"
+    },
+    "Desc_LiquidOil_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-liquidoil-c_64.png",
+      "sha256": "450efbfa33003cc57cb11849522576e62bb498ce09e8fa4a931d7f085a922dcd"
+    },
+    "Desc_LiquidTurboFuel_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-liquidturbofuel-c_64.png",
+      "sha256": "e1d7d0070d7907eb8973147087832e31a7bd5658b207ef18e5eba7272b707081"
+    },
+    "Desc_ModularFrameFused_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-modularframefused-c_64.png",
+      "sha256": "7b3250c994b40b096b5316108fc7a465817157a24093e7c59a61554e0e248367"
+    },
+    "Desc_ModularFrameHeavy_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-modularframeheavy-c_64.png",
+      "sha256": "d0f9bb5f5c3c836657f6f44e6ae371a05248f4d28047f22b05c1d6f1b201b395"
+    },
+    "Desc_ModularFrameLightweight_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-modularframelightweight-c_64.png",
+      "sha256": "d9426cbb1b2cf8f3647b3832a9eb1e4bcdd101781b0d8edd6ea79b47dba537ae"
+    },
+    "Desc_ModularFrame_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-modularframe-c_64.png",
+      "sha256": "ecc90e8c75e3b1fd95e0d8705f988b10e18e38dec7b1abe44efe2349c9e0d315"
+    },
+    "Desc_MotorLightweight_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-motorlightweight-c_64.png",
+      "sha256": "1dc23c1b01c8c7ec57573ff6d1e3ee3c5da2d01955ffed387b01908e829f710b"
+    },
+    "Desc_Motor_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-motor-c_64.png",
+      "sha256": "3423d30cc62776ea36f549cdfa43e0bc98fc1e308898ec357f91668354e0c447"
+    },
+    "Desc_Mycelia_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-mycelia-c_64.png",
+      "sha256": "5c4a57901b944f4bae0aa093163d04dc758c4c62e3b5162a464765b70214072f"
+    },
+    "Desc_NitricAcid_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-nitricacid-c_64.png",
+      "sha256": "44e2f9c4d07784984abe53358249241968c876eadee107e6093c4ba620729151"
+    },
+    "Desc_NitrogenGas_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-nitrogengas-c_64.png",
+      "sha256": "e8da5ab7b4eaab1e21443d36100a4eeb091cbb3271974dd288ae1a6b9132ff7b"
+    },
+    "Desc_NobeliskCluster_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-nobeliskcluster-c_64.png",
+      "sha256": "8f6bba9e632e655ddf13987a08c56d2a475666ab8f48711b8bab0d2185a1a6e5"
+    },
+    "Desc_NobeliskExplosive_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-nobeliskexplosive-c_64.png",
+      "sha256": "e7be4705448a3b7ba531272679c9db24258a4d551a956fa7f35b5f5c201a6cfa"
+    },
+    "Desc_NobeliskGas_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-nobeliskgas-c_64.png",
+      "sha256": "f6bc5c55ea9d14f62548ce80ea34bbe6cf2b0f5e7f7bf196862dce7514c49f46"
+    },
+    "Desc_NobeliskNuke_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-nobelisknuke-c_64.png",
+      "sha256": "7a068c53b36f0d1bae3dd9434a9bed8ba49c7247fccb17b3618239815ad2c649"
+    },
+    "Desc_NobeliskShockwave_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-nobeliskshockwave-c_64.png",
+      "sha256": "36f43366340f2828e425f87083e6bfc8e376af1ff993edfcfe98ac263865e452"
+    },
+    "Desc_NonFissibleUranium_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-nonfissibleuranium-c_64.png",
+      "sha256": "075c000604dda53baabddc564e02b5c65386c28f723ecb755a4f8f9f1cc450b7"
+    },
+    "Desc_NuclearFuelRod_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-nuclearfuelrod-c_64.png",
+      "sha256": "b91c341962361bdd4bf50f148defd8ce0d50752dbb53bd2f0364c32c1f401a18"
+    },
+    "Desc_NuclearWaste_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-nuclearwaste-c_64.png",
+      "sha256": "1a2f7d247c9e4f0a21711152199e23717242f3a012aa8b71590fb10d786f12e1"
+    },
+    "Desc_OreBauxite_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-orebauxite-c_64.png",
+      "sha256": "6abfe7135dfa1b13d8dfe5eed01cef4e0c9216f38f85fb39e19f00442c8dd39e"
+    },
+    "Desc_OreCopper_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-orecopper-c_64.png",
+      "sha256": "4ecbdc993c8f3c3c3066923aab9ba59ba94ffb9cbb58c1176282adeee6338466"
+    },
+    "Desc_OreGold_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-oregold-c_64.png",
+      "sha256": "01ce7f5aa734ff0af9749ef5bdb4e49185668608b1f82dcf7f704fe5f9b70feb"
+    },
+    "Desc_OreIron_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-oreiron-c_64.png",
+      "sha256": "531c6d4563e96f542f71a9f8bd61553f0d86091f636186173dabcf1a3783498d"
+    },
+    "Desc_OreUranium_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-oreuranium-c_64.png",
+      "sha256": "cd8527c12dd43b556b31801795d1b0ea0983d76e809a1d074ef91fbbcf588e9d"
+    },
+    "Desc_PackagedAlumina_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-packagedalumina-c_64.png",
+      "sha256": "2407c12a7fe4892fc8823f7afd9ab359f08a0dfc2f7d04da18965d86e740e078"
+    },
+    "Desc_PackagedBiofuel_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-packagedbiofuel-c_64.png",
+      "sha256": "071aeb0ea23352514472bf143e681576dc58d9de884c3ae450cbf6547a005ecf"
+    },
+    "Desc_PackagedIonizedFuel_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-packagedionizedfuel-c_64.png",
+      "sha256": "138dbbc520b006c7e80e7734ffe60c5d229892727fc5367e99505ffaee0e77ae"
+    },
+    "Desc_PackagedNitricAcid_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-packagednitricacid-c_64.png",
+      "sha256": "84e0795a7e3b7424397064b5f4c6b28a32c071200fde4f088e7e20fe6b9a17c7"
+    },
+    "Desc_PackagedNitrogenGas_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-packagednitrogengas-c_64.png",
+      "sha256": "e707bb73b24e48b08c9f23ad73aec551584ecce9498fb84adb11b8faebd2a83d"
+    },
+    "Desc_PackagedOilResidue_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-packagedoilresidue-c_64.png",
+      "sha256": "9b022f8c74a31d9e124008ab0628d5652216c3b89486c7c7f91ad19274702f97"
+    },
+    "Desc_PackagedOil_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-packagedoil-c_64.png",
+      "sha256": "2057961886ff20d527e5ad048c75a4d78e712590abc1322cb725328a7fd31c10"
+    },
+    "Desc_PackagedRocketFuel_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-packagedrocketfuel-c_64.png",
+      "sha256": "ceb20a95eafdf891288420df4e30bfb06ff9807dd747e35c4912f9f3701f03cf"
+    },
+    "Desc_PackagedSulfuricAcid_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-packagedsulfuricacid-c_64.png",
+      "sha256": "73096358f85189c1f61e474c870dfb8983aa1068e19f94a826611c9fa26b1fc7"
+    },
+    "Desc_PackagedWater_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-packagedwater-c_64.png",
+      "sha256": "390c56427dabc6ae59160be7e68ac00e5d75033cacd6774a95610ed6cec3a98c"
+    },
+    "Desc_PetroleumCoke_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-petroleumcoke-c_64.png",
+      "sha256": "a2b7ad0fab9c1fdb1b933b48c7ed4e7978ad7bc452be91b9ed87d7fe2b19af1f"
+    },
+    "Desc_Plastic_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-plastic-c_64.png",
+      "sha256": "40d6f2634b3d481dff6afed43ff054f7a4dff9c4fda659cd03b4e5d77577a010"
+    },
+    "Desc_PlutoniumCell_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-plutoniumcell-c_64.png",
+      "sha256": "1f5f8913c8e200f6f3bbf184d881d7f566cf17631239f66726e287692921d8aa"
+    },
+    "Desc_PlutoniumFuelRod_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-plutoniumfuelrod-c_64.png",
+      "sha256": "d099d2def92f31df7ab6dcd5284594b91beadcd315f7850256294adb8f1b72aa"
+    },
+    "Desc_PlutoniumPellet_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-plutoniumpellet-c_64.png",
+      "sha256": "45376814d0ebc5c518b50e43782c3aa9910b2a266309bc2e946ee881733d1cc2"
+    },
+    "Desc_PlutoniumWaste_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-plutoniumwaste-c_64.png",
+      "sha256": "5992c57ac857019eb6ec992e0ccd2637094c2fbaf0eb5ab2b3a01d2d4b77f61a"
+    },
+    "Desc_PolymerResin_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-polymerresin-c_64.png",
+      "sha256": "3afaa6904d95c8c9140114f7f2ec9c4d1b0ef7a81791edae7054f4c22866128a"
+    },
+    "Desc_PowerPoleMk1_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-powerpolemk1-c_64.png",
+      "sha256": "ad4a93bc1566bc9cc96cd6d29de4d001946119954ec3fc79b4d2a913ec6303a6"
+    },
+    "Desc_PowerPoleWall_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-powerpolewall-c_64.png",
+      "sha256": "54144f3e0289f79e18e7ec190edab6c9f9e8177b763984eedbc802233fa816b3"
+    },
+    "Desc_PressureConversionCube_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-pressureconversioncube-c_64.png",
+      "sha256": "bef1cfeb0b400aef48808626a49ddabea2eaf811c4895670c2c06822a6c96982"
+    },
+    "Desc_QuantumEnergy_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-quantumenergy-c_64.png",
+      "sha256": "afedda2e4e5c599cbc9b8e3e39b4a08b8cde3fbaaa7cfb70371847b79f23c2eb"
+    },
+    "Desc_QuantumOscillator_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-quantumoscillator-c_64.png",
+      "sha256": "f22ba87106c4dae34cdb934756954b8f43e3f3ce3555bade9b1e341464a89c00"
+    },
+    "Desc_QuartzCrystal_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-quartzcrystal-c_64.png",
+      "sha256": "32af1197d6e223e03b4e07ba025ab7807a1cf80ed5eefd0a1073e24cbb2197d9"
+    },
+    "Desc_RawQuartz_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-rawquartz-c_64.png",
+      "sha256": "2915a463540dc00eb877c43098c8b7cd1277f8d92a6c2a846c57df14dec1b3a6"
+    },
+    "Desc_Rebar_Explosive_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-rebar-explosive-c_64.png",
+      "sha256": "ae2532a1e9474cfd005ee4bc7f5bda1a6ed6c304a67932a8b7e22337c1ff84b6"
+    },
+    "Desc_Rebar_Spreadshot_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-rebar-spreadshot-c_64.png",
+      "sha256": "6ee3e75895d308e66cca211dd9f10943f59d56634710f95653748574f2b168ae"
+    },
+    "Desc_Rebar_Stunshot_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-rebar-stunshot-c_64.png",
+      "sha256": "e6346ce50e432cc435be0e3dbd6e5c379679e712fd25f316e3f36927c9cccd5d"
+    },
+    "Desc_RocketFuel_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-rocketfuel-c_64.png",
+      "sha256": "252da01e8837242d73b4ed8d20a1587f57f459e1a1f7ba26c23e9816923aa111"
+    },
+    "Desc_Rotor_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-rotor-c_64.png",
+      "sha256": "b7522406fc17b2186acd8040e7cc5a5ce78c98d9816618b4323687cd1924202d"
+    },
+    "Desc_Rubber_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-rubber-c_64.png",
+      "sha256": "bbc976cfca9f2d9fa5de42bcd39b5563a44cad6e95381c7da5ad6023f425c0fd"
+    },
+    "Desc_SAMFluctuator_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-samfluctuator-c_64.png",
+      "sha256": "5c6222f1ba4d35e5a12e58fb277b827ca202665d749594431f63ae201feabb52"
+    },
+    "Desc_SAMIngot_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-samingot-c_64.png",
+      "sha256": "5f8ab72c170984c1814db0e523222f8788c7e432b4a78b46d3b92207d976abb3"
+    },
+    "Desc_SAM_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-sam-c_64.png",
+      "sha256": "4351424d61776ac8c8204c696d852f779ac2362fc91d934e39b8570994441922"
+    },
+    "Desc_Silica_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-silica-c_64.png",
+      "sha256": "3390050841eee23978c728c5aac1a98d888535c4525e7d19e1b3519db70011bc"
+    },
+    "Desc_SingularityCell_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-singularitycell-c_64.png",
+      "sha256": "d17e6e5cb4a01d78828a7fd3554120eaaf9621c186dada6a132cadc1585e17ad"
+    },
+    "Desc_SmelterMk1_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-smeltermk1-c_64.png",
+      "sha256": "bce72d3fc430afcbee14beeae51d6aed2b227b2743893fd8716791811f19e5ff"
+    },
+    "Desc_Snow_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-snow-c_64.png",
+      "sha256": "d9b051bce521917715c2ef5b30766ec8118668148cfa544e7142ebd36c4804a7"
+    },
+    "Desc_SnowballProjectile_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-snowballprojectile-c_64.png",
+      "sha256": "7f71816cf330d72c42e630982f2c87e6651a20191c5dbb21a40d748e4cd90812"
+    },
+    "Desc_SpaceElevatorPart_10_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-spaceelevatorpart-10-c_64.png",
+      "sha256": "64ef925ce67897840c7a24ff04224c3f18dd056d5d42a661fe5ecf19ef52feef"
+    },
+    "Desc_SpaceElevatorPart_11_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-spaceelevatorpart-11-c_64.png",
+      "sha256": "cdff3f64fc7a95d1b5d9148c6fbede6c0ca2b3831390011fae678f4d3444f9b1"
+    },
+    "Desc_SpaceElevatorPart_12_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-spaceelevatorpart-12-c_64.png",
+      "sha256": "b763b096f8cc391b5f31ad16b1b7001908db38907f108d89d646eb2ccc757333"
+    },
+    "Desc_SpaceElevatorPart_1_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-spaceelevatorpart-1-c_64.png",
+      "sha256": "119994305333beeec80bada835b2d2fef908a7cf30d8e4f22e6bbb95c015d6d9"
+    },
+    "Desc_SpaceElevatorPart_2_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-spaceelevatorpart-2-c_64.png",
+      "sha256": "dc9f808fea38401e5c8f5283adede786ab860488e740b47d6bfe070d2c3afba0"
+    },
+    "Desc_SpaceElevatorPart_3_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-spaceelevatorpart-3-c_64.png",
+      "sha256": "bd2aff775d70456c7d33618f1c9bf95ca0ea9bad243fa431dc58dca62d3cdc34"
+    },
+    "Desc_SpaceElevatorPart_4_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-spaceelevatorpart-4-c_64.png",
+      "sha256": "284ec2a376c99d670be2f4f3007a65e568db5aa4fd33251ae7f98320a9d7a755"
+    },
+    "Desc_SpaceElevatorPart_5_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-spaceelevatorpart-5-c_64.png",
+      "sha256": "de4190458bc87bd2ee617bec70c82f0dd0793b20d7e9a836b83a40a80937c509"
+    },
+    "Desc_SpaceElevatorPart_6_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-spaceelevatorpart-6-c_64.png",
+      "sha256": "136fddc2aa5c359845ad8a2a5c1e59233cf0351e6ff3bdf79e188b5a3ee15285"
+    },
+    "Desc_SpaceElevatorPart_7_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-spaceelevatorpart-7-c_64.png",
+      "sha256": "8d0e055f1b01bb3bc1979dab7e86a06ee697327a6fdb672491c3f42104651def"
+    },
+    "Desc_SpaceElevatorPart_8_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-spaceelevatorpart-8-c_64.png",
+      "sha256": "2567f540f4c9e7b4280feeeb1e1458f6e4b31392365f354e29d48f587ca1b562"
+    },
+    "Desc_SpaceElevatorPart_9_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-spaceelevatorpart-9-c_64.png",
+      "sha256": "e62e4cc6eeeb3b2405c526b5a6c1e132dd93e348a5ee8943554630ef507078b9"
+    },
+    "Desc_SpikedRebar_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-spikedrebar-c_64.png",
+      "sha256": "a47c199094b36b7031737f116bff30ae850de33bd94640fba41c97e7e0a54a8e"
+    },
+    "Desc_SpitterParts_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-spitterparts-c_64.png",
+      "sha256": "11e741dd8b3c630b54398509ffa650717dee764e1aafc66c633b3dc834acc2e0"
+    },
+    "Desc_Stator_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-stator-c_64.png",
+      "sha256": "4d4eb7ddb5d685bb126a22023c4cbbc31dcf31449cba5a08e3c8b6b942e99a01"
+    },
+    "Desc_SteelIngot_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-steelingot-c_64.png",
+      "sha256": "80f8bd3870bf94046e933870f3462367b7041eeca398f3d590c6e1e9dc30f2a8"
+    },
+    "Desc_SteelPipe_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-steelpipe-c_64.png",
+      "sha256": "86f4f00210c757ccff146d28445d00cbea8665ac5c9ec87d8bf63046c558ed1c"
+    },
+    "Desc_SteelPlateReinforced_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-steelplatereinforced-c_64.png",
+      "sha256": "cfeb2145f1115cbe6387664430916a74b95034319ad74ce6f7010f6b745180f4"
+    },
+    "Desc_SteelPlate_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-steelplate-c_64.png",
+      "sha256": "2656079e0e860ede446d9cd4c466c093c2eebb1784c47409a1babc74c5c7cd6d"
+    },
+    "Desc_StingerParts_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-stingerparts-c_64.png",
+      "sha256": "46484276098933362b1f70a64645904cbebc450c65eafb0d67b18a20dd460b24"
+    },
+    "Desc_Stone_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-stone-c_64.png",
+      "sha256": "268d0d7cf9fcf6dcd6e35c8504eeef726390b17983d4c1a241af9cad67d2d8f1"
+    },
+    "Desc_StorageContainerMk1_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-storagecontainermk1-c_64.png",
+      "sha256": "184e7167991f82c3891458ae5427943b29350b6402be7dfd35cf91b8d09d5de1"
+    },
+    "Desc_Sulfur_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-sulfur-c_64.png",
+      "sha256": "612ef71a305ad2287e3bc453021c3be82b5c725e219688accde98aaa83f15088"
+    },
+    "Desc_SulfuricAcid_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-sulfuricacid-c_64.png",
+      "sha256": "8dbbbd8849a2666bd81737b5f352cd01f5b8cc11b799432a6f6cd1833ff5346a"
+    },
+    "Desc_TemporalProcessor_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-temporalprocessor-c_64.png",
+      "sha256": "240e6cca257c0df33fadac8f09f7c162918dd00b410bedae4541611b9b22a6a5"
+    },
+    "Desc_TimeCrystal_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-timecrystal-c_64.png",
+      "sha256": "f6ba8ff9ac6f545a4c2f1fc8d25d45d7fe4ff061fe9e35a2c870e3c869439fe6"
+    },
+    "Desc_TurboFuel_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-turbofuel-c_64.png",
+      "sha256": "0dcc1bb6868252d5045aeb56643fdef05c31f132af3d6e7ec5ba8b78c00898a7"
+    },
+    "Desc_UraniumCell_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-uraniumcell-c_64.png",
+      "sha256": "8a5d7daba61db782306b12c6a544634e1ada87f0c78d46b3b8a9a9a328bce0a8"
+    },
+    "Desc_Water_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-water-c_64.png",
+      "sha256": "d3ef392e1e0951f66745dd1ed4c4b088bccf6063c782576c50790738ae81387b"
+    },
+    "Desc_Wire_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-wire-c_64.png",
+      "sha256": "ff9db5f781bbfb0f9f77e13d6fe892141401ac2d3b888f9f0989a64ea72d8fb4"
+    },
+    "Desc_Wood_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-wood-c_64.png",
+      "sha256": "91d4ec7bb7343c754a4f0ea4d012dfe227b3166e37117a17b708a2cf0687bbad"
+    },
+    "Desc_XmasBall1_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-xmasball1-c_64.png",
+      "sha256": "6c7d506a9cd4595830f6408bc5bfdc36f41e4118c06afbe5d6d550304304f03d"
+    },
+    "Desc_XmasBall2_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-xmasball2-c_64.png",
+      "sha256": "3d903ca677d54e1f8dfa462cf0bfb09859918e04b93cb49020d46e1845c3d2bc"
+    },
+    "Desc_XmasBall3_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-xmasball3-c_64.png",
+      "sha256": "c0244e5ba5d1d3773566db22501d91ab8b8c4eabd1b91094afe7fc9b8ecbbbbc"
+    },
+    "Desc_XmasBall4_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-xmasball4-c_64.png",
+      "sha256": "bb872e126e2ff59418519851c403753f02e3b3a79363e48efa3e6a8acab477d2"
+    },
+    "Desc_XmasBallCluster_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-xmasballcluster-c_64.png",
+      "sha256": "3e486ed9f4ae3351cd37ee1e1302176bd82d5c2c4cc3d1b5ab3d44ba84664806"
+    },
+    "Desc_XmasBow_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-xmasbow-c_64.png",
+      "sha256": "6473cd13ef5b45a307ffff416e1f70b07faed04b0fe330ad51bb3660100444de"
+    },
+    "Desc_XmasBranch_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-xmasbranch-c_64.png",
+      "sha256": "d74b5b0e5cb1152eda777bd79d407a53b3081e18b1089e9a5c787418af56f0a0"
+    },
+    "Desc_XmasStar_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-xmasstar-c_64.png",
+      "sha256": "954c10b0d0d509fdf3f87f7692856160222e2300e02a3ec929b845c47acc0cfb"
+    },
+    "Desc_XmasWreath_C": {
+      "source": "https://raw.githubusercontent.com/greeny/SatisfactoryTools/fb43f813c03eb306b0e8d0047a8c53ae010044e0/www/assets/images/items/desc-xmaswreath-c_64.png",
+      "sha256": "53610352e6ca50d8f256b01c5d0d34741c73193dba16a95787a466564b5e7e8a"
+    }
+  },
+  "unavailable": []
+}

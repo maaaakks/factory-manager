@@ -1,0 +1,12 @@
+const assert=require('node:assert/strict'),M=require('../dist/workshop-model.js'),A=require('../dist/workshop-assist.js'),data=require('../dist/planner-data.json');
+const p=M.fresh('formats');p.objects.push({id:'a',name:'Machine bord',type:'constructor',x:36,y:12,z:0,h:6,w:8,d:10,rotation:0,recipe:null,clock:1});
+assert.equal(M.resize(p,40).size,40,'Touching boundary is accepted');
+assert.throws(()=>M.resize(p,32),/Machine bord/);assert.equal(p.size,48);assert.equal(p.objects[0].x,36,'Refusal does not mutate objects');
+p.objects[0].x=16;p.objects[0].z=30;assert.throws(()=>M.resize(p,32),/débordent/,'Height checked too');p.objects[0].z=26;
+const small=M.resize(p,32);assert.equal(M.problems(small).length,0);assert.deepEqual(M.read(JSON.stringify(small)),small);
+assert.match(M.candidate(small,{...small.objects[0],x:30}),/dépasse/);
+assert.match(M.candidate(small,{...small.objects[0],z:27}),/dépasse/);
+assert.equal(M.resize(small,48).objects[0].z,26);assert.throws(()=>M.resize(small,24));assert.throws(()=>M.read({...small,size:24}));
+const flows={inputs:[],outputs:[{id:'Desc_Cable_C',rate:300}]};assert.ok(A.calculate(flows,data,{size:48}).objects.length);assert.throws(()=>A.calculate(flows,data,{size:32}),/format sélectionné/);
+const generated=A.calculate({inputs:[],outputs:[{id:'Desc_Cable_C',rate:30}]},data,{size:32});assert.equal(M.problems({size:32,objects:generated.objects}).length,0);
+console.log('PASS: formats, refusal without mutation, XYZ overflow, touching boundaries, JSON persistence and selected-format generation');

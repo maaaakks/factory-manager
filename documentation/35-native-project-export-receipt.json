@@ -1,0 +1,18 @@
+{
+  "name": "FT_Validation_export_atelier_85ad167c28",
+  "savedThrough": "Chrome isolated recovery draft: import actual project, native project export button",
+  "files": [
+    {
+      "path": "C:\\Users\\YOUR_USER\\AppData\\Local\\FactoryGame\\Saved\\SaveGames\\blueprints\\SANDBOX\\FT_Validation_export_atelier_85ad167c28.sbp",
+      "sha256": "9f88a5a8536ca1fd6fc084f226897891da4127a7a017d2738cb3ebca5ceda80e",
+      "bytes": 3592
+    },
+    {
+      "path": "C:\\Users\\YOUR_USER\\AppData\\Local\\FactoryGame\\Saved\\SaveGames\\blueprints\\SANDBOX\\FT_Validation_export_atelier_85ad167c28.sbpcfg",
+      "sha256": "708819742918089e034301299b9ea6aaa356e5ca5c186ae21adf225e1563ff86",
+      "bytes": 205
+    }
+  ],
+  "inGameValidated": false,
+  "normalUserDraft": "Preserved; isolated recovery draft returned to empty after test."
+}

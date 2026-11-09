@@ -1,0 +1,118 @@
+{
+  "Recipe_AssemblerMk1_C": [
+    [
+      8,
+      "/Game/FactoryGame/Resource/Parts/IronPlateReinforced/Desc_IronPlateReinforced.Desc_IronPlateReinforced_C"
+    ],
+    [
+      4,
+      "/Game/FactoryGame/Resource/Parts/Rotor/Desc_Rotor.Desc_Rotor_C"
+    ],
+    [
+      10,
+      "/Game/FactoryGame/Resource/Parts/Cable/Desc_Cable.Desc_Cable_C"
+    ]
+  ],
+  "Recipe_ConstructorMk1_C": [
+    [
+      2,
+      "/Game/FactoryGame/Resource/Parts/IronPlateReinforced/Desc_IronPlateReinforced.Desc_IronPlateReinforced_C"
+    ],
+    [
+      8,
+      "/Game/FactoryGame/Resource/Parts/Cable/Desc_Cable.Desc_Cable_C"
+    ]
+  ],
+  "Recipe_ConveyorAttachmentMerger_C": [
+    [
+      2,
+      "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C"
+    ],
+    [
+      2,
+      "/Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C"
+    ]
+  ],
+  "Recipe_ConveyorAttachmentSplitter_C": [
+    [
+      2,
+      "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C"
+    ],
+    [
+      2,
+      "/Game/FactoryGame/Resource/Parts/Cable/Desc_Cable.Desc_Cable_C"
+    ]
+  ],
+  "Recipe_ConveyorBeltMk2_C": [
+    [
+      1,
+      "/Game/FactoryGame/Resource/Parts/IronPlateReinforced/Desc_IronPlateReinforced.Desc_IronPlateReinforced_C"
+    ]
+  ],
+  "Recipe_ConveyorLiftMk2_C": [
+    [
+      2,
+      "/Game/FactoryGame/Resource/Parts/IronPlateReinforced/Desc_IronPlateReinforced.Desc_IronPlateReinforced_C"
+    ]
+  ],
+  "Recipe_FoundationPassthrough_Lift_C": [
+    [
+      2,
+      "/Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C"
+    ],
+    [
+      2,
+      "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C"
+    ],
+    [
+      2,
+      "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C"
+    ]
+  ],
+  "Recipe_Foundation_Concrete_8x1_C": [
+    [
+      5,
+      "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C"
+    ]
+  ],
+  "Recipe_PowerLine_C": [
+    [
+      1,
+      "/Game/FactoryGame/Resource/Parts/Cable/Desc_Cable.Desc_Cable_C"
+    ]
+  ],
+  "Recipe_PowerPoleMk1_C": [
+    [
+      3,
+      "/Game/FactoryGame/Resource/Parts/Wire/Desc_Wire.Desc_Wire_C"
+    ],
+    [
+      1,
+      "/Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C"
+    ],
+    [
+      1,
+      "/Game/FactoryGame/Resource/Parts/Cement/Desc_Cement.Desc_Cement_C"
+    ]
+  ],
+  "Recipe_SmelterBasicMk1_C": [
+    [
+      5,
+      "/Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C"
+    ],
+    [
+      8,
+      "/Game/FactoryGame/Resource/Parts/Wire/Desc_Wire.Desc_Wire_C"
+    ]
+  ],
+  "Recipe_StorageContainerMk1_C": [
+    [
+      10,
+      "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate.Desc_IronPlate_C"
+    ],
+    [
+      10,
+      "/Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod.Desc_IronRod_C"
+    ]
+  ]
+}

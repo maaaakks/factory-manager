@@ -1,0 +1,5340 @@
+{
+  "schemaVersion": 2,
+  "kind": "factory-tools-paper-blueprint",
+  "size": 32,
+  "id": "fd4aae2f-f34e-4b85-82c9-1c173340f450",
+  "name": "Plaques 120 10 Paires",
+  "objects": [
+    {
+      "id": "229ed86d-ef36-451d-9579-c51d76349d86",
+      "type": "smelter",
+      "name": "Lingots de fer",
+      "x": 5,
+      "y": 9,
+      "w": 5,
+      "d": 10,
+      "rotation": 0,
+      "z": 1,
+      "h": 8.5,
+      "recipe": "Recipe_IngotIron_C",
+      "clock": 1,
+      "native": {
+        "prototype": 0,
+        "module": "smelter-0",
+        "rotation": 0,
+        "quaternion": [
+          0,
+          0,
+          -1,
+          6.123234262925839e-17
+        ],
+        "originZ": 0,
+        "ports": {
+          "Input0": [
+            -3.6739405577555036e-16,
+            -3,
+            1
+          ],
+          "Output2": [
+            2.4492937051703357e-16,
+            2,
+            1
+          ],
+          "PowerConnection": [
+            2.199993896484375,
+            -3.099998474121094,
+            4.8
+          ]
+        }
+      }
+    },
+    {
+      "id": "41890c6e-b469-427d-b8f1-ea6eb9c2303f",
+      "type": "splitter",
+      "name": "Répartiteur",
+      "x": 5,
+      "y": 16,
+      "w": 2,
+      "d": 2,
+      "rotation": 90,
+      "z": 1,
+      "h": 1.2,
+      "recipe": null,
+      "clock": 1,
+      "native": {
+        "prototype": 1,
+        "module": "smelter-0",
+        "rotation": 90,
+        "quaternion": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "originZ": 1,
+        "ports": {
+          "Input1": [
+            -1,
+            0,
+            0
+          ],
+          "Output1": [
+            1,
+            0,
+            0
+          ],
+          "Output2": [
+            0,
+            1,
+            0
+          ],
+          "Output3": [
+            0,
+            -1,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": "c90b47b6-9c1e-4513-807e-1c4cfb61b8c8",
+      "type": "smelter",
+      "name": "Lingots de fer",
+      "x": 5,
+      "y": 23,
+      "w": 5,
+      "d": 10,
+      "rotation": 180,
+      "z": 1,
+      "h": 8.5,
+      "recipe": "Recipe_IngotIron_C",
+      "clock": 1,
+      "native": {
+        "prototype": 2,
+        "module": "smelter-0",
+        "rotation": 180,
+        "quaternion": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "originZ": 0.0000012207031250266454,
+        "ports": {
+          "Input0": [
+            0,
+            -3,
+            1
+          ],
+          "Output2": [
+            0,
+            2,
+            1
+          ],
+          "PowerConnection": [
+            2.199993896484375,
+            -3.0999984741210933,
+            4.8
+          ]
+        }
+      }
+    },
+    {
+      "id": "5717ff26-6e5b-4543-b7a1-988f13a96c95",
+      "type": "merger",
+      "name": "Fusionneur",
+      "x": 5,
+      "y": 16,
+      "w": 2,
+      "d": 2,
+      "rotation": 90,
+      "z": 9,
+      "h": 1.2,
+      "recipe": null,
+      "clock": 1,
+      "native": {
+        "prototype": 3,
+        "module": "smelter-0",
+        "rotation": 90,
+        "quaternion": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "originZ": 1,
+        "ports": {
+          "Input1": [
+            -1,
+            0,
+            0
+          ],
+          "Input2": [
+            0,
+            1,
+            0
+          ],
+          "Input3": [
+            0,
+            -1,
+            0
+          ],
+          "Output1": [
+            1,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": "76d71232-05c0-4b27-82a1-cd4ae732ccef",
+      "type": "lift",
+      "name": "Élévateur natif",
+      "x": 5,
+      "y": 5,
+      "w": 1,
+      "d": 1,
+      "rotation": 270,
+      "z": 2,
+      "h": 8.5,
+      "recipe": null,
+      "clock": 1,
+      "native": {
+        "prototype": 4,
+        "module": "smelter-0",
+        "rotation": 270,
+        "quaternion": [
+          0,
+          0,
+          -0.7071066498756409,
+          -0.7071069478988647
+        ],
+        "originZ": 0,
+        "ports": {
+          "ConveyorAny0": [
+            2.000000100130221,
+            7.428065913472888e-7,
+            0
+          ],
+          "ConveyorAny1": [
+            0,
+            0,
+            8
+          ]
+        }
+      }
+    },
+    {
+      "id": "fe681572-6906-46ba-a608-649630c0e375",
+      "type": "lift",
+      "name": "Élévateur natif",
+      "x": 5,
+      "y": 27,
+      "w": 1,
+      "d": 1,
+      "rotation": 90,
+      "z": 2,
+      "h": 8.5,
+      "recipe": null,
+      "clock": 1,
+      "native": {
+        "prototype": 5,
+        "module": "smelter-0",
+        "rotation": 90,
+        "quaternion": [
+          0,
+          0,
+          -0.7071069478988647,
+          0.7071066498756409
+        ],
+        "originZ": 0.0000012207031248046007,
+        "ports": {
+          "ConveyorAny0": [
+            2.0000001001302237,
+            9.430673912902426e-7,
+            0
+          ],
+          "ConveyorAny1": [
+            0,
+            0,
+            8
+          ]
+        }
+      }
+    },
+    {
+      "id": "b6566aa9-06d7-4cac-b1f9-7ef150670b02",
+      "type": "wallPole",
+      "name": "Raccord mural",
+      "x": 5,
+      "y": 16,
+      "w": 0.6,
+      "d": 0.6,
+      "rotation": 180,
+      "z": 9.6801,
+      "h": 0.6,
+      "recipe": null,
+      "clock": 1,
+      "native": {
+        "prototype": 6,
+        "module": "smelter-0",
+        "rotation": 180,
+        "quaternion": [
+          -2.4532694660665106e-17,
+          0.7071067690849304,
+          2.4532694660665106e-17,
+          0.7071067690849304
+        ],
+        "originZ": 0.0000037597656259436008,
+        "ports": {
+          "PowerConnection": [
+            0.8000000472805175,
+            1.9315658721595118e-7,
+            5.136896839548878e-7
+          ]
+        }
+      }
+    },
+    {
+      "id": "3a3550fc-5b05-43da-8913-b92c1f113807",
+      "type": "smelter",
+      "name": "Lingots de fer",
+      "x": 11,
+      "y": 9,
+      "w": 5,
+      "d": 10,
+      "rotation": 0,
+      "z": 1,
+      "h": 8.5,
+      "recipe": "Recipe_IngotIron_C",
+      "clock": 1,
+      "native": {
+        "prototype": 7,
+        "module": "smelter-1",
+        "rotation": 0,
+        "quaternion": [
+          0,
+          0,
+          -1,
+          6.123234262925839e-17
+        ],
+        "originZ": 0,
+        "ports": {
+          "Input0": [
+            2.010401328325298e-16,
+            -3,
+            1
+          ],
+          "Output2": [
+            2.4492937051703357e-16,
+            2,
+            1
+          ],
+          "PowerConnection": [
+            2.199993896484375,
+            -3.099998474121094,
+            4.8
+          ]
+        }
+      }
+    },
+    {
+      "id": "c4844790-b8bf-4526-8669-b34c8bad7cb6",
+      "type": "splitter",
+      "name": "Répartiteur",
+      "x": 11,
+      "y": 16,
+      "w": 2,
+      "d": 2,
+      "rotation": 90,
+      "z": 1,
+      "h": 1.2,
+      "recipe": null,
+      "clock": 1,
+      "native": {
+        "prototype": 8,
+        "module": "smelter-1",
+        "rotation": 90,
+        "quaternion": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "originZ": 1,
+        "ports": {
+          "Input1": [
+            -1,
+            0,
+            0
+          ],
+          "Output1": [
+            1,
+            0,
+            0
+          ],
+          "Output2": [
+            0,
+            1,
+            0
+          ],
+          "Output3": [
+            0,
+            -1,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": "8a67a7a2-d758-4478-a9d1-952966eda17a",
+      "type": "smelter",
+      "name": "Lingots de fer",
+      "x": 11,
+      "y": 23,
+      "w": 5,
+      "d": 10,
+      "rotation": 180,
+      "z": 1,
+      "h": 8.5,
+      "recipe": "Recipe_IngotIron_C",
+      "clock": 1,
+      "native": {
+        "prototype": 9,
+        "module": "smelter-1",
+        "rotation": 180,
+        "quaternion": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "originZ": 0.0000012207031250266454,
+        "ports": {
+          "Input0": [
+            0,
+            -3,
+            1
+          ],
+          "Output2": [
+            0,
+            2,
+            1
+          ],
+          "PowerConnection": [
+            2.199993896484375,
+            -3.0999984741210933,
+            4.8
+          ]
+        }
+      }
+    },
+    {
+      "id": "5d914934-0ec6-418e-8a7f-d496db9bae69",
+      "type": "merger",
+      "name": "Fusionneur",
+      "x": 11,
+      "y": 16,
+      "w": 2,
+      "d": 2,
+      "rotation": 90,
+      "z": 9,
+      "h": 1.2,
+      "recipe": null,
+      "clock": 1,
+      "native": {
+        "prototype": 10,
+        "module": "smelter-1",
+        "rotation": 90,
+        "quaternion": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "originZ": 1,
+        "ports": {
+          "Input1": [
+            -1,
+            0,
+            0
+          ],
+          "Input2": [
+            0,
+            1,
+            0
+          ],
+          "Input3": [
+            0,
+            -1,
+            0
+          ],
+          "Output1": [
+            1,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": "0479b50d-c1f7-422a-beb5-156986459099",
+      "type": "lift",
+      "name": "Élévateur natif",
+      "x": 11,
+      "y": 5,
+      "w": 1,
+      "d": 1,
+      "rotation": 270,
+      "z": 2,
+      "h": 8.5,
+      "recipe": null,
+      "clock": 1,
+      "native": {
+        "prototype": 11,
+        "module": "smelter-1",
+        "rotation": 270,
+        "quaternion": [
+          0,
+          0,
+          -0.7071066498756409,
+          -0.7071069478988647
+        ],
+        "originZ": 0,
+        "ports": {
+          "ConveyorAny0": [
+            2.000000100130221,
+            7.428065913472888e-7,
+            0
+          ],
+          "ConveyorAny1": [
+            0,
+            0,
+            8
+          ]
+        }
+      }
+    },
+    {
+      "id": "08cb4ed7-9fa9-4ae3-9f5d-3ae736499406",
+      "type": "lift",
+      "name": "Élévateur natif",
+      "x": 11,
+      "y": 27,
+      "w": 1,
+      "d": 1,
+      "rotation": 90,
+      "z": 2,
+      "h": 8.5,
+      "recipe": null,
+      "clock": 1,
+      "native": {
+        "prototype": 12,
+        "module": "smelter-1",
+        "rotation": 90,
+        "quaternion": [
+          0,
+          0,
+          -0.7071069478988647,
+          0.7071066498756409
+        ],
+        "originZ": 0.0000012207031248046007,
+        "ports": {
+          "ConveyorAny0": [
+            2.0000001001302237,
+            9.430673912902426e-7,
+            0
+          ],
+          "ConveyorAny1": [
+            0,
+            0,
+            8
+          ]
+        }
+      }
+    },
+    {
+      "id": "62f5d667-8a36-43ff-881d-ef582a03e750",
+      "type": "wallPole",
+      "name": "Raccord mural",
+      "x": 11,
+      "y": 16,
+      "w": 0.6,
+      "d": 0.6,
+      "rotation": 180,
+      "z": 9.6801,
+      "h": 0.6,
+      "recipe": null,
+      "clock": 1,
+      "native": {
+        "prototype": 13,
+        "module": "smelter-1",
+        "rotation": 180,
+        "quaternion": [
+          -2.4532694660665106e-17,
+          0.7071067690849304,
+          2.4532694660665106e-17,
+          0.7071067690849304
+        ],
+        "originZ": 0.0000037597656259436008,
+        "ports": {
+          "PowerConnection": [
+            0.8000000472805175,
+            1.9315658721595118e-7,
+            5.136896839548878e-7
+          ]
+        }
+      }
+    },
+    {
+      "id": "2983c1a6-e7d7-4bcf-aa3c-40643faef128",
+      "type": "constructor",
+      "name": "Tiges de fer",
+      "x": 23,
+      "y": 22,
+      "w": 8,
+      "d": 10,
+      "rotation": 180,
+      "z": 1,
+      "h": 6,
+      "recipe": "Recipe_IronRod_C",
+      "clock": 1,
+      "native": {
+        "prototype": 14,
+        "module": "rods",
+        "rotation": 180,
+        "quaternion": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "originZ": 1.6119744028486593e-7,
+        "ports": {
+          "Input0": [
+            0,
+            -3,
+            1
+          ],
+          "Output0": [
+            0,
+            3,
+            1
+          ],
+          "PowerInput": [
+            2.100045166015625,
+            -4.7,
+            6.871653891536934
+          ]
+        }
+      }
+    },
+    {
+      "id": "e36bd1eb-fd78-4d9a-8a25-45e1c2f816c8",
+      "type": "splitter",
+      "name": "Répartiteur",
+      "x": 23,
+      "y": 16,
+      "w": 2,
+      "d": 2,
+      "rotation": 90,
+      "z": 1,
+      "h": 1.2,
+      "recipe": null,
+      "clock": 1,
+      "native": {
+        "prototype": 15,
+        "module": "rods",
+        "rotation": 90,
+        "quaternion": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "originZ": 1,
+        "ports": {
+          "Input1": [
+            -1,
+            0,
+            0
+          ],
+          "Output1": [
+            1,
+            0,
+            0
+          ],
+          "Output2": [
+            0,
+            1,
+            0
+          ],
+          "Output3": [
+            0,
+            -1,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": "ed5e3eba-cd42-4a6b-ada1-712956056341",
+      "type": "constructor",
+      "name": "Tiges de fer",
+      "x": 23,
+      "y": 10,
+      "w": 8,
+      "d": 10,
+      "rotation": 0,
+      "z": 1,
+      "h": 6,
+      "recipe": "Recipe_IronRod_C",
+      "clock": 1,
+      "native": {
+        "prototype": 16,
+        "module": "rods",
+        "rotation": 0,
+        "quaternion": [
+          0,
+          0,
+          -1,
+          6.123234262925839e-17
+        ],
+        "originZ": 3.137853128443169e-7,
+        "ports": {
+          "Input0": [
+            -3.6739405577555036e-16,
+            -3,
+            1
+          ],
+          "Output0": [
+            3.6739405577555036e-16,
+            3,
+            1
+          ],
+          "PowerInput": [
+            2.1000451660156245,
+            -4.7,
+            6.871654349300624
+          ]
+        }
+      }
+    },
+    {
+      "id": "0b8ba690-8783-44fa-928b-0d1fe3e163fb",
+      "type": "merger",
+      "name": "Fusionneur",
+      "x": 23,
+      "y": 16,
+      "w": 2,
+      "d": 2,
+      "rotation": 90,
+      "z": 6,
+      "h": 1.2,
+      "recipe": null,
+      "clock": 1,
+      "native": {
+        "prototype": 17,
+        "module": "rods",
+        "rotation": 90,
+        "quaternion": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "originZ": 1,
+        "ports": {
+          "Input1": [
+            -1,
+            0,
+            0
+          ],
+          "Input2": [
+            0,
+            1,
+            0
+          ],
+          "Input3": [
+            0,
+            -1,
+            0
+          ],
+          "Output1": [
+            1,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": "2e7a18b9-27ba-4ead-8cd2-cf0255e387e8",
+      "type": "lift",
+      "name": "Élévateur natif",
+      "x": 23,
+      "y": 6,
+      "w": 1,
+      "d": 1,
+      "rotation": 270,
+      "z": 2,
+      "h": 5.5,
+      "recipe": null,
+      "clock": 1,
+      "native": {
+        "prototype": 18,
+        "module": "rods",
+        "rotation": 270,
+        "quaternion": [
+          0,
+          0,
+          -0.70710688829422,
+          -0.7071067094802856
+        ],
+        "originZ": 3.051757810901279e-7,
+        "ports": {
+          "ConveyorAny0": [
+            1.0000000500651396,
+            -3.029462689596585e-7,
+            8.609531505499036e-9
+          ],
+          "ConveyorAny1": [
+            0,
+            0,
+            5.0000003051757815
+          ]
+        }
+      }
+    },
+    {
+      "id": "c5974733-bd53-4854-ac5c-356d868afe9e",
+      "type": "lift",
+      "name": "Élévateur natif",
+      "x": 23,
+      "y": 26,
+      "w": 1,
+      "d": 1,
+      "rotation": 90,
+      "z": 2,
+      "h": 5.5,
+      "recipe": null,
+      "clock": 1,
+      "native": {
+        "prototype": 19,
+        "module": "rods",
+        "rotation": 90,
+        "quaternion": [
+          0,
+          0,
+          -0.7071067690849304,
+          0.7071067690849304
+        ],
+        "originZ": 1.5258789076710855e-7,
+        "ports": {
+          "ConveyorAny0": [
+            0.9999999657714582,
+            -3.422854177870249e-8,
+            8.60954969539307e-9
+          ],
+          "ConveyorAny1": [
+            0,
+            0,
+            4.999999847412109
+          ]
+        }
+      }
+    },
+    {
+      "id": "66cc085a-2797-4fc5-9308-7483454a135c",
+      "type": "wallPole",
+      "name": "Raccord mural",
+      "x": 23,
+      "y": 16,
+      "w": 0.6,
+      "d": 0.6,
+      "rotation": 180,
+      "z": 6.70009,
+      "h": 0.6,
+      "recipe": null,
+      "clock": 1,
+      "native": {
+        "prototype": 20,
+        "module": "rods",
+        "rotation": 180,
+        "quaternion": [
+          -2.4532694660665106e-17,
+          0.7071067690849304,
+          2.4532694660665106e-17,
+          0.7071067690849304
+        ],
+        "originZ": -0.000003940429687432356,
+        "ports": {
+          "PowerConnection": [
+            0.7999996837059956,
+            4.1228771010537455e-8,
+            3.1802787721652045e-8
+          ]
+        }
+      }
+    },
+    {
+      "id": "442887ac-fb1d-42f8-9043-b95b35a578b2",
+      "type": "constructor",
+      "name": "Plaques de fer · 75 %",
+      "x": 12,
+      "y": 10,
+      "w": 8,
+      "d": 10,
+      "rotation": 0,
+      "z": 11.8,
+      "h": 6,
+      "recipe": "Recipe_IronPlate_C",
+      "clock": 0.75,
+      "native": {
+        "prototype": 21,
+        "module": "plates-0",
+        "rotation": 0,
+        "quaternion": [
+          0,
+          0,
+          1,
+          6.123233995736766e-17
+        ],
+        "originZ": 1.6119743939668751e-7,
+        "ports": {
+          "Input0": [
+            -2.010401488638742e-16,
+            -3,
+            1
+          ],
+          "Output0": [
+            2.010401488638742e-16,
+            3,
+            1
+          ],
+          "PowerInput": [
+            2.100045166015625,
+            -4.7,
+            6.871653891536934
+          ]
+        }
+      }
+    },
+    {
+      "id": "d74d2aa0-ab9b-43a9-a1d0-b0be4da89c92",
+      "type": "splitter",
+      "name": "Répartiteur",
+      "x": 12,
+      "y": 16,
+      "w": 2,
+      "d": 2,
+      "rotation": 270,
+      "z": 11.8,
+      "h": 1.2,
+      "recipe": null,
+      "clock": 1,
+      "native": {
+        "prototype": 22,
+        "module": "plates-0",
+        "rotation": 270,
+        "quaternion": [
+          0,
+          0,
+          1,
+          6.123233995736766e-17
+        ],
+        "originZ": 1,
+        "ports": {
+          "Input1": [
+            -1,
+            0,
+            0
+          ],
+          "Output1": [
+            1,
+            0,
+            0
+          ],
+          "Output2": [
+            -1.2246467991473532e-16,
+            1,
+            0
+          ],
+          "Output3": [
+            1.2246467991473532e-16,
+            -1,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": "afecc6fc-8bf6-423d-90d1-6d5eb13f0306",
+      "type": "constructor",
+      "name": "Plaques de fer · 75 %",
+      "x": 12,
+      "y": 22,
+      "w": 8,
+      "d": 10,
+      "rotation": 180,
+      "z": 11.8,
+      "h": 6,
+      "recipe": "Recipe_IronPlate_C",
+      "clock": 0.75,
+      "native": {
+        "prototype": 23,
+        "module": "plates-0",
+        "rotation": 180,
+        "quaternion": [
+          0,
+          0,
+          2.6718907323636308e-24,
+          1
+        ],
+        "originZ": 3.1378531240022767e-7,
+        "ports": {
+          "Input0": [
+            -1.6031344394181785e-23,
+            -3,
+            1
+          ],
+          "Output0": [
+            1.6031344394181785e-23,
+            3,
+            1
+          ],
+          "PowerInput": [
+            2.1000451660156245,
+            -4.7,
+            6.871654349300624
+          ]
+        }
+      }
+    },
+    {
+      "id": "1289e24e-c361-4dd7-8b7f-bbef8971c885",
+      "type": "merger",
+      "name": "Fusionneur",
+      "x": 12,
+      "y": 16,
+      "w": 2,
+      "d": 2,
+      "rotation": 270,
+      "z": 16.8,
+      "h": 1.2,
+      "recipe": null,
+      "clock": 1,
+      "native": {
+        "prototype": 24,
+        "module": "plates-0",
+        "rotation": 270,
+        "quaternion": [
+          0,
+          0,
+          1,
+          6.123233995736766e-17
+        ],
+        "originZ": 1,
+        "ports": {
+          "Input1": [
+            -1,
+            0,
+            0
+          ],
+          "Input2": [
+            -1.2246467991473532e-16,
+            1,
+            0
+          ],
+          "Input3": [
+            1.2246467991473532e-16,
+            -1,
+            0
+          ],
+          "Output1": [
+            1,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": "6a51b3aa-f827-4265-aae8-f7ee7d3a3739",
+      "type": "lift",
+      "name": "Élévateur natif",
+      "x": 12,
+      "y": 26,
+      "w": 1,
+      "d": 1,
+      "rotation": 90,
+      "z": 12.8,
+      "h": 5.5,
+      "recipe": null,
+      "clock": 1,
+      "native": {
+        "prototype": 25,
+        "module": "plates-0",
+        "rotation": 90,
+        "quaternion": [
+          0,
+          0,
+          -0.7071067094802856,
+          0.70710688829422
+        ],
+        "originZ": 3.0517577975786025e-7,
+        "ports": {
+          "ConveyorAny0": [
+            1.0000000500651396,
+            -2.0281592640003514e-7,
+            8.609531505499036e-9
+          ],
+          "ConveyorAny1": [
+            0,
+            0,
+            5.0000003051757815
+          ]
+        }
+      }
+    },
+    {
+      "id": "87f4c015-3635-4c20-ba69-71417f67bd88",
+      "type": "lift",
+      "name": "Élévateur natif",
+      "x": 12,
+      "y": 6,
+      "w": 1,
+      "d": 1,
+      "rotation": 270,
+      "z": 12.8,
+      "h": 5.5,
+      "recipe": null,
+      "clock": 1,
+      "native": {
+        "prototype": 26,
+        "module": "plates-0",
+        "rotation": 270,
+        "quaternion": [
+          0,
+          0,
+          0.7071067690849304,
+          0.7071067690849304
+        ],
+        "originZ": 1.5258789076710855e-7,
+        "ports": {
+          "ConveyorAny0": [
+            0.9999999657714582,
+            3.422854177870249e-8,
+            8.60954969539307e-9
+          ],
+          "ConveyorAny1": [
+            0,
+            0,
+            4.999999847412109
+          ]
+        }
+      }
+    },
+    {
+      "id": "a554f350-e898-4aaf-835d-5d05b828ecc5",
+      "type": "wallPole",
+      "name": "Raccord mural",
+      "x": 12,
+      "y": 16,
+      "w": 0.6,
+      "d": 0.6,
+      "rotation": 180,
+      "z": 17.50009,
+      "h": 0.6,
+      "recipe": null,
+      "clock": 1,
+      "native": {
+        "prototype": 27,
+        "module": "plates-0",
+        "rotation": 180,
+        "quaternion": [
+          -0.7071067690849304,
+          1.8765107410099224e-17,
+          0.7071067690849304,
+          1.8765107410099224e-17
+        ],
+        "originZ": -0.000003940429689208713,
+        "ports": {
+          "PowerConnection": [
+            0.7999996837059916,
+            4.122876818813603e-8,
+            3.1802787721652045e-8
+          ]
+        }
+      }
+    },
+    {
+      "id": "7c4310bf-fb90-492a-954e-bc9f4f13fea5",
+      "type": "constructor",
+      "name": "Plaques de fer · 75 %",
+      "x": 4,
+      "y": 10,
+      "w": 8,
+      "d": 10,
+      "rotation": 0,
+      "z": 11.8,
+      "h": 6,
+      "recipe": "Recipe_IronPlate_C",
+      "clock": 0.75,
+      "native": {
+        "prototype": 28,
+        "module": "plates-1",
+        "rotation": 0,
+        "quaternion": [
+          0,
+          0,
+          1,
+          6.123233995736766e-17
+        ],
+        "originZ": 1.6119743939668751e-7,
+        "ports": {
+          "Input0": [
+            3.6739403974420594e-16,
+            -3,
+            1
+          ],
+          "Output0": [
+            -3.6739403974420594e-16,
+            3,
+            1
+          ],
+          "PowerInput": [
+            2.1000451660156254,
+            -4.7,
+            6.871653891536934
+          ]
+        }
+      }
+    },
+    {
+      "id": "7938e07a-d747-4445-86b0-33de3cd2d27f",
+      "type": "splitter",
+      "name": "Répartiteur",
+      "x": 4,
+      "y": 16,
+      "w": 2,
+      "d": 2,
+      "rotation": 270,
+      "z": 11.8,
+      "h": 1.2,
+      "recipe": null,
+      "clock": 1,
+      "native": {
+        "prototype": 29,
+        "module": "plates-1",
+        "rotation": 270,
+        "quaternion": [
+          0,
+          0,
+          1,
+          6.123233995736766e-17
+        ],
+        "originZ": 1,
+        "ports": {
+          "Input1": [
+            -1,
+            0,
+            0
+          ],
+          "Output1": [
+            1,
+            0,
+            0
+          ],
+          "Output2": [
+            -1.2246467991473532e-16,
+            1,
+            0
+          ],
+          "Output3": [
+            1.2246467991473532e-16,
+            -1,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": "c4754972-40ae-4261-981d-1e6153cbc575",
+      "type": "constructor",
+      "name": "Plaques de fer · 75 %",
+      "x": 4,
+      "y": 22,
+      "w": 8,
+      "d": 10,
+      "rotation": 180,
+      "z": 11.8,
+      "h": 6,
+      "recipe": "Recipe_IronPlate_C",
+      "clock": 0.75,
+      "native": {
+        "prototype": 30,
+        "module": "plates-1",
+        "rotation": 180,
+        "quaternion": [
+          0,
+          0,
+          2.6718907323636308e-24,
+          1
+        ],
+        "originZ": 3.1378531240022767e-7,
+        "ports": {
+          "Input0": [
+            -1.6031344394181785e-23,
+            -3,
+            1
+          ],
+          "Output0": [
+            1.6031344394181785e-23,
+            3,
+            1
+          ],
+          "PowerInput": [
+            2.100045166015625,
+            -4.7,
+            6.871654349300624
+          ]
+        }
+      }
+    },
+    {
+      "id": "cc32e250-38d7-4b25-80ce-ece0f88146fa",
+      "type": "merger",
+      "name": "Fusionneur",
+      "x": 4,
+      "y": 16,
+      "w": 2,
+      "d": 2,
+      "rotation": 270,
+      "z": 16.8,
+      "h": 1.2,
+      "recipe": null,
+      "clock": 1,
+      "native": {
+        "prototype": 31,
+        "module": "plates-1",
+        "rotation": 270,
+        "quaternion": [
+          0,
+          0,
+          1,
+          6.123233995736766e-17
+        ],
+        "originZ": 1,
+        "ports": {
+          "Input1": [
+            -1,
+            0,
+            0
+          ],
+          "Input2": [
+            -1.2246467991473532e-16,
+            1,
+            0
+          ],
+          "Input3": [
+            1.2246467991473532e-16,
+            -1,
+            0
+          ],
+          "Output1": [
+            1,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": "c93c2cf1-9b71-49be-b996-01f168ea952b",
+      "type": "lift",
+      "name": "Élévateur natif",
+      "x": 4,
+      "y": 26,
+      "w": 1,
+      "d": 1,
+      "rotation": 90,
+      "z": 12.8,
+      "h": 5.5,
+      "recipe": null,
+      "clock": 1,
+      "native": {
+        "prototype": 32,
+        "module": "plates-1",
+        "rotation": 90,
+        "quaternion": [
+          0,
+          0,
+          -0.7071067094802856,
+          0.70710688829422
+        ],
+        "originZ": 3.0517577975786025e-7,
+        "ports": {
+          "ConveyorAny0": [
+            1.0000000500651396,
+            -2.0281592810533777e-7,
+            8.609531505499036e-9
+          ],
+          "ConveyorAny1": [
+            0,
+            0,
+            5.0000003051757815
+          ]
+        }
+      }
+    },
+    {
+      "id": "e9385c2b-fe56-43e7-83cb-c2086a0324ac",
+      "type": "lift",
+      "name": "Élévateur natif",
+      "x": 4,
+      "y": 6,
+      "w": 1,
+      "d": 1,
+      "rotation": 270,
+      "z": 12.8,
+      "h": 5.5,
+      "recipe": null,
+      "clock": 1,
+      "native": {
+        "prototype": 33,
+        "module": "plates-1",
+        "rotation": 270,
+        "quaternion": [
+          0,
+          0,
+          0.7071067690849304,
+          0.7071067690849304
+        ],
+        "originZ": 1.5258789076710855e-7,
+        "ports": {
+          "ConveyorAny0": [
+            0.9999999657714582,
+            3.4228539504965815e-8,
+            8.60954969539307e-9
+          ],
+          "ConveyorAny1": [
+            0,
+            0,
+            4.999999847412109
+          ]
+        }
+      }
+    },
+    {
+      "id": "b214321d-b775-4171-ab43-4f5591b445db",
+      "type": "wallPole",
+      "name": "Raccord mural",
+      "x": 4,
+      "y": 16,
+      "w": 0.6,
+      "d": 0.6,
+      "rotation": 180,
+      "z": 17.50009,
+      "h": 0.6,
+      "recipe": null,
+      "clock": 1,
+      "native": {
+        "prototype": 34,
+        "module": "plates-1",
+        "rotation": 180,
+        "quaternion": [
+          -0.7071067690849304,
+          1.8765107410099224e-17,
+          0.7071067690849304,
+          1.8765107410099224e-17
+        ],
+        "originZ": -0.000003940429689208713,
+        "ports": {
+          "PowerConnection": [
+            0.7999996837059916,
+            4.122876818813603e-8,
+            3.1802787721652045e-8
+          ]
+        }
+      }
+    },
+    {
+      "id": "91d0517d-d6ee-48e2-8392-cc653fbb7c6e",
+      "type": "constructor",
+      "name": "Vis · 75 %",
+      "x": 28,
+      "y": 10,
+      "w": 8,
+      "d": 10,
+      "rotation": 0,
+      "z": 11.8,
+      "h": 6,
+      "recipe": "Recipe_Screw_C",
+      "clock": 0.75,
+      "native": {
+        "prototype": 35,
+        "module": "screws-0",
+        "rotation": 0,
+        "quaternion": [
+          0,
+          0,
+          1,
+          6.123233995736766e-17
+        ],
+        "originZ": 1.6119743939668751e-7,
+        "ports": {
+          "Input0": [
+            3.6739403974420594e-16,
+            -3,
+            1
+          ],
+          "Output0": [
+            -3.6739403974420594e-16,
+            3,
+            1
+          ],
+          "PowerInput": [
+            2.1000451660156254,
+            -4.7,
+            6.871653891536934
+          ]
+        }
+      }
+    },
+    {
+      "id": "3dd89efa-c5a3-44f9-af3d-85e2c7c79f2e",
+      "type": "splitter",
+      "name": "Répartiteur",
+      "x": 28,
+      "y": 16,
+      "w": 2,
+      "d": 2,
+      "rotation": 270,
+      "z": 11.8,
+      "h": 1.2,
+      "recipe": null,
+      "clock": 1,
+      "native": {
+        "prototype": 36,
+        "module": "screws-0",
+        "rotation": 270,
+        "quaternion": [
+          0,
+          0,
+          1,
+          6.123233995736766e-17
+        ],
+        "originZ": 1,
+        "ports": {
+          "Input1": [
+            -1,
+            0,
+            0
+          ],
+          "Output1": [
+            1,
+            0,
+            0
+          ],
+          "Output2": [
+            -1.2246467991473532e-16,
+            1,
+            0
+          ],
+          "Output3": [
+            1.2246467991473532e-16,
+            -1,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": "ac1b9a51-7239-4aad-8ae4-ce5481428459",
+      "type": "constructor",
+      "name": "Vis · 75 %",
+      "x": 28,
+      "y": 22,
+      "w": 8,
+      "d": 10,
+      "rotation": 180,
+      "z": 11.8,
+      "h": 6,
+      "recipe": "Recipe_Screw_C",
+      "clock": 0.75,
+      "native": {
+        "prototype": 37,
+        "module": "screws-0",
+        "rotation": 180,
+        "quaternion": [
+          0,
+          0,
+          2.6718907323636308e-24,
+          1
+        ],
+        "originZ": 3.1378531240022767e-7,
+        "ports": {
+          "Input0": [
+            -1.6031344394181785e-23,
+            -3,
+            1
+          ],
+          "Output0": [
+            1.6031344394181785e-23,
+            3,
+            1
+          ],
+          "PowerInput": [
+            2.100045166015625,
+            -4.7,
+            6.871654349300624
+          ]
+        }
+      }
+    },
+    {
+      "id": "9927bd52-e285-4f6e-8a60-0adc6c03790d",
+      "type": "merger",
+      "name": "Fusionneur",
+      "x": 28,
+      "y": 16,
+      "w": 2,
+      "d": 2,
+      "rotation": 90,
+      "z": 16.8,
+      "h": 1.2,
+      "recipe": null,
+      "clock": 1,
+      "native": {
+        "prototype": 38,
+        "module": "screws-0",
+        "rotation": 90,
+        "quaternion": [
+          0,
+          0,
+          1.2246467991473532e-16,
+          -1
+        ],
+        "originZ": 1,
+        "ports": {
+          "Input1": [
+            -1,
+            0,
+            0
+          ],
+          "Input2": [
+            -2.4492935982947064e-16,
+            1,
+            0
+          ],
+          "Input3": [
+            2.4492935982947064e-16,
+            -1,
+            0
+          ],
+          "Output1": [
+            1,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": "4331127d-9060-4a68-aa7a-32009954761c",
+      "type": "lift",
+      "name": "Élévateur natif",
+      "x": 28,
+      "y": 26,
+      "w": 1,
+      "d": 1,
+      "rotation": 90,
+      "z": 12.8,
+      "h": 5.5,
+      "recipe": null,
+      "clock": 1,
+      "native": {
+        "prototype": 39,
+        "module": "screws-0",
+        "rotation": 90,
+        "quaternion": [
+          0,
+          0,
+          -0.7071067094802856,
+          0.70710688829422
+        ],
+        "originZ": 3.0517577975786025e-7,
+        "ports": {
+          "ConveyorAny0": [
+            1.0000000500651396,
+            -2.0281592810533777e-7,
+            8.609531505499036e-9
+          ],
+          "ConveyorAny1": [
+            0,
+            0,
+            5.0000003051757815
+          ]
+        }
+      }
+    },
+    {
+      "id": "e2398373-b59c-4089-b087-57f0f9527e55",
+      "type": "lift",
+      "name": "Élévateur natif",
+      "x": 28,
+      "y": 6,
+      "w": 1,
+      "d": 1,
+      "rotation": 270,
+      "z": 12.8,
+      "h": 5.5,
+      "recipe": null,
+      "clock": 1,
+      "native": {
+        "prototype": 40,
+        "module": "screws-0",
+        "rotation": 270,
+        "quaternion": [
+          0,
+          0,
+          0.7071067690849304,
+          0.7071067690849304
+        ],
+        "originZ": 1.5258789076710855e-7,
+        "ports": {
+          "ConveyorAny0": [
+            0.9999999657714582,
+            3.4228539504965815e-8,
+            8.60954969539307e-9
+          ],
+          "ConveyorAny1": [
+            0,
+            0,
+            4.999999847412109
+          ]
+        }
+      }
+    },
+    {
+      "id": "f7d954a4-5659-42b8-8686-fb53d6384dcf",
+      "type": "wallPole",
+      "name": "Raccord mural",
+      "x": 28,
+      "y": 16,
+      "w": 0.6,
+      "d": 0.6,
+      "rotation": 180,
+      "z": 17.50009,
+      "h": 0.6,
+      "recipe": null,
+      "clock": 1,
+      "native": {
+        "prototype": 41,
+        "module": "screws-0",
+        "rotation": 180,
+        "quaternion": [
+          -0.7071067690849304,
+          1.8765107410099224e-17,
+          0.7071067690849304,
+          1.8765107410099224e-17
+        ],
+        "originZ": -0.000003940429689208713,
+        "ports": {
+          "PowerConnection": [
+            0.7999996837059916,
+            4.122876818813603e-8,
+            3.1802787721652045e-8
+          ]
+        }
+      }
+    },
+    {
+      "id": "083ac4c6-5c53-4ccc-9272-a4850439f855",
+      "type": "constructor",
+      "name": "Vis · 75 %",
+      "x": 20,
+      "y": 10,
+      "w": 8,
+      "d": 10,
+      "rotation": 0,
+      "z": 11.8,
+      "h": 6,
+      "recipe": "Recipe_Screw_C",
+      "clock": 0.75,
+      "native": {
+        "prototype": 42,
+        "module": "screws-1",
+        "rotation": 0,
+        "quaternion": [
+          0,
+          0,
+          1,
+          6.123233995736766e-17
+        ],
+        "originZ": 1.6119743939668751e-7,
+        "ports": {
+          "Input0": [
+            -2.010401488638742e-16,
+            -3,
+            1
+          ],
+          "Output0": [
+            2.010401488638742e-16,
+            3,
+            1
+          ],
+          "PowerInput": [
+            2.1000451660156254,
+            -4.7,
+            6.871653891536934
+          ]
+        }
+      }
+    },
+    {
+      "id": "a47c8aac-4081-486a-b7fb-46e7ecd7e5dc",
+      "type": "splitter",
+      "name": "Répartiteur",
+      "x": 20,
+      "y": 16,
+      "w": 2,
+      "d": 2,
+      "rotation": 270,
+      "z": 11.8,
+      "h": 1.2,
+      "recipe": null,
+      "clock": 1,
+      "native": {
+        "prototype": 43,
+        "module": "screws-1",
+        "rotation": 270,
+        "quaternion": [
+          0,
+          0,
+          1,
+          6.123233995736766e-17
+        ],
+        "originZ": 1,
+        "ports": {
+          "Input1": [
+            -1,
+            0,
+            0
+          ],
+          "Output1": [
+            1,
+            0,
+            0
+          ],
+          "Output2": [
+            -1.2246467991473532e-16,
+            1,
+            0
+          ],
+          "Output3": [
+            1.2246467991473532e-16,
+            -1,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": "6b236a21-522c-49f6-b6a7-015eb605aab2",
+      "type": "constructor",
+      "name": "Vis · 75 %",
+      "x": 20,
+      "y": 22,
+      "w": 8,
+      "d": 10,
+      "rotation": 180,
+      "z": 11.8,
+      "h": 6,
+      "recipe": "Recipe_Screw_C",
+      "clock": 0.75,
+      "native": {
+        "prototype": 44,
+        "module": "screws-1",
+        "rotation": 180,
+        "quaternion": [
+          0,
+          0,
+          2.6718907323636308e-24,
+          1
+        ],
+        "originZ": 3.1378531240022767e-7,
+        "ports": {
+          "Input0": [
+            -1.6031344394181785e-23,
+            -3,
+            1
+          ],
+          "Output0": [
+            1.6031344394181785e-23,
+            3,
+            1
+          ],
+          "PowerInput": [
+            2.1000451660156245,
+            -4.7,
+            6.871654349300624
+          ]
+        }
+      }
+    },
+    {
+      "id": "e5b97af9-113d-4c3c-8bcf-806000b28b96",
+      "type": "merger",
+      "name": "Fusionneur",
+      "x": 20,
+      "y": 16,
+      "w": 2,
+      "d": 2,
+      "rotation": 90,
+      "z": 16.8,
+      "h": 1.2,
+      "recipe": null,
+      "clock": 1,
+      "native": {
+        "prototype": 45,
+        "module": "screws-1",
+        "rotation": 90,
+        "quaternion": [
+          0,
+          0,
+          1.2246467991473532e-16,
+          -1
+        ],
+        "originZ": 1,
+        "ports": {
+          "Input1": [
+            -1,
+            0,
+            0
+          ],
+          "Input2": [
+            -2.4492935982947064e-16,
+            1,
+            0
+          ],
+          "Input3": [
+            2.4492935982947064e-16,
+            -1,
+            0
+          ],
+          "Output1": [
+            1,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": "229082a0-d53b-442a-aced-509599758c96",
+      "type": "lift",
+      "name": "Élévateur natif",
+      "x": 20,
+      "y": 26,
+      "w": 1,
+      "d": 1,
+      "rotation": 90,
+      "z": 12.8,
+      "h": 5.5,
+      "recipe": null,
+      "clock": 1,
+      "native": {
+        "prototype": 46,
+        "module": "screws-1",
+        "rotation": 90,
+        "quaternion": [
+          0,
+          0,
+          -0.7071067094802856,
+          0.70710688829422
+        ],
+        "originZ": 3.0517577975786025e-7,
+        "ports": {
+          "ConveyorAny0": [
+            1.0000000500651396,
+            -2.0281592640003514e-7,
+            8.609531505499036e-9
+          ],
+          "ConveyorAny1": [
+            0,
+            0,
+            5.0000003051757815
+          ]
+        }
+      }
+    },
+    {
+      "id": "17b05a29-aeda-4d6d-bfa5-942e2ddbc2a1",
+      "type": "lift",
+      "name": "Élévateur natif",
+      "x": 20,
+      "y": 6,
+      "w": 1,
+      "d": 1,
+      "rotation": 270,
+      "z": 12.8,
+      "h": 5.5,
+      "recipe": null,
+      "clock": 1,
+      "native": {
+        "prototype": 47,
+        "module": "screws-1",
+        "rotation": 270,
+        "quaternion": [
+          0,
+          0,
+          0.7071067690849304,
+          0.7071067690849304
+        ],
+        "originZ": 1.5258789076710855e-7,
+        "ports": {
+          "ConveyorAny0": [
+            0.9999999657714582,
+            3.422854177870249e-8,
+            8.60954969539307e-9
+          ],
+          "ConveyorAny1": [
+            0,
+            0,
+            4.999999847412109
+          ]
+        }
+      }
+    },
+    {
+      "id": "906516b2-b941-4a8a-9743-db64d221a5a5",
+      "type": "wallPole",
+      "name": "Raccord mural",
+      "x": 20,
+      "y": 16,
+      "w": 0.6,
+      "d": 0.6,
+      "rotation": 180,
+      "z": 17.50009,
+      "h": 0.6,
+      "recipe": null,
+      "clock": 1,
+      "native": {
+        "prototype": 48,
+        "module": "screws-1",
+        "rotation": 180,
+        "quaternion": [
+          -0.7071067690849304,
+          1.8765107410099224e-17,
+          0.7071067690849304,
+          1.8765107410099224e-17
+        ],
+        "originZ": -0.000003940429689208713,
+        "ports": {
+          "PowerConnection": [
+            0.7999996837059916,
+            4.122876818813603e-8,
+            3.1802787721652045e-8
+          ]
+        }
+      }
+    },
+    {
+      "id": "96045753-b8cf-4f5e-8694-07a51ef94566",
+      "type": "splitter",
+      "name": "Répartition des lingots · 90 / 30",
+      "x": 15,
+      "y": 16,
+      "w": 2,
+      "d": 2,
+      "rotation": 90,
+      "z": 9,
+      "h": 1.2,
+      "recipe": null,
+      "clock": 1,
+      "native": {
+        "prototype": 49,
+        "module": "interconnect",
+        "rotation": 90,
+        "quaternion": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "originZ": 1,
+        "ports": {
+          "Input1": [
+            -1,
+            0,
+            0
+          ],
+          "Output1": [
+            1,
+            0,
+            0
+          ],
+          "Output2": [
+            0,
+            1,
+            0
+          ],
+          "Output3": [
+            0,
+            -1,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": "81a3e1ce-5524-40d9-8509-3407b84ee72f",
+      "type": "lift",
+      "name": "Lingots → plaques",
+      "x": 18,
+      "y": 16,
+      "w": 1,
+      "d": 1,
+      "rotation": 0,
+      "z": 10,
+      "h": 3.3,
+      "recipe": null,
+      "clock": 1,
+      "native": {
+        "prototype": 50,
+        "module": "interconnect",
+        "rotation": 0,
+        "quaternion": [
+          0,
+          0,
+          1,
+          6.123233995736766e-17
+        ],
+        "originZ": 0,
+        "ports": {
+          "ConveyorAny0": [
+            0,
+            0,
+            0
+          ],
+          "ConveyorAny1": [
+            0,
+            0,
+            2.8
+          ]
+        }
+      }
+    },
+    {
+      "id": "64cc1ec9-e072-4868-b22d-11b4cb938ded",
+      "type": "lift",
+      "name": "Lingots → tiges · descente",
+      "x": 15,
+      "y": 13,
+      "w": 1,
+      "d": 1,
+      "rotation": 270,
+      "z": 2,
+      "h": 8.5,
+      "recipe": null,
+      "clock": 1,
+      "native": {
+        "prototype": 51,
+        "module": "interconnect",
+        "rotation": 270,
+        "quaternion": [
+          0,
+          0,
+          0.7071067811865476,
+          0.7071067811865476
+        ],
+        "originZ": 8,
+        "ports": {
+          "ConveyorAny0": [
+            0,
+            0,
+            0
+          ],
+          "ConveyorAny1": [
+            0,
+            0,
+            -8
+          ]
+        }
+      }
+    },
+    {
+      "id": "fe8485d2-9a6e-4eb1-89d2-87482a14a309",
+      "type": "lift",
+      "name": "Tiges → vis",
+      "x": 31,
+      "y": 16,
+      "w": 1,
+      "d": 1,
+      "rotation": 0,
+      "z": 7,
+      "h": 6.3,
+      "recipe": null,
+      "clock": 1,
+      "native": {
+        "prototype": 52,
+        "module": "interconnect",
+        "rotation": 0,
+        "quaternion": [
+          0,
+          0,
+          1,
+          6.123233995736766e-17
+        ],
+        "originZ": 0,
+        "ports": {
+          "ConveyorAny0": [
+            0,
+            0,
+            0
+          ],
+          "ConveyorAny1": [
+            0,
+            0,
+            5.8
+          ]
+        }
+      }
+    },
+    {
+      "id": "86b2256b-a7da-4eac-89df-7f24609d1f89",
+      "type": "splitter",
+      "name": "Plaques → assemblage",
+      "x": 16,
+      "y": 4,
+      "w": 2,
+      "d": 2,
+      "rotation": 180,
+      "z": 19.8,
+      "h": 1.2,
+      "recipe": null,
+      "clock": 1,
+      "native": {
+        "prototype": 53,
+        "module": "interconnect",
+        "rotation": 180,
+        "quaternion": [
+          0,
+          0,
+          0.7071067811865476,
+          0.7071067811865476
+        ],
+        "originZ": 1,
+        "ports": {
+          "Input1": [
+            -1.0000000000000002,
+            -6.310887241768095e-32,
+            0
+          ],
+          "Output1": [
+            1.0000000000000002,
+            6.310887241768095e-32,
+            0
+          ],
+          "Output2": [
+            2.2204460492503136e-16,
+            1.0000000000000007,
+            0
+          ],
+          "Output3": [
+            -2.2204460492503136e-16,
+            -1.0000000000000007,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": "6d2440e2-799d-45a0-b85b-7682d44dae78",
+      "type": "splitter",
+      "name": "Vis → assemblage · bus haut",
+      "x": 11,
+      "y": 4,
+      "w": 2,
+      "d": 2,
+      "rotation": 180,
+      "z": 22.8,
+      "h": 1.2,
+      "recipe": null,
+      "clock": 1,
+      "native": {
+        "prototype": 54,
+        "module": "interconnect",
+        "rotation": 180,
+        "quaternion": [
+          0,
+          0,
+          0.7071067811865476,
+          0.7071067811865476
+        ],
+        "originZ": 1,
+        "ports": {
+          "Input1": [
+            -1.0000000000000002,
+            2.220446049250313e-16,
+            0
+          ],
+          "Output1": [
+            1.0000000000000002,
+            -2.220446049250313e-16,
+            0
+          ],
+          "Output2": [
+            2.220446049250313e-16,
+            1.0000000000000002,
+            0
+          ],
+          "Output3": [
+            -2.220446049250313e-16,
+            -1.0000000000000002,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": "1e82efcc-f7cc-4ada-af21-88f5370948d9",
+      "type": "lift",
+      "name": "Collecte → assemblage",
+      "x": 1,
+      "y": 16,
+      "w": 1,
+      "d": 1,
+      "rotation": 180,
+      "z": 17.8,
+      "h": 3.5,
+      "recipe": null,
+      "clock": 1,
+      "native": {
+        "prototype": 55,
+        "module": "interconnect",
+        "rotation": 180,
+        "quaternion": [
+          0,
+          0,
+          1.2246467991473532e-16,
+          -1
+        ],
+        "originZ": 0,
+        "ports": {
+          "ConveyorAny0": [
+            0,
+            0,
+            0
+          ],
+          "ConveyorAny1": [
+            0,
+            0,
+            3
+          ]
+        }
+      }
+    },
+    {
+      "id": "ed940de9-eb68-400c-99af-fb5818ecebb5",
+      "type": "lift",
+      "name": "Collecte → assemblage",
+      "x": 31,
+      "y": 16,
+      "w": 1,
+      "d": 1,
+      "rotation": 0,
+      "z": 17.8,
+      "h": 6.5,
+      "recipe": null,
+      "clock": 1,
+      "native": {
+        "prototype": 56,
+        "module": "interconnect",
+        "rotation": 0,
+        "quaternion": [
+          0,
+          0,
+          1,
+          6.123233995736766e-17
+        ],
+        "originZ": 0,
+        "ports": {
+          "ConveyorAny0": [
+            0,
+            0,
+            0
+          ],
+          "ConveyorAny1": [
+            0,
+            0,
+            6
+          ]
+        }
+      }
+    },
+    {
+      "id": "faf21cfc-bc21-4c5b-884d-36f879e69d6b",
+      "type": "assembler",
+      "name": "Plaques renforcées · 5/min",
+      "x": 9,
+      "y": 13,
+      "w": 9,
+      "d": 17,
+      "rotation": 180,
+      "z": 19.8,
+      "h": 10.75,
+      "recipe": "Recipe_IronPlateReinforced_C",
+      "clock": 1,
+      "native": {
+        "prototype": 57,
+        "module": "interconnect",
+        "rotation": 180,
+        "quaternion": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "originZ": 0,
+        "ports": {
+          "Input0": [
+            2,
+            -6,
+            1
+          ],
+          "Input1": [
+            -2,
+            -6,
+            1
+          ],
+          "Output0": [
+            0,
+            5,
+            1
+          ],
+          "PowerInput": [
+            1.75,
+            -0.6,
+            10.3
+          ]
+        },
+        "inputItems": {
+          "Input0": "Desc_IronPlate_C",
+          "Input1": "Desc_IronScrew_C"
+        }
+      }
+    },
+    {
+      "id": "f8e11093-51d5-47e5-9c8b-8dc85c100b50",
+      "type": "lift",
+      "name": "Vis → assembleuse · descente",
+      "x": 7,
+      "y": 4,
+      "w": 1,
+      "d": 1,
+      "rotation": 180,
+      "z": 20.8,
+      "h": 3.5,
+      "recipe": null,
+      "clock": 1,
+      "native": {
+        "prototype": 58,
+        "module": "interconnect",
+        "rotation": 180,
+        "quaternion": [
+          0,
+          0,
+          1.2246467991473532e-16,
+          -1
+        ],
+        "originZ": 3,
+        "ports": {
+          "ConveyorAny0": [
+            0,
+            0,
+            0
+          ],
+          "ConveyorAny1": [
+            0,
+            0,
+            -3
+          ]
+        }
+      }
+    },
+    {
+      "id": "8a1fe764-cfef-42f1-b9a2-db91a3ed73f7",
+      "type": "assembler",
+      "name": "Plaques renforcées · 5/min",
+      "x": 23,
+      "y": 13,
+      "w": 9,
+      "d": 17,
+      "rotation": 180,
+      "z": 19.8,
+      "h": 10.75,
+      "recipe": "Recipe_IronPlateReinforced_C",
+      "clock": 1,
+      "native": {
+        "prototype": 59,
+        "module": "interconnect",
+        "rotation": 180,
+        "quaternion": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "originZ": 0,
+        "ports": {
+          "Input0": [
+            2,
+            -6,
+            1
+          ],
+          "Input1": [
+            -2,
+            -6,
+            1
+          ],
+          "Output0": [
+            0,
+            5,
+            1
+          ],
+          "PowerInput": [
+            1.75,
+            -0.6,
+            10.3
+          ]
+        },
+        "inputItems": {
+          "Input0": "Desc_IronScrew_C",
+          "Input1": "Desc_IronPlate_C"
+        }
+      }
+    },
+    {
+      "id": "ec32c2f2-74f8-451a-b336-1af25aa179dc",
+      "type": "lift",
+      "name": "Vis → assembleuse · descente",
+      "x": 25,
+      "y": 4,
+      "w": 1,
+      "d": 1,
+      "rotation": 0,
+      "z": 20.8,
+      "h": 3.5,
+      "recipe": null,
+      "clock": 1,
+      "native": {
+        "prototype": 60,
+        "module": "interconnect",
+        "rotation": 0,
+        "quaternion": [
+          0,
+          0,
+          1,
+          6.123233995736766e-17
+        ],
+        "originZ": 3,
+        "ports": {
+          "ConveyorAny0": [
+            0,
+            0,
+            0
+          ],
+          "ConveyorAny1": [
+            0,
+            0,
+            -3
+          ]
+        }
+      }
+    },
+    {
+      "id": "5ee419b6-2303-405a-a804-cfcb2bc0fd0c",
+      "type": "merger",
+      "name": "Plaques renforcées · 10/min",
+      "x": 16,
+      "y": 20,
+      "w": 2,
+      "d": 2,
+      "rotation": 180,
+      "z": 19.8,
+      "h": 1.2,
+      "recipe": null,
+      "clock": 1,
+      "native": {
+        "prototype": 61,
+        "module": "interconnect",
+        "rotation": 180,
+        "quaternion": [
+          0,
+          0,
+          0.7071067811865476,
+          0.7071067811865476
+        ],
+        "originZ": 1,
+        "ports": {
+          "Input1": [
+            -1.0000000000000002,
+            -6.310887241768095e-32,
+            0
+          ],
+          "Input2": [
+            2.2204460492503136e-16,
+            1.0000000000000007,
+            0
+          ],
+          "Input3": [
+            -2.2204460492503136e-16,
+            -1.0000000000000007,
+            0
+          ],
+          "Output1": [
+            1.0000000000000002,
+            6.310887241768095e-32,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": "d2d31a5e-dc1e-4b99-b4fd-10bc325185e3",
+      "type": "storage",
+      "name": "Coffre · plaques renforcées",
+      "x": 16,
+      "y": 26.5,
+      "w": 5,
+      "d": 11,
+      "rotation": 180,
+      "z": 19.8,
+      "h": 4,
+      "recipe": null,
+      "clock": 1,
+      "native": {
+        "prototype": 62,
+        "module": "interconnect",
+        "rotation": 180,
+        "quaternion": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "originZ": 0,
+        "ports": {
+          "Input0": [
+            0,
+            -4,
+            1
+          ],
+          "Output1": [
+            0,
+            4,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "id": "38bf8e0f-7ef2-4be4-b261-0996d6dcbedd",
+      "type": "pole",
+      "name": "Poteau assembleuse",
+      "x": 2,
+      "y": 23,
+      "w": 1,
+      "d": 1,
+      "rotation": 180,
+      "z": 19.8,
+      "h": 7,
+      "recipe": null,
+      "clock": 1,
+      "native": {
+        "prototype": 63,
+        "module": "assembly-power",
+        "rotation": 180,
+        "quaternion": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "originZ": 0,
+        "ports": {
+          "PowerConnection": [
+            0,
+            0,
+            7
+          ]
+        }
+      }
+    },
+    {
+      "id": "ee7fc4a0-cb13-4a57-86a1-445c236bca07",
+      "type": "pole",
+      "name": "Poteau assembleuse",
+      "x": 30,
+      "y": 23,
+      "w": 1,
+      "d": 1,
+      "rotation": 180,
+      "z": 19.8,
+      "h": 7,
+      "recipe": null,
+      "clock": 1,
+      "native": {
+        "prototype": 64,
+        "module": "assembly-power",
+        "rotation": 180,
+        "quaternion": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "originZ": 0,
+        "ports": {
+          "PowerConnection": [
+            0,
+            0,
+            7
+          ]
+        }
+      }
+    }
+  ],
+  "flows": {
+    "inputs": [
+      {
+        "id": "Desc_OreIron_C",
+        "rate": 120
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Desc_IronPlateReinforced_C",
+        "rate": null
+      }
+    ]
+  },
+  "links": [
+    {
+      "kind": "belt",
+      "from": "41890c6e-b469-427d-b8f1-ea6eb9c2303f",
+      "to": "c90b47b6-9c1e-4513-807e-1c4cfb61b8c8",
+      "capacity": 120,
+      "native": {
+        "fromPort": "Output2",
+        "toPort": "Input0",
+        "spans": [
+          [
+            [
+              0,
+              1.0000000000000016,
+              0
+            ],
+            [
+              0.0000015162929776124656,
+              4.000000000000002,
+              0.0000011267927038716152
+            ],
+            [
+              0.000001198422490210589,
+              1.499999999999521,
+              0
+            ],
+            [
+              7.581464886224389e-7,
+              1.4999999999998084,
+              0
+            ]
+          ]
+        ]
+      },
+      "item": "Desc_OreIron_C",
+      "rate": 30
+    },
+    {
+      "kind": "belt",
+      "from": "41890c6e-b469-427d-b8f1-ea6eb9c2303f",
+      "to": "229ed86d-ef36-451d-9579-c51d76349d86",
+      "capacity": 120,
+      "native": {
+        "fromPort": "Output3",
+        "toPort": "Input0",
+        "spans": [
+          [
+            [
+              0.0000014905884745530785,
+              -0.9999999999999983,
+              -1.6119744032039306e-7
+            ],
+            [
+              0,
+              -3.9999999999999982,
+              0
+            ],
+            [
+              -7.452942370927503e-7,
+              -1.499999999999815,
+              0
+            ],
+            [
+              3.6739404775987815e-16,
+              -1.5,
+              0
+            ]
+          ]
+        ]
+      },
+      "item": "Desc_OreIron_C",
+      "rate": 30
+    },
+    {
+      "kind": "belt",
+      "from": "76d71232-05c0-4b27-82a1-cd4ae732ccef",
+      "to": "5717ff26-6e5b-4543-b7a1-988f13a96c95",
+      "capacity": 120,
+      "native": {
+        "fromPort": "ConveyorAny1",
+        "toPort": "Input3",
+        "spans": [
+          [
+            [
+              0,
+              0,
+              8
+            ],
+            [
+              10.000000500651133,
+              0.0000032632250800445424,
+              8
+            ],
+            [
+              5.0000002503259,
+              -1.4035443803600148e-7,
+              0
+            ],
+            [
+              5.000000250325635,
+              0.0000016316125394977488,
+              0
+            ]
+          ]
+        ]
+      },
+      "item": "Desc_IronIngot_C",
+      "rate": 30
+    },
+    {
+      "kind": "belt",
+      "from": "fe681572-6906-46ba-a608-649630c0e375",
+      "to": "5717ff26-6e5b-4543-b7a1-988f13a96c95",
+      "capacity": 120,
+      "native": {
+        "fromPort": "ConveyorAny1",
+        "toPort": "Input2",
+        "spans": [
+          [
+            [
+              0,
+              0,
+              8
+            ],
+            [
+              10.00000050065118,
+              0.000004264529079759292,
+              7.999998779296875
+            ],
+            [
+              5.000000250326099,
+              3.6029756281714016e-7,
+              0
+            ],
+            [
+              5.000000250325658,
+              0.0000021322645393551305,
+              0
+            ]
+          ]
+        ]
+      },
+      "item": "Desc_IronIngot_C",
+      "rate": 30
+    },
+    {
+      "kind": "power",
+      "from": "b6566aa9-06d7-4cac-b1f9-7ef150670b02",
+      "to": "c90b47b6-9c1e-4513-807e-1c4cfb61b8c8"
+    },
+    {
+      "kind": "power",
+      "from": "b6566aa9-06d7-4cac-b1f9-7ef150670b02",
+      "to": "229ed86d-ef36-451d-9579-c51d76349d86"
+    },
+    {
+      "kind": "belt",
+      "from": "c4844790-b8bf-4526-8669-b34c8bad7cb6",
+      "to": "8a67a7a2-d758-4478-a9d1-952966eda17a",
+      "capacity": 120,
+      "native": {
+        "fromPort": "Output2",
+        "toPort": "Input0",
+        "spans": [
+          [
+            [
+              0,
+              1.0000000000000016,
+              0
+            ],
+            [
+              0.0000015162929770440313,
+              4.000000000000002,
+              0.0000011267927038716152
+            ],
+            [
+              0.000001198422490210589,
+              1.499999999999521,
+              0
+            ],
+            [
+              7.581464886224389e-7,
+              1.4999999999998084,
+              0
+            ]
+          ]
+        ]
+      },
+      "item": "Desc_OreIron_C",
+      "rate": 30
+    },
+    {
+      "kind": "belt",
+      "from": "c4844790-b8bf-4526-8669-b34c8bad7cb6",
+      "to": "3a3550fc-5b05-43da-8913-b92c1f113807",
+      "capacity": 120,
+      "native": {
+        "fromPort": "Output3",
+        "toPort": "Input0",
+        "spans": [
+          [
+            [
+              0.0000014905884739846442,
+              -0.9999999999999983,
+              -1.6119744032039306e-7
+            ],
+            [
+              0,
+              -3.9999999999999982,
+              0
+            ],
+            [
+              -7.452942370927503e-7,
+              -1.499999999999815,
+              0
+            ],
+            [
+              3.6739404775987815e-16,
+              -1.5,
+              0
+            ]
+          ]
+        ]
+      },
+      "item": "Desc_OreIron_C",
+      "rate": 30
+    },
+    {
+      "kind": "belt",
+      "from": "0479b50d-c1f7-422a-beb5-156986459099",
+      "to": "5d914934-0ec6-418e-8a7f-d496db9bae69",
+      "capacity": 120,
+      "native": {
+        "fromPort": "ConveyorAny1",
+        "toPort": "Input3",
+        "spans": [
+          [
+            [
+              0,
+              0,
+              8
+            ],
+            [
+              10.000000500651133,
+              0.0000032632250789076742,
+              8
+            ],
+            [
+              5.0000002503259,
+              -1.4035443803600148e-7,
+              0
+            ],
+            [
+              5.000000250325635,
+              0.0000016316125394977488,
+              0
+            ]
+          ]
+        ]
+      },
+      "item": "Desc_IronIngot_C",
+      "rate": 30
+    },
+    {
+      "kind": "belt",
+      "from": "08cb4ed7-9fa9-4ae3-9f5d-3ae736499406",
+      "to": "5d914934-0ec6-418e-8a7f-d496db9bae69",
+      "capacity": 120,
+      "native": {
+        "fromPort": "ConveyorAny1",
+        "toPort": "Input2",
+        "spans": [
+          [
+            [
+              0,
+              0,
+              8
+            ],
+            [
+              10.00000050065118,
+              0.000004264529078622424,
+              7.999998779296875
+            ],
+            [
+              5.000000250326099,
+              3.6029756281714016e-7,
+              0
+            ],
+            [
+              5.000000250325658,
+              0.0000021322645393551305,
+              0
+            ]
+          ]
+        ]
+      },
+      "item": "Desc_IronIngot_C",
+      "rate": 30
+    },
+    {
+      "kind": "power",
+      "from": "62f5d667-8a36-43ff-881d-ef582a03e750",
+      "to": "8a67a7a2-d758-4478-a9d1-952966eda17a"
+    },
+    {
+      "kind": "power",
+      "from": "62f5d667-8a36-43ff-881d-ef582a03e750",
+      "to": "3a3550fc-5b05-43da-8913-b92c1f113807"
+    },
+    {
+      "kind": "belt",
+      "from": "e36bd1eb-fd78-4d9a-8a25-45e1c2f816c8",
+      "to": "2983c1a6-e7d7-4bcf-aa3c-40643faef128",
+      "capacity": 120,
+      "native": {
+        "fromPort": "Output2",
+        "toPort": "Input0",
+        "spans": [
+          [
+            [
+              0,
+              0.9999999999999986,
+              0
+            ],
+            [
+              0,
+              2.9999999999999987,
+              1.6119744032039306e-7
+            ],
+            [
+              7.989483268070594e-7,
+              0.9999999999996808,
+              0
+            ],
+            [
+              -1.2246468525851679e-16,
+              1,
+              0
+            ]
+          ]
+        ]
+      },
+      "item": "Desc_IronIngot_C",
+      "rate": 15
+    },
+    {
+      "kind": "belt",
+      "from": "e36bd1eb-fd78-4d9a-8a25-45e1c2f816c8",
+      "to": "ed5e3eba-cd42-4a6b-ada1-712956056341",
+      "capacity": 120,
+      "native": {
+        "fromPort": "Output3",
+        "toPort": "Input0",
+        "spans": [
+          [
+            [
+              0,
+              -1,
+              0
+            ],
+            [
+              2.570450305938721e-8,
+              -3,
+              3.13785312755499e-7
+            ],
+            [
+              2.663161096094738e-7,
+              -0.9999999999999648,
+              0
+            ],
+            [
+              1.2852251652158288e-8,
+              -1,
+              0
+            ]
+          ]
+        ]
+      },
+      "item": "Desc_IronIngot_C",
+      "rate": 15
+    },
+    {
+      "kind": "belt",
+      "from": "2e7a18b9-27ba-4ead-8cd2-cf0255e387e8",
+      "to": "0b8ba690-8783-44fa-928b-0d1fe3e163fb",
+      "capacity": 120,
+      "native": {
+        "fromPort": "ConveyorAny1",
+        "toPort": "Input3",
+        "spans": [
+          [
+            [
+              0,
+              0,
+              5.0000003051757815
+            ],
+            [
+              9.000000450586095,
+              -0.000003259148557738088,
+              4.999999991390468
+            ],
+            [
+              4.500000225293332,
+              -1.6483565997121482e-7,
+              0
+            ],
+            [
+              4.500000225293039,
+              -0.0000016295742788863843,
+              0
+            ]
+          ]
+        ]
+      },
+      "item": "Desc_IronRod_C",
+      "rate": 15
+    },
+    {
+      "kind": "belt",
+      "from": "c5974733-bd53-4854-ac5c-356d868afe9e",
+      "to": "0b8ba690-8783-44fa-928b-0d1fe3e163fb",
+      "capacity": 120,
+      "native": {
+        "fromPort": "ConveyorAny1",
+        "toPort": "Input2",
+        "spans": [
+          [
+            [
+              0,
+              0,
+              4.999999847412109
+            ],
+            [
+              8.999999691943124,
+              -3.0805687487145413e-7,
+              4.999999686214669
+            ],
+            [
+              4.499999845971562,
+              -1.540284360057598e-7,
+              0
+            ],
+            [
+              4.499999845971562,
+              -1.5402843745307017e-7,
+              0
+            ]
+          ]
+        ]
+      },
+      "item": "Desc_IronRod_C",
+      "rate": 15
+    },
+    {
+      "kind": "power",
+      "from": "66cc085a-2797-4fc5-9308-7483454a135c",
+      "to": "2983c1a6-e7d7-4bcf-aa3c-40643faef128"
+    },
+    {
+      "kind": "power",
+      "from": "66cc085a-2797-4fc5-9308-7483454a135c",
+      "to": "ed5e3eba-cd42-4a6b-ada1-712956056341"
+    },
+    {
+      "kind": "belt",
+      "from": "d74d2aa0-ab9b-43a9-a1d0-b0be4da89c92",
+      "to": "442887ac-fb1d-42f8-9043-b95b35a578b2",
+      "capacity": 120,
+      "native": {
+        "fromPort": "Output2",
+        "toPort": "Input0",
+        "spans": [
+          [
+            [
+              -1.2246467991473515e-16,
+              0.9999999999999986,
+              0
+            ],
+            [
+              -3.6739403974420584e-16,
+              2.9999999999999987,
+              1.6119744032039306e-7
+            ],
+            [
+              7.989483268070594e-7,
+              0.9999999999996808,
+              0
+            ],
+            [
+              -1.2246468525851679e-16,
+              1,
+              0
+            ]
+          ]
+        ]
+      },
+      "item": "Desc_IronIngot_C",
+      "rate": 22.5
+    },
+    {
+      "kind": "belt",
+      "from": "d74d2aa0-ab9b-43a9-a1d0-b0be4da89c92",
+      "to": "afecc6fc-8bf6-423d-90d1-6d5eb13f0306",
+      "capacity": 120,
+      "native": {
+        "fromPort": "Output3",
+        "toPort": "Input0",
+        "spans": [
+          [
+            [
+              1.2246467991473532e-16,
+              -1,
+              0
+            ],
+            [
+              2.5704503426781248e-8,
+              -3,
+              3.13785312755499e-7
+            ],
+            [
+              2.6631610960947375e-7,
+              -0.9999999999999648,
+              0
+            ],
+            [
+              1.285225165215829e-8,
+              -1,
+              0
+            ]
+          ]
+        ]
+      },
+      "item": "Desc_IronIngot_C",
+      "rate": 22.5
+    },
+    {
+      "kind": "belt",
+      "from": "6a51b3aa-f827-4265-aae8-f7ee7d3a3739",
+      "to": "1289e24e-c361-4dd7-8b7f-bbef8971c885",
+      "capacity": 120,
+      "native": {
+        "fromPort": "ConveyorAny1",
+        "toPort": "Input3",
+        "spans": [
+          [
+            [
+              0,
+              0,
+              5.0000003051757815
+            ],
+            [
+              9.000000450586148,
+              -0.0000023579754707224385,
+              4.999999991390468
+            ],
+            [
+              4.5000002252932125,
+              2.8575088355393726e-7,
+              0
+            ],
+            [
+              4.500000225293066,
+              -0.000001178987735361217,
+              0
+            ]
+          ]
+        ]
+      },
+      "item": "Desc_IronPlate_C",
+      "rate": 15
+    },
+    {
+      "kind": "belt",
+      "from": "87f4c015-3635-4c20-ba69-71417f67bd88",
+      "to": "1289e24e-c361-4dd7-8b7f-bbef8971c885",
+      "capacity": 120,
+      "native": {
+        "fromPort": "ConveyorAny1",
+        "toPort": "Input2",
+        "spans": [
+          [
+            [
+              0,
+              0,
+              4.999999847412109
+            ],
+            [
+              8.999999691943124,
+              3.0805687600832243e-7,
+              4.999999686214669
+            ],
+            [
+              4.499999845971562,
+              1.5402843945147156e-7,
+              0
+            ],
+            [
+              4.499999845971562,
+              1.5402843800416124e-7,
+              0
+            ]
+          ]
+        ]
+      },
+      "item": "Desc_IronPlate_C",
+      "rate": 15
+    },
+    {
+      "kind": "power",
+      "from": "a554f350-e898-4aaf-835d-5d05b828ecc5",
+      "to": "442887ac-fb1d-42f8-9043-b95b35a578b2"
+    },
+    {
+      "kind": "power",
+      "from": "a554f350-e898-4aaf-835d-5d05b828ecc5",
+      "to": "afecc6fc-8bf6-423d-90d1-6d5eb13f0306"
+    },
+    {
+      "kind": "belt",
+      "from": "7938e07a-d747-4445-86b0-33de3cd2d27f",
+      "to": "7c4310bf-fb90-492a-954e-bc9f4f13fea5",
+      "capacity": 120,
+      "native": {
+        "fromPort": "Output2",
+        "toPort": "Input0",
+        "spans": [
+          [
+            [
+              -1.2246467991473515e-16,
+              0.9999999999999986,
+              0
+            ],
+            [
+              -3.6739403974420584e-16,
+              2.9999999999999987,
+              1.6119744032039306e-7
+            ],
+            [
+              7.989483268070594e-7,
+              0.9999999999996808,
+              0
+            ],
+            [
+              -1.2246468525851679e-16,
+              1,
+              0
+            ]
+          ]
+        ]
+      },
+      "item": "Desc_IronIngot_C",
+      "rate": 22.5
+    },
+    {
+      "kind": "belt",
+      "from": "7938e07a-d747-4445-86b0-33de3cd2d27f",
+      "to": "c4754972-40ae-4261-981d-1e6153cbc575",
+      "capacity": 120,
+      "native": {
+        "fromPort": "Output3",
+        "toPort": "Input0",
+        "spans": [
+          [
+            [
+              1.2246467991473532e-16,
+              -1,
+              0
+            ],
+            [
+              2.5704503426781248e-8,
+              -3,
+              3.13785312755499e-7
+            ],
+            [
+              2.6631610960947375e-7,
+              -0.9999999999999648,
+              0
+            ],
+            [
+              1.285225165215829e-8,
+              -1,
+              0
+            ]
+          ]
+        ]
+      },
+      "item": "Desc_IronIngot_C",
+      "rate": 22.5
+    },
+    {
+      "kind": "belt",
+      "from": "c93c2cf1-9b71-49be-b996-01f168ea952b",
+      "to": "cc32e250-38d7-4b25-80ce-ece0f88146fa",
+      "capacity": 120,
+      "native": {
+        "fromPort": "ConveyorAny1",
+        "toPort": "Input3",
+        "spans": [
+          [
+            [
+              0,
+              0,
+              5.0000003051757815
+            ],
+            [
+              9.000000450586148,
+              -0.0000023579754707224385,
+              4.999999991390468
+            ],
+            [
+              4.5000002252932125,
+              2.8575088355393726e-7,
+              0
+            ],
+            [
+              4.500000225293066,
+              -0.000001178987735361217,
+              0
+            ]
+          ]
+        ]
+      },
+      "item": "Desc_IronPlate_C",
+      "rate": 15
+    },
+    {
+      "kind": "belt",
+      "from": "e9385c2b-fe56-43e7-83cb-c2086a0324ac",
+      "to": "cc32e250-38d7-4b25-80ce-ece0f88146fa",
+      "capacity": 120,
+      "native": {
+        "fromPort": "ConveyorAny1",
+        "toPort": "Input2",
+        "spans": [
+          [
+            [
+              0,
+              0,
+              4.999999847412109
+            ],
+            [
+              8.999999691943124,
+              3.0805687600832243e-7,
+              4.999999686214669
+            ],
+            [
+              4.499999845971562,
+              1.5402843945147156e-7,
+              0
+            ],
+            [
+              4.499999845971562,
+              1.5402843800416124e-7,
+              0
+            ]
+          ]
+        ]
+      },
+      "item": "Desc_IronPlate_C",
+      "rate": 15
+    },
+    {
+      "kind": "power",
+      "from": "b214321d-b775-4171-ab43-4f5591b445db",
+      "to": "7c4310bf-fb90-492a-954e-bc9f4f13fea5"
+    },
+    {
+      "kind": "power",
+      "from": "b214321d-b775-4171-ab43-4f5591b445db",
+      "to": "c4754972-40ae-4261-981d-1e6153cbc575"
+    },
+    {
+      "kind": "belt",
+      "from": "3dd89efa-c5a3-44f9-af3d-85e2c7c79f2e",
+      "to": "91d0517d-d6ee-48e2-8392-cc653fbb7c6e",
+      "capacity": 120,
+      "native": {
+        "fromPort": "Output2",
+        "toPort": "Input0",
+        "spans": [
+          [
+            [
+              -1.2246467991473515e-16,
+              0.9999999999999986,
+              0
+            ],
+            [
+              -3.6739403974420584e-16,
+              2.9999999999999987,
+              1.6119744032039306e-7
+            ],
+            [
+              7.989483268070594e-7,
+              0.9999999999996808,
+              0
+            ],
+            [
+              -1.2246468525851679e-16,
+              1,
+              0
+            ]
+          ]
+        ]
+      },
+      "item": "Desc_IronRod_C",
+      "rate": 7.5
+    },
+    {
+      "kind": "belt",
+      "from": "3dd89efa-c5a3-44f9-af3d-85e2c7c79f2e",
+      "to": "ac1b9a51-7239-4aad-8ae4-ce5481428459",
+      "capacity": 120,
+      "native": {
+        "fromPort": "Output3",
+        "toPort": "Input0",
+        "spans": [
+          [
+            [
+              1.2246467991473532e-16,
+              -1,
+              0
+            ],
+            [
+              2.5704503426781248e-8,
+              -3,
+              3.13785312755499e-7
+            ],
+            [
+              2.6631610960947375e-7,
+              -0.9999999999999648,
+              0
+            ],
+            [
+              1.285225165215829e-8,
+              -1,
+              0
+            ]
+          ]
+        ]
+      },
+      "item": "Desc_IronRod_C",
+      "rate": 7.5
+    },
+    {
+      "kind": "belt",
+      "from": "4331127d-9060-4a68-aa7a-32009954761c",
+      "to": "9927bd52-e285-4f6e-8a60-0adc6c03790d",
+      "capacity": 120,
+      "native": {
+        "fromPort": "ConveyorAny1",
+        "toPort": "Input2",
+        "spans": [
+          [
+            [
+              0,
+              0,
+              5.0000003051757815
+            ],
+            [
+              9.000000450586148,
+              -0.0000023579754707224385,
+              4.999999991390468
+            ],
+            [
+              4.5000002252932125,
+              2.8575088355393726e-7,
+              0
+            ],
+            [
+              4.500000225293066,
+              -0.000001178987735361217,
+              0
+            ]
+          ]
+        ]
+      },
+      "item": "Desc_IronScrew_C",
+      "rate": 30
+    },
+    {
+      "kind": "belt",
+      "from": "e2398373-b59c-4089-b087-57f0f9527e55",
+      "to": "9927bd52-e285-4f6e-8a60-0adc6c03790d",
+      "capacity": 120,
+      "native": {
+        "fromPort": "ConveyorAny1",
+        "toPort": "Input3",
+        "spans": [
+          [
+            [
+              0,
+              0,
+              4.999999847412109
+            ],
+            [
+              8.999999691943124,
+              3.0805687600832243e-7,
+              4.999999686214669
+            ],
+            [
+              4.499999845971562,
+              1.5402843945147156e-7,
+              0
+            ],
+            [
+              4.499999845971562,
+              1.5402843800416124e-7,
+              0
+            ]
+          ]
+        ]
+      },
+      "item": "Desc_IronScrew_C",
+      "rate": 30
+    },
+    {
+      "kind": "power",
+      "from": "f7d954a4-5659-42b8-8686-fb53d6384dcf",
+      "to": "91d0517d-d6ee-48e2-8392-cc653fbb7c6e"
+    },
+    {
+      "kind": "power",
+      "from": "f7d954a4-5659-42b8-8686-fb53d6384dcf",
+      "to": "ac1b9a51-7239-4aad-8ae4-ce5481428459"
+    },
+    {
+      "kind": "belt",
+      "from": "a47c8aac-4081-486a-b7fb-46e7ecd7e5dc",
+      "to": "083ac4c6-5c53-4ccc-9272-a4850439f855",
+      "capacity": 120,
+      "native": {
+        "fromPort": "Output2",
+        "toPort": "Input0",
+        "spans": [
+          [
+            [
+              -1.2246467991473515e-16,
+              0.9999999999999986,
+              0
+            ],
+            [
+              -3.6739403974420584e-16,
+              2.9999999999999987,
+              1.6119744032039306e-7
+            ],
+            [
+              7.989483268070594e-7,
+              0.9999999999996808,
+              0
+            ],
+            [
+              -1.2246468525851679e-16,
+              1,
+              0
+            ]
+          ]
+        ]
+      },
+      "item": "Desc_IronRod_C",
+      "rate": 7.5
+    },
+    {
+      "kind": "belt",
+      "from": "a47c8aac-4081-486a-b7fb-46e7ecd7e5dc",
+      "to": "6b236a21-522c-49f6-b6a7-015eb605aab2",
+      "capacity": 120,
+      "native": {
+        "fromPort": "Output3",
+        "toPort": "Input0",
+        "spans": [
+          [
+            [
+              1.2246467991473532e-16,
+              -1,
+              0
+            ],
+            [
+              2.5704503426781248e-8,
+              -3,
+              3.13785312755499e-7
+            ],
+            [
+              2.6631610960947375e-7,
+              -0.9999999999999648,
+              0
+            ],
+            [
+              1.285225165215829e-8,
+              -1,
+              0
+            ]
+          ]
+        ]
+      },
+      "item": "Desc_IronRod_C",
+      "rate": 7.5
+    },
+    {
+      "kind": "belt",
+      "from": "229082a0-d53b-442a-aced-509599758c96",
+      "to": "e5b97af9-113d-4c3c-8bcf-806000b28b96",
+      "capacity": 120,
+      "native": {
+        "fromPort": "ConveyorAny1",
+        "toPort": "Input2",
+        "spans": [
+          [
+            [
+              0,
+              0,
+              5.0000003051757815
+            ],
+            [
+              9.000000450586148,
+              -0.0000023579754707224385,
+              4.999999991390468
+            ],
+            [
+              4.5000002252932125,
+              2.8575088355393726e-7,
+              0
+            ],
+            [
+              4.500000225293066,
+              -0.000001178987735361217,
+              0
+            ]
+          ]
+        ]
+      },
+      "item": "Desc_IronScrew_C",
+      "rate": 30
+    },
+    {
+      "kind": "belt",
+      "from": "17b05a29-aeda-4d6d-bfa5-942e2ddbc2a1",
+      "to": "e5b97af9-113d-4c3c-8bcf-806000b28b96",
+      "capacity": 120,
+      "native": {
+        "fromPort": "ConveyorAny1",
+        "toPort": "Input3",
+        "spans": [
+          [
+            [
+              0,
+              0,
+              4.999999847412109
+            ],
+            [
+              8.999999691943124,
+              3.0805687600832243e-7,
+              4.999999686214669
+            ],
+            [
+              4.499999845971562,
+              1.5402843945147156e-7,
+              0
+            ],
+            [
+              4.499999845971562,
+              1.5402843800416124e-7,
+              0
+            ]
+          ]
+        ]
+      },
+      "item": "Desc_IronScrew_C",
+      "rate": 30
+    },
+    {
+      "kind": "power",
+      "from": "906516b2-b941-4a8a-9743-db64d221a5a5",
+      "to": "083ac4c6-5c53-4ccc-9272-a4850439f855"
+    },
+    {
+      "kind": "power",
+      "from": "906516b2-b941-4a8a-9743-db64d221a5a5",
+      "to": "6b236a21-522c-49f6-b6a7-015eb605aab2"
+    },
+    {
+      "kind": "belt",
+      "from": "41890c6e-b469-427d-b8f1-ea6eb9c2303f",
+      "to": "c4844790-b8bf-4526-8669-b34c8bad7cb6",
+      "capacity": 120,
+      "native": {
+        "fromPort": "Output1",
+        "toPort": "Input1",
+        "spans": [
+          [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              5,
+              0,
+              0
+            ],
+            [
+              4,
+              0,
+              0
+            ],
+            [
+              4,
+              0,
+              0
+            ]
+          ]
+        ]
+      },
+      "item": "Desc_OreIron_C",
+      "rate": 60
+    },
+    {
+      "kind": "belt",
+      "from": "5717ff26-6e5b-4543-b7a1-988f13a96c95",
+      "to": "5d914934-0ec6-418e-8a7f-d496db9bae69",
+      "capacity": 120,
+      "native": {
+        "fromPort": "Output1",
+        "toPort": "Input1",
+        "spans": [
+          [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              5,
+              0,
+              0
+            ],
+            [
+              4,
+              0,
+              0
+            ],
+            [
+              4,
+              0,
+              0
+            ]
+          ]
+        ]
+      },
+      "item": "Desc_IronIngot_C",
+      "rate": 60
+    },
+    {
+      "kind": "belt",
+      "from": "5d914934-0ec6-418e-8a7f-d496db9bae69",
+      "to": "96045753-b8cf-4f5e-8694-07a51ef94566",
+      "capacity": 120,
+      "native": {
+        "fromPort": "Output1",
+        "toPort": "Input1",
+        "spans": [
+          [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0
+            ],
+            [
+              2,
+              0,
+              0
+            ],
+            [
+              2,
+              0,
+              0
+            ]
+          ]
+        ]
+      },
+      "item": "Desc_IronIngot_C",
+      "rate": 120
+    },
+    {
+      "kind": "belt",
+      "from": "96045753-b8cf-4f5e-8694-07a51ef94566",
+      "to": "81a3e1ce-5524-40d9-8509-3407b84ee72f",
+      "capacity": 120,
+      "native": {
+        "fromPort": "Output1",
+        "toPort": "ConveyorAny0",
+        "spans": [
+          [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0
+            ],
+            [
+              2,
+              0,
+              0
+            ],
+            [
+              2,
+              0,
+              0
+            ]
+          ]
+        ]
+      },
+      "item": "Desc_IronIngot_C",
+      "rate": 90
+    },
+    {
+      "kind": "belt",
+      "from": "81a3e1ce-5524-40d9-8509-3407b84ee72f",
+      "to": "d74d2aa0-ab9b-43a9-a1d0-b0be4da89c92",
+      "capacity": 120,
+      "native": {
+        "fromPort": "ConveyorAny1",
+        "toPort": "Input1",
+        "spans": [
+          [
+            [
+              0,
+              0,
+              2.8
+            ],
+            [
+              5,
+              7.347880794884119e-16,
+              2.8
+            ],
+            [
+              5,
+              7.347880794884119e-16,
+              0
+            ],
+            [
+              5,
+              7.347880794884119e-16,
+              0
+            ]
+          ]
+        ]
+      },
+      "item": "Desc_IronIngot_C",
+      "rate": 90
+    },
+    {
+      "kind": "belt",
+      "from": "d74d2aa0-ab9b-43a9-a1d0-b0be4da89c92",
+      "to": "7938e07a-d747-4445-86b0-33de3cd2d27f",
+      "capacity": 120,
+      "native": {
+        "fromPort": "Output1",
+        "toPort": "Input1",
+        "spans": [
+          [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              7,
+              9.797174393178826e-16,
+              0
+            ],
+            [
+              6,
+              9.797174393178826e-16,
+              0
+            ],
+            [
+              6,
+              9.797174393178826e-16,
+              0
+            ]
+          ]
+        ]
+      },
+      "item": "Desc_IronIngot_C",
+      "rate": 45
+    },
+    {
+      "kind": "belt",
+      "from": "96045753-b8cf-4f5e-8694-07a51ef94566",
+      "to": "64cc1ec9-e072-4868-b22d-11b4cb938ded",
+      "capacity": 120,
+      "native": {
+        "fromPort": "Output3",
+        "toPort": "ConveyorAny0",
+        "spans": [
+          [
+            [
+              0,
+              -1,
+              0
+            ],
+            [
+              0,
+              -3,
+              0
+            ],
+            [
+              0,
+              -2,
+              0
+            ],
+            [
+              0,
+              -2,
+              0
+            ]
+          ]
+        ]
+      },
+      "item": "Desc_IronIngot_C",
+      "rate": 30
+    },
+    {
+      "kind": "belt",
+      "from": "64cc1ec9-e072-4868-b22d-11b4cb938ded",
+      "to": "e36bd1eb-fd78-4d9a-8a25-45e1c2f816c8",
+      "capacity": 120,
+      "native": {
+        "fromPort": "ConveyorAny1",
+        "toPort": "Input1",
+        "spans": [
+          [
+            [
+              0,
+              0,
+              -8
+            ],
+            [
+              1.0000000000000002,
+              -2.220446049250313e-16,
+              -8
+            ],
+            [
+              1.0000000000000002,
+              -2.220446049250313e-16,
+              0
+            ],
+            [
+              1.0000000000000002,
+              -2.220446049250313e-16,
+              0
+            ]
+          ],
+          [
+            [
+              1.0000000000000002,
+              -2.220446049250313e-16,
+              -8
+            ],
+            [
+              3,
+              -2.0000000000000013,
+              -8
+            ],
+            [
+              3.313708498984762,
+              -7.357910944937898e-16,
+              0
+            ],
+            [
+              -7.357910944937898e-16,
+              -3.313708498984762,
+              0
+            ]
+          ],
+          [
+            [
+              3,
+              -2.0000000000000013,
+              -8
+            ],
+            [
+              2.9999999999999987,
+              -7.000000000000003,
+              -8
+            ],
+            [
+              -1.1102230246251565e-15,
+              -5.000000000000001,
+              0
+            ],
+            [
+              -1.1102230246251565e-15,
+              -5.000000000000001,
+              0
+            ]
+          ]
+        ]
+      },
+      "item": "Desc_IronIngot_C",
+      "rate": 30
+    },
+    {
+      "kind": "belt",
+      "from": "0b8ba690-8783-44fa-928b-0d1fe3e163fb",
+      "to": "fe8485d2-9a6e-4eb1-89d2-87482a14a309",
+      "capacity": 120,
+      "native": {
+        "fromPort": "Output1",
+        "toPort": "ConveyorAny0",
+        "spans": [
+          [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              8,
+              0,
+              0
+            ],
+            [
+              7,
+              0,
+              0
+            ],
+            [
+              7,
+              0,
+              0
+            ]
+          ]
+        ]
+      },
+      "item": "Desc_IronRod_C",
+      "rate": 30
+    },
+    {
+      "kind": "belt",
+      "from": "fe8485d2-9a6e-4eb1-89d2-87482a14a309",
+      "to": "3dd89efa-c5a3-44f9-af3d-85e2c7c79f2e",
+      "capacity": 120,
+      "native": {
+        "fromPort": "ConveyorAny1",
+        "toPort": "Input1",
+        "spans": [
+          [
+            [
+              0,
+              0,
+              5.8
+            ],
+            [
+              2,
+              3.6739403974420594e-16,
+              5.8
+            ],
+            [
+              2,
+              3.6739403974420594e-16,
+              0
+            ],
+            [
+              2,
+              3.6739403974420594e-16,
+              0
+            ]
+          ]
+        ]
+      },
+      "item": "Desc_IronRod_C",
+      "rate": 30
+    },
+    {
+      "kind": "belt",
+      "from": "3dd89efa-c5a3-44f9-af3d-85e2c7c79f2e",
+      "to": "a47c8aac-4081-486a-b7fb-46e7ecd7e5dc",
+      "capacity": 120,
+      "native": {
+        "fromPort": "Output1",
+        "toPort": "Input1",
+        "spans": [
+          [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              7,
+              9.797174393178826e-16,
+              0
+            ],
+            [
+              6,
+              9.797174393178826e-16,
+              0
+            ],
+            [
+              6,
+              9.797174393178826e-16,
+              0
+            ]
+          ]
+        ]
+      },
+      "item": "Desc_IronRod_C",
+      "rate": 15
+    },
+    {
+      "kind": "belt",
+      "from": "1289e24e-c361-4dd7-8b7f-bbef8971c885",
+      "to": "cc32e250-38d7-4b25-80ce-ece0f88146fa",
+      "capacity": 120,
+      "native": {
+        "fromPort": "Output1",
+        "toPort": "Input1",
+        "spans": [
+          [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              7,
+              9.797174393178826e-16,
+              0
+            ],
+            [
+              6,
+              9.797174393178826e-16,
+              0
+            ],
+            [
+              6,
+              9.797174393178826e-16,
+              0
+            ]
+          ]
+        ]
+      },
+      "item": "Desc_IronPlate_C",
+      "rate": 30
+    },
+    {
+      "kind": "belt",
+      "from": "e5b97af9-113d-4c3c-8bcf-806000b28b96",
+      "to": "9927bd52-e285-4f6e-8a60-0adc6c03790d",
+      "capacity": 120,
+      "native": {
+        "fromPort": "Output1",
+        "toPort": "Input1",
+        "spans": [
+          [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              7,
+              1.959434878635765e-15,
+              0
+            ],
+            [
+              6,
+              1.959434878635765e-15,
+              0
+            ],
+            [
+              6,
+              1.959434878635765e-15,
+              0
+            ]
+          ]
+        ]
+      },
+      "item": "Desc_IronScrew_C",
+      "rate": 60
+    },
+    {
+      "kind": "belt",
+      "from": "cc32e250-38d7-4b25-80ce-ece0f88146fa",
+      "to": "1e82efcc-f7cc-4ada-af21-88f5370948d9",
+      "capacity": 120,
+      "native": {
+        "fromPort": "Output1",
+        "toPort": "ConveyorAny0",
+        "spans": [
+          [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              3,
+              3.6739403974420594e-16,
+              0
+            ],
+            [
+              2,
+              3.6739403974420594e-16,
+              0
+            ],
+            [
+              2,
+              3.6739403974420594e-16,
+              0
+            ]
+          ]
+        ]
+      },
+      "item": "Desc_IronPlate_C",
+      "rate": 60
+    },
+    {
+      "kind": "belt",
+      "from": "1e82efcc-f7cc-4ada-af21-88f5370948d9",
+      "to": "86b2256b-a7da-4eac-89df-7f24609d1f89",
+      "capacity": 120,
+      "native": {
+        "fromPort": "ConveyorAny1",
+        "toPort": "Input1",
+        "spans": [
+          [
+            [
+              0,
+              0,
+              3
+            ],
+            [
+              3.1840816777831186e-15,
+              -13,
+              3
+            ],
+            [
+              3.1840816777831186e-15,
+              -13,
+              0
+            ],
+            [
+              3.1840816777831186e-15,
+              -13,
+              0
+            ]
+          ],
+          [
+            [
+              3.1840816777831186e-15,
+              -13,
+              3
+            ],
+            [
+              2.0000000000000036,
+              -15,
+              3
+            ],
+            [
+              8.116245013178137e-16,
+              -3.313708498984761,
+              0
+            ],
+            [
+              3.313708498984761,
+              8.116245013178137e-16,
+              0
+            ]
+          ],
+          [
+            [
+              2.0000000000000036,
+              -15,
+              3
+            ],
+            [
+              13.000000000000005,
+              -14.999999999999998,
+              3
+            ],
+            [
+              11,
+              2.6942229581241772e-15,
+              0
+            ],
+            [
+              11,
+              2.6942229581241772e-15,
+              0
+            ]
+          ],
+          [
+            [
+              13.000000000000005,
+              -14.999999999999998,
+              3
+            ],
+            [
+              15.000000000000002,
+              -12.999999999999995,
+              3
+            ],
+            [
+              3.313708498984761,
+              8.116245013178137e-16,
+              0
+            ],
+            [
+              -4.4372895407091873e-16,
+              3.313708498984761,
+              0
+            ]
+          ]
+        ]
+      },
+      "item": "Desc_IronPlate_C",
+      "rate": 60
+    },
+    {
+      "kind": "belt",
+      "from": "9927bd52-e285-4f6e-8a60-0adc6c03790d",
+      "to": "ed940de9-eb68-400c-99af-fb5818ecebb5",
+      "capacity": 120,
+      "native": {
+        "fromPort": "Output1",
+        "toPort": "ConveyorAny0",
+        "spans": [
+          [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              3,
+              7.347880794884119e-16,
+              0
+            ],
+            [
+              2,
+              7.347880794884119e-16,
+              0
+            ],
+            [
+              2,
+              7.347880794884119e-16,
+              0
+            ]
+          ]
+        ]
+      },
+      "item": "Desc_IronScrew_C",
+      "rate": 120
+    },
+    {
+      "kind": "belt",
+      "from": "ed940de9-eb68-400c-99af-fb5818ecebb5",
+      "to": "6d2440e2-799d-45a0-b85b-7682d44dae78",
+      "capacity": 120,
+      "native": {
+        "fromPort": "ConveyorAny1",
+        "toPort": "Input1",
+        "spans": [
+          [
+            [
+              0,
+              0,
+              6
+            ],
+            [
+              -1.5920408388915593e-15,
+              13,
+              6
+            ],
+            [
+              -1.5920408388915593e-15,
+              13,
+              0
+            ],
+            [
+              -1.5920408388915593e-15,
+              13,
+              0
+            ]
+          ],
+          [
+            [
+              -1.5920408388915593e-15,
+              13,
+              6
+            ],
+            [
+              1.9999999999999982,
+              15,
+              6
+            ],
+            [
+              -4.0581225065890684e-16,
+              3.313708498984761,
+              0
+            ],
+            [
+              3.313708498984761,
+              4.0581225065890684e-16,
+              0
+            ]
+          ],
+          [
+            [
+              1.9999999999999982,
+              15,
+              6
+            ],
+            [
+              17.999999999999996,
+              15.000000000000002,
+              6
+            ],
+            [
+              16,
+              1.959434878635765e-15,
+              0
+            ],
+            [
+              16,
+              1.959434878635765e-15,
+              0
+            ]
+          ],
+          [
+            [
+              17.999999999999996,
+              15.000000000000002,
+              6
+            ],
+            [
+              19.999999999999996,
+              13.000000000000002,
+              6
+            ],
+            [
+              3.313708498984761,
+              4.0581225065890684e-16,
+              0
+            ],
+            [
+              4.0581225065890684e-16,
+              -3.313708498984761,
+              0
+            ]
+          ]
+        ]
+      },
+      "item": "Desc_IronScrew_C",
+      "rate": 120
+    },
+    {
+      "kind": "belt",
+      "from": "86b2256b-a7da-4eac-89df-7f24609d1f89",
+      "to": "faf21cfc-bc21-4c5b-884d-36f879e69d6b",
+      "capacity": 120,
+      "native": {
+        "fromPort": "Output2",
+        "toPort": "Input0",
+        "spans": [
+          [
+            [
+              2.2204460492503136e-16,
+              1.0000000000000007,
+              0
+            ],
+            [
+              6.661338147750939e-16,
+              3.0000000000000004,
+              0
+            ],
+            [
+              4.4408920985006257e-16,
+              2.0000000000000004,
+              0
+            ],
+            [
+              4.4408920985006257e-16,
+              2.0000000000000004,
+              0
+            ]
+          ],
+          [
+            [
+              6.661338147750939e-16,
+              3.0000000000000004,
+              0
+            ],
+            [
+              2.0000000000000018,
+              5.000000000000001,
+              0
+            ],
+            [
+              7.357910944937898e-16,
+              3.313708498984762,
+              0
+            ],
+            [
+              3.313708498984762,
+              -7.357910944937898e-16,
+              0
+            ]
+          ],
+          [
+            [
+              2.0000000000000018,
+              5.000000000000001,
+              0
+            ],
+            [
+              3.0000000000000018,
+              5.000000000000001,
+              0
+            ],
+            [
+              1.0000000000000002,
+              -2.220446049250313e-16,
+              0
+            ],
+            [
+              1.0000000000000002,
+              -2.220446049250313e-16,
+              0
+            ]
+          ]
+        ]
+      },
+      "item": "Desc_IronPlate_C",
+      "rate": 30
+    },
+    {
+      "kind": "belt",
+      "from": "6d2440e2-799d-45a0-b85b-7682d44dae78",
+      "to": "f8e11093-51d5-47e5-9c8b-8dc85c100b50",
+      "capacity": 120,
+      "native": {
+        "fromPort": "Output2",
+        "toPort": "ConveyorAny0",
+        "spans": [
+          [
+            [
+              2.220446049250313e-16,
+              1.0000000000000002,
+              0
+            ],
+            [
+              8.881784197001252e-16,
+              4.000000000000001,
+              0
+            ],
+            [
+              6.661338147750939e-16,
+              3.0000000000000004,
+              0
+            ],
+            [
+              6.661338147750939e-16,
+              3.0000000000000004,
+              0
+            ]
+          ]
+        ]
+      },
+      "item": "Desc_IronScrew_C",
+      "rate": 60
+    },
+    {
+      "kind": "belt",
+      "from": "f8e11093-51d5-47e5-9c8b-8dc85c100b50",
+      "to": "faf21cfc-bc21-4c5b-884d-36f879e69d6b",
+      "capacity": 120,
+      "native": {
+        "fromPort": "ConveyorAny1",
+        "toPort": "Input1",
+        "spans": [
+          [
+            [
+              0,
+              0,
+              -3
+            ],
+            [
+              -7.347880794884119e-16,
+              3,
+              -3
+            ],
+            [
+              -7.347880794884119e-16,
+              3,
+              0
+            ],
+            [
+              -7.347880794884119e-16,
+              3,
+              0
+            ]
+          ]
+        ]
+      },
+      "item": "Desc_IronScrew_C",
+      "rate": 60
+    },
+    {
+      "kind": "belt",
+      "from": "86b2256b-a7da-4eac-89df-7f24609d1f89",
+      "to": "8a1fe764-cfef-42f1-b9a2-db91a3ed73f7",
+      "capacity": 120,
+      "native": {
+        "fromPort": "Output3",
+        "toPort": "Input1",
+        "spans": [
+          [
+            [
+              -2.2204460492503136e-16,
+              -1.0000000000000007,
+              0
+            ],
+            [
+              -6.661338147750939e-16,
+              -3.0000000000000004,
+              0
+            ],
+            [
+              -4.4408920985006257e-16,
+              -2.0000000000000004,
+              0
+            ],
+            [
+              -4.4408920985006257e-16,
+              -2.0000000000000004,
+              0
+            ]
+          ],
+          [
+            [
+              -6.661338147750939e-16,
+              -3.0000000000000004,
+              0
+            ],
+            [
+              1.9999999999999993,
+              -5.000000000000002,
+              0
+            ],
+            [
+              -7.357910944937898e-16,
+              -3.313708498984762,
+              0
+            ],
+            [
+              3.313708498984762,
+              -7.357910944937898e-16,
+              0
+            ]
+          ],
+          [
+            [
+              1.9999999999999993,
+              -5.000000000000002,
+              0
+            ],
+            [
+              2.9999999999999996,
+              -5.000000000000002,
+              0
+            ],
+            [
+              1.0000000000000002,
+              -2.220446049250313e-16,
+              0
+            ],
+            [
+              1.0000000000000002,
+              -2.220446049250313e-16,
+              0
+            ]
+          ]
+        ]
+      },
+      "item": "Desc_IronPlate_C",
+      "rate": 30
+    },
+    {
+      "kind": "belt",
+      "from": "6d2440e2-799d-45a0-b85b-7682d44dae78",
+      "to": "ec32c2f2-74f8-451a-b336-1af25aa179dc",
+      "capacity": 120,
+      "native": {
+        "fromPort": "Output3",
+        "toPort": "ConveyorAny0",
+        "spans": [
+          [
+            [
+              -2.220446049250313e-16,
+              -1.0000000000000002,
+              0
+            ],
+            [
+              -3.1086244689504383e-15,
+              -14.000000000000002,
+              0
+            ],
+            [
+              -2.886579864025407e-15,
+              -13.000000000000002,
+              0
+            ],
+            [
+              -2.886579864025407e-15,
+              -13.000000000000002,
+              0
+            ]
+          ]
+        ]
+      },
+      "item": "Desc_IronScrew_C",
+      "rate": 60
+    },
+    {
+      "kind": "belt",
+      "from": "ec32c2f2-74f8-451a-b336-1af25aa179dc",
+      "to": "8a1fe764-cfef-42f1-b9a2-db91a3ed73f7",
+      "capacity": 120,
+      "native": {
+        "fromPort": "ConveyorAny1",
+        "toPort": "Input0",
+        "spans": [
+          [
+            [
+              0,
+              0,
+              -3
+            ],
+            [
+              3.6739403974420594e-16,
+              -3,
+              -3
+            ],
+            [
+              3.6739403974420594e-16,
+              -3,
+              0
+            ],
+            [
+              3.6739403974420594e-16,
+              -3,
+              0
+            ]
+          ]
+        ]
+      },
+      "item": "Desc_IronScrew_C",
+      "rate": 60
+    },
+    {
+      "kind": "belt",
+      "from": "faf21cfc-bc21-4c5b-884d-36f879e69d6b",
+      "to": "5ee419b6-2303-405a-a804-cfcb2bc0fd0c",
+      "capacity": 120,
+      "native": {
+        "fromPort": "Output0",
+        "toPort": "Input2",
+        "spans": [
+          [
+            [
+              0,
+              5,
+              1
+            ],
+            [
+              2,
+              7,
+              1
+            ],
+            [
+              0,
+              3.313708498984761,
+              0
+            ],
+            [
+              3.313708498984761,
+              0,
+              0
+            ]
+          ],
+          [
+            [
+              2,
+              7,
+              1
+            ],
+            [
+              6,
+              7,
+              1
+            ],
+            [
+              4,
+              0,
+              0
+            ],
+            [
+              4,
+              0,
+              0
+            ]
+          ]
+        ]
+      },
+      "item": "Desc_IronPlateReinforced_C",
+      "rate": 5
+    },
+    {
+      "kind": "belt",
+      "from": "8a1fe764-cfef-42f1-b9a2-db91a3ed73f7",
+      "to": "5ee419b6-2303-405a-a804-cfcb2bc0fd0c",
+      "capacity": 120,
+      "native": {
+        "fromPort": "Output0",
+        "toPort": "Input3",
+        "spans": [
+          [
+            [
+              0,
+              5,
+              1
+            ],
+            [
+              -2,
+              7,
+              1
+            ],
+            [
+              0,
+              3.313708498984761,
+              0
+            ],
+            [
+              -3.313708498984761,
+              0,
+              0
+            ]
+          ],
+          [
+            [
+              -2,
+              7,
+              1
+            ],
+            [
+              -6,
+              7,
+              1
+            ],
+            [
+              -4,
+              0,
+              0
+            ],
+            [
+              -4,
+              0,
+              0
+            ]
+          ]
+        ]
+      },
+      "item": "Desc_IronPlateReinforced_C",
+      "rate": 5
+    },
+    {
+      "kind": "belt",
+      "from": "5ee419b6-2303-405a-a804-cfcb2bc0fd0c",
+      "to": "d2d31a5e-dc1e-4b99-b4fd-10bc325185e3",
+      "capacity": 120,
+      "native": {
+        "fromPort": "Output1",
+        "toPort": "Input0",
+        "spans": [
+          [
+            [
+              1.0000000000000002,
+              6.310887241768095e-32,
+              0
+            ],
+            [
+              2.5000000000000004,
+              -5.551115123125783e-16,
+              0
+            ],
+            [
+              1.5000000000000002,
+              -5.551115123125784e-16,
+              0
+            ],
+            [
+              1.5000000000000002,
+              -5.551115123125784e-16,
+              0
+            ]
+          ]
+        ]
+      },
+      "item": "Desc_IronPlateReinforced_C",
+      "rate": 10
+    },
+    {
+      "kind": "power",
+      "from": "38bf8e0f-7ef2-4be4-b261-0996d6dcbedd",
+      "to": "faf21cfc-bc21-4c5b-884d-36f879e69d6b"
+    },
+    {
+      "kind": "power",
+      "from": "ee7fc4a0-cb13-4a57-86a1-445c236bca07",
+      "to": "8a1fe764-cfef-42f1-b9a2-db91a3ed73f7"
+    },
+    {
+      "kind": "power",
+      "from": "b6566aa9-06d7-4cac-b1f9-7ef150670b02",
+      "to": "62f5d667-8a36-43ff-881d-ef582a03e750"
+    },
+    {
+      "kind": "power",
+      "from": "62f5d667-8a36-43ff-881d-ef582a03e750",
+      "to": "66cc085a-2797-4fc5-9308-7483454a135c"
+    },
+    {
+      "kind": "power",
+      "from": "66cc085a-2797-4fc5-9308-7483454a135c",
+      "to": "a554f350-e898-4aaf-835d-5d05b828ecc5"
+    },
+    {
+      "kind": "power",
+      "from": "a554f350-e898-4aaf-835d-5d05b828ecc5",
+      "to": "b214321d-b775-4171-ab43-4f5591b445db"
+    },
+    {
+      "kind": "power",
+      "from": "b214321d-b775-4171-ab43-4f5591b445db",
+      "to": "f7d954a4-5659-42b8-8686-fb53d6384dcf"
+    },
+    {
+      "kind": "power",
+      "from": "f7d954a4-5659-42b8-8686-fb53d6384dcf",
+      "to": "906516b2-b941-4a8a-9743-db64d221a5a5"
+    },
+    {
+      "kind": "power",
+      "from": "906516b2-b941-4a8a-9743-db64d221a5a5",
+      "to": "38bf8e0f-7ef2-4be4-b261-0996d6dcbedd"
+    },
+    {
+      "kind": "power",
+      "from": "38bf8e0f-7ef2-4be4-b261-0996d6dcbedd",
+      "to": "ee7fc4a0-cb13-4a57-86a1-445c236bca07"
+    },
+    {
+      "kind": "belt",
+      "from": "229ed86d-ef36-451d-9579-c51d76349d86",
+      "to": "76d71232-05c0-4b27-82a1-cd4ae732ccef",
+      "capacity": 120,
+      "native": {
+        "fromPort": "Output2",
+        "toPort": "ConveyorAny0",
+        "snap": true
+      },
+      "item": "Desc_IronIngot_C",
+      "rate": 30
+    },
+    {
+      "kind": "belt",
+      "from": "c90b47b6-9c1e-4513-807e-1c4cfb61b8c8",
+      "to": "fe681572-6906-46ba-a608-649630c0e375",
+      "capacity": 120,
+      "native": {
+        "fromPort": "Output2",
+        "toPort": "ConveyorAny0",
+        "snap": true
+      },
+      "item": "Desc_IronIngot_C",
+      "rate": 30
+    },
+    {
+      "kind": "belt",
+      "from": "3a3550fc-5b05-43da-8913-b92c1f113807",
+      "to": "0479b50d-c1f7-422a-beb5-156986459099",
+      "capacity": 120,
+      "native": {
+        "fromPort": "Output2",
+        "toPort": "ConveyorAny0",
+        "snap": true
+      },
+      "item": "Desc_IronIngot_C",
+      "rate": 30
+    },
+    {
+      "kind": "belt",
+      "from": "8a67a7a2-d758-4478-a9d1-952966eda17a",
+      "to": "08cb4ed7-9fa9-4ae3-9f5d-3ae736499406",
+      "capacity": 120,
+      "native": {
+        "fromPort": "Output2",
+        "toPort": "ConveyorAny0",
+        "snap": true
+      },
+      "item": "Desc_IronIngot_C",
+      "rate": 30
+    },
+    {
+      "kind": "belt",
+      "from": "2983c1a6-e7d7-4bcf-aa3c-40643faef128",
+      "to": "c5974733-bd53-4854-ac5c-356d868afe9e",
+      "capacity": 120,
+      "native": {
+        "fromPort": "Output0",
+        "toPort": "ConveyorAny0",
+        "snap": true
+      },
+      "item": "Desc_IronRod_C",
+      "rate": 15
+    },
+    {
+      "kind": "belt",
+      "from": "ed5e3eba-cd42-4a6b-ada1-712956056341",
+      "to": "2e7a18b9-27ba-4ead-8cd2-cf0255e387e8",
+      "capacity": 120,
+      "native": {
+        "fromPort": "Output0",
+        "toPort": "ConveyorAny0",
+        "snap": true
+      },
+      "item": "Desc_IronRod_C",
+      "rate": 15
+    },
+    {
+      "kind": "belt",
+      "from": "442887ac-fb1d-42f8-9043-b95b35a578b2",
+      "to": "87f4c015-3635-4c20-ba69-71417f67bd88",
+      "capacity": 120,
+      "native": {
+        "fromPort": "Output0",
+        "toPort": "ConveyorAny0",
+        "snap": true
+      },
+      "item": "Desc_IronPlate_C",
+      "rate": 15
+    },
+    {
+      "kind": "belt",
+      "from": "afecc6fc-8bf6-423d-90d1-6d5eb13f0306",
+      "to": "6a51b3aa-f827-4265-aae8-f7ee7d3a3739",
+      "capacity": 120,
+      "native": {
+        "fromPort": "Output0",
+        "toPort": "ConveyorAny0",
+        "snap": true
+      },
+      "item": "Desc_IronPlate_C",
+      "rate": 15
+    },
+    {
+      "kind": "belt",
+      "from": "7c4310bf-fb90-492a-954e-bc9f4f13fea5",
+      "to": "e9385c2b-fe56-43e7-83cb-c2086a0324ac",
+      "capacity": 120,
+      "native": {
+        "fromPort": "Output0",
+        "toPort": "ConveyorAny0",
+        "snap": true
+      },
+      "item": "Desc_IronPlate_C",
+      "rate": 15
+    },
+    {
+      "kind": "belt",
+      "from": "c4754972-40ae-4261-981d-1e6153cbc575",
+      "to": "c93c2cf1-9b71-49be-b996-01f168ea952b",
+      "capacity": 120,
+      "native": {
+        "fromPort": "Output0",
+        "toPort": "ConveyorAny0",
+        "snap": true
+      },
+      "item": "Desc_IronPlate_C",
+      "rate": 15
+    },
+    {
+      "kind": "belt",
+      "from": "91d0517d-d6ee-48e2-8392-cc653fbb7c6e",
+      "to": "e2398373-b59c-4089-b087-57f0f9527e55",
+      "capacity": 120,
+      "native": {
+        "fromPort": "Output0",
+        "toPort": "ConveyorAny0",
+        "snap": true
+      },
+      "item": "Desc_IronScrew_C",
+      "rate": 30
+    },
+    {
+      "kind": "belt",
+      "from": "ac1b9a51-7239-4aad-8ae4-ce5481428459",
+      "to": "4331127d-9060-4a68-aa7a-32009954761c",
+      "capacity": 120,
+      "native": {
+        "fromPort": "Output0",
+        "toPort": "ConveyorAny0",
+        "snap": true
+      },
+      "item": "Desc_IronScrew_C",
+      "rate": 30
+    },
+    {
+      "kind": "belt",
+      "from": "083ac4c6-5c53-4ccc-9272-a4850439f855",
+      "to": "17b05a29-aeda-4d6d-bfa5-942e2ddbc2a1",
+      "capacity": 120,
+      "native": {
+        "fromPort": "Output0",
+        "toPort": "ConveyorAny0",
+        "snap": true
+      },
+      "item": "Desc_IronScrew_C",
+      "rate": 30
+    },
+    {
+      "kind": "belt",
+      "from": "6b236a21-522c-49f6-b6a7-015eb605aab2",
+      "to": "229082a0-d53b-442a-aced-509599758c96",
+      "capacity": 120,
+      "native": {
+        "fromPort": "Output0",
+        "toPort": "ConveyorAny0",
+        "snap": true
+      },
+      "item": "Desc_IronScrew_C",
+      "rate": 30
+    }
+  ],
+  "buffer": [],
+  "nativeProfile": "iron-plates-pairs-v1",
+  "layoutInfo": {
+    "name": "Paires calibrées · 3 niveaux · cadres ajourés",
+    "sources": {
+      "smelter": "cf5cc3ae477588763909f8cff7af17a603822ef1b3a193a3c49397a96910f6c2",
+      "constructor": "d6fe78fc0d91d0e596dfa0e1cbb3a0b4eef193dfe287f4bf1566f150190222c5",
+      "rotors": "e805fb339ff00d8d6e4cb47605d8bf9cb77aa345b25dc2a416fa571088e675b3"
+    },
+    "machineCount": 16,
+    "inputRate": 120,
+    "outputRate": 10,
+    "input": {
+      "objectId": "41890c6e-b469-427d-b8f1-ea6eb9c2303f",
+      "port": "Input1",
+      "rate": 120,
+      "label": "120 minerais/min"
+    },
+    "output": {
+      "objectId": "d2d31a5e-dc1e-4b99-b4fd-10bc325185e3",
+      "rate": 10,
+      "label": "10 plaques renforcées/min"
+    }
+  },
+  "powerStyle": "per-module",
+  "structure": {
+    "gap": 4,
+    "pitch": 12,
+    "thickness": 1,
+    "material": "concrete",
+    "color": "#536454"
+  },
+  "floors": [
+    {
+      "z": 0,
+      "thickness": 1,
+      "material": "concrete",
+      "color": "#536454",
+      "shaft": 2,
+      "profile": "solid"
+    },
+    {
+      "z": 10.8,
+      "thickness": 1,
+      "material": "concrete",
+      "color": "#536454",
+      "shaft": 2,
+      "profile": "frame"
+    },
+    {
+      "z": 18.8,
+      "thickness": 1,
+      "material": "concrete",
+      "color": "#536454",
+      "shaft": 2,
+      "profile": "frame"
+    }
+  ]
+}

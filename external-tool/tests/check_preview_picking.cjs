@@ -1,0 +1,16 @@
+const assert=require('node:assert/strict'),P=require('../dist/preview-picking');
+const surface=(z,name)=>({coords:[[0,0,z],[10,0,z],[10,10,z],[0,10,z]],source:{getAttribute:()=>name}}),view={project:([x,y])=>[x,y],near:[0,0,1]};
+const machine=surface(5,'Fonderie · Lingot de fer');
+assert.equal(P.hit([machine],view,[5,5]),'Fonderie · Lingot de fer');
+assert.equal(P.hit([machine],view,[11,5]),null);
+assert.equal(P.hit([machine],view,[0,0]),'Fonderie · Lingot de fer');
+const roof=surface(9,null),faces=[machine,roof];
+assert.equal(P.hit(faces,view,[5,5],true),null,'Opaque roofs hide the machine and its tooltip');
+assert.equal(P.hit(faces,view,[5,5],false),'Fonderie · Lingot de fer');
+assert.equal(P.hit([...faces,surface(12,'Assembleuse · Rotor')],view,[5,5]),'Assembleuse · Rotor');
+const slope={coords:[[0,0,1],[10,0,9],[0,10,1]],source:{getAttribute:()=> 'Constructeur'}},flat=surface(4,'Assembleuse');
+assert.equal(P.hit([slope,flat],view,[1,1]),'Assembleuse');
+assert.equal(P.hit([slope,flat],view,[8,1]),'Constructeur','Picking interpolates depth across a sloping face');
+const reversed={project:([x,y])=>[x,y],near:[0,0,-1]};
+assert.equal(P.hit(faces,reversed,[5,5]),'Fonderie · Lingot de fer','Changing the camera invalidates cached projected geometry');
+console.log('PASS: visible machine names, empty space, edge hits, opaque occlusion, transparent mode, nearest face, interpolated depth and camera changes');

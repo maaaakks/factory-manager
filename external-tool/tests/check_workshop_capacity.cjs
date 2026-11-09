@@ -1,0 +1,19 @@
+const assert=require('node:assert/strict'),M=require('../dist/workshop-model.js'),A=require('../dist/workshop-assist.js'),data=require('../dist/planner-data.json');
+const iron={id:'Desc_OreIron_C',rate:120},plate={id:'Desc_IronPlate_C',rate:10},reinforced={id:'Desc_IronPlateReinforced_C',rate:10};
+const maximum=A.resolveObjectives('input',[iron],[reinforced],data);assert.equal(maximum.outputs[0].rate,10);assert.equal(maximum.limited[0],iron.id);
+assert.equal(A.resolveObjectives('input',[iron],[plate],data).outputs[0].rate,80);
+const both=A.resolveObjectives('both',[{...iron,rate:60}],[reinforced],data);assert.equal(both.outputs[0].rate,5);assert.equal(both.scale,.5);
+assert.equal(A.resolveObjectives('both',[{...iron,rate:240}],[reinforced],data).outputs[0].rate,10);assert.equal(A.resolveObjectives('both',[{...iron,rate:240}],[reinforced],data).unused[0].rate,120);
+const mixed=A.resolveObjectives('input',[iron],[{...plate,rate:1},{id:'Desc_IronRod_C',rate:2}],data);assert.ok(Math.abs(mixed.outputs[1].rate/mixed.outputs[0].rate-2)<1e-9);const demand=A.demand({inputs:[iron],outputs:mixed.outputs},data);assert.ok(Math.abs(demand.requirements.get(iron.id)-120)<1e-8);
+assert.throws(()=>A.resolveObjectives('input',[iron],[{id:'Desc_Cable_C',rate:1}],data),/disponibilité/);assert.throws(()=>A.resolveObjectives('input',[iron,iron],[plate],data),/distinctes/);assert.throws(()=>A.resolveObjectives('input',[],[plate],data),/entrée/);assert.throws(()=>A.resolveObjectives('input',[iron],[iron],data),/à la fois/);
+const plan=A.calculate({inputs:[iron],outputs:maximum.outputs},data,{size:40});assert.equal(A.power({objects:plan.objects},data).mw,78);assert.equal(A.power({objects:[{type:'smelter',clock:.5}]},data).mw,4*Math.pow(.5,1.321929));assert.equal(A.power({objects:[],buffer:plan.objects},data).mw,0);
+const p=M.fresh('diagnostic');p.objects=plan.objects.concat(plan.logistics);p.links=plan.links;p.floors=plan.floors;p.structure=plan.structure;p.beltCapacity=60;assert.doesNotThrow(()=>M.read(p));const link={kind:'planned',rate:120,item:iron.id};assert.equal(A.beltDiagnostic(p,link,data).efficiency,50);assert.equal(A.beltDiagnostic(p,link,data).state,'blocked');assert.equal(A.beltDiagnostic({...p,beltCapacity:270},link,data).state,'ok');assert.equal(A.beltDiagnostic(p,{kind:'belt'},data).state,'unknown');assert.equal(A.beltDiagnostic(p,{...link,rate:60},data).state,'busy');assert.throws(()=>M.read({...p,beltCapacity:0}),/Capacité/);assert.throws(()=>M.read({...p,links:[{...p.links[0],capacity:-1}]}),/liaisons/);
+const o={id:'buffered',type:'constructor',name:'test',x:60,y:10,z:0,h:6,w:8,d:10,rotation:0,clock:1};const stored=M.storeOnBuffer(M.fresh('buffer-grid'),[o]);assert.equal(stored.buffer[0].x,60);assert.equal(M.bufferLayout(stored).objects[0].x,60);assert.throws(()=>M.storeOnBuffer(stored,[{...o,id:'clash'}]),/occupe/);assert.throws(()=>M.storeOnBuffer(stored,[{...o,x:49,id:'edge'}]),/entièrement/);const legacy={...M.fresh('legacy'),buffer:[{...o,x:-20,y:100}]};const display=M.bufferLayout(legacy);assert.ok(M.bounds(display.objects[0]).minX>=48);assert.equal(legacy.buffer[0].x,-20);assert.doesNotThrow(()=>M.read(stored));
+console.log('PASS: input maximum, multiple-output ratios, missing budgets, both constraints, surplus, power, belt capacities, unknown flows, grid buffer placement and legacy migration');
+
+// Chrome draft regression: a pass-through goal used to enter infinite floor recursion.
+const same={id:'Desc_IronIngot_C',rate:120};
+assert.throws(()=>A.calculate({inputs:[same],outputs:[same]},data,{size:48}),/sortie différente/);
+assert.throws(()=>A.calculate({inputs:[],outputs:[{id:'Desc_OreIron_C',rate:120}]},data,{size:48}),/Aucune machine/);
+const actualChromeDraft={inputs:[same],outputs:[same]};assert.equal(A.demand(actualChromeDraft,data).requirements.get(same.id),120);
+console.log('PASS: Chrome same-input/output draft and raw-only targets fail promptly without infinite floor recursion');

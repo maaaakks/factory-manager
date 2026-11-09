@@ -1,0 +1,1107 @@
+Explorateur	Explorer
+Calculateur	Calculator
+Atelier	Workshop
+Créations	Creations
+Thème	Theme
+Thème de l’interface	Interface theme
+Vert	Green
+Orange FICSIT	FICSIT orange
+Dark	Dark
+Light	Light
+Langue	Language
+Langue de l’interface	Interface language
+Navigation principale	Main navigation
+01 / VOTRE MONDE	01 / YOUR WORLD
+02 / INSPECTION	02 / INSPECTION
+Sauvegardes de ce PC	Saves on this computer
+Recherche…	Searching…
+Ouvrir la sauvegarde	Open save
+Calques	Layers
+Usines enregistrées	Saved factories
+Aucune usine enregistrée	No saved factories
+Ouvrir cette usine	Open this factory
+INSTANTANÉ CHARGÉ	LOADED SNAPSHOT
+Rechercher un bâtiment	Find a building
+Constructor, convoyeur, identifiant…	Constructor, conveyor, ID…
+Carte schématique interactive des bâtiments	Interactive schematic building map
+Votre usine commence ici.	Your factory starts here.
+Chargez une sauvegarde pour explorer	Load a save to explore
+les bâtiments et leurs connexions.	the buildings and their connections.
+Choisir un fichier .sav	Choose a .sav file
+Aucun compte. Aucun envoi vers un service externe.	No account. No uploads to external services.
+Lecture de la sauvegarde…	Reading save…
+Extraction locale des bâtiments et connexions	Extracting buildings and connections locally
+Délimiter une usine	Define a factory area
+Fond	Background
+Fond de carte	Map background
+Grille	Grid
+Carte du monde	World map
+Inspection ↗	Inspect ↗
+Zoom avant	Zoom in
+Zoom arrière	Zoom out
+Glisser pour déplacer · Molette pour zoomer · Clic : usine · Double-clic : bâtiment	Drag to pan · Scroll to zoom · Click: factory · Double-click: building
+Prêt à ouvrir une sauvegarde.	Ready to open a save.
+Géométrie schématique · Positions en mètres	Schematic geometry · Positions in metres
+Fermer l’inspection	Close inspection
+Choisissez un bâtiment	Select a building
+Cliquez sur la carte ou utilisez la recherche pour afficher sa fiche.	Click the map or search for a building to inspect it.
+Une connexion enregistrée indique un lien physique. Elle ne prouve pas qu’un objet y circule, ni à quel débit.	A saved connection represents a physical link. It does not confirm item flow or its rate.
+Factory Manager · Explorateur local	Factory Manager · Local explorer
+Factory Manager · Calculateur	Factory Manager · Calculator
+Factory Manager · Références compactes	Factory Manager · Compact references
+Calculateur de recettes	Recipe calculator
+Choisissez vos produits et leurs débits pour connaître les ingrédients, les machines et la puissance nécessaires.	Choose products and rates to calculate the required ingredients, machines and power.
+Ouvrir l’atelier →	Open workshop →
+Objectifs de production	Production targets
+Objectifs de production ▾	Production targets ▾
+Calculer à partir des	Calculate from
+Sorties souhaitées	Desired outputs
+Entrées disponibles	Available inputs
+Entrées et sorties	Inputs and outputs
+Ajouter une entrée	Add input
+Ajouter un produit	Add product
+Calculer la recette	Calculate recipe
+Votre recette	Your recipe
+Chargement du catalogue…	Loading catalog…
+INGRÉDIENTS / MIN	INGREDIENTS / MIN
+PRODUITS / MIN	PRODUCTS / MIN
+Recette	Recipe
+Machine	Machine
+Nombre	Count
+Cadence	Clock speed
+Cadence (%)	Clock speed (%)
+Continuer avec cette recette	Continue with this recipe
+Vous pouvez ensuite préparer son implantation dans l’atelier.	Next, plan its layout in the workshop.
+Format pour l’atelier	Workshop size
+Préparer dans l’atelier →	Prepare in workshop →
+Voir dans Satisfactory Calculator ↗	View in Satisfactory Calculator ↗
+Importer des objectifs depuis Satisfactory Calculator	Import targets from Satisfactory Calculator
+Lien de partage ou objectifs JSON	Share link or targets JSON
+Importer la recette	Import recipe
+Les recettes standard sont recalculées localement.	Standard recipes are recalculated locally.
+Retirer les entrées importées	Remove imported inputs
+Nouveau blueprint	New blueprint
+Une chaîne en rangées simples, avec un étage logistique séparé.	A production chain in simple rows, with a separate logistics floor.
+Ajouter une ressource	Add resource
+Sens	Direction
+Entrée	Input
+Sortie	Output
+Entrées	Inputs
+Sorties	Outputs
+Ressource	Resource
+Rechercher une ressource…	Search resources…
+Débit / min	Rate / min
+Auto · laisser vide	Auto · leave blank
+Ajouter / modifier	Add / update
+Débit vide = Auto. Cliquez sur une ligne pour la modifier. Plusieurs sorties Auto : même débit pour chacune, après les sorties fixées.	Blank rate = Auto. Click a row to edit. Auto outputs share an equal rate after fixed outputs are supplied.
+Votre usine	Your factory
+Format du blueprint	Blueprint size
+Adapter automatiquement	Fit automatically
+Sur mesure…	Custom…
+Largeur · fondations	Width · foundations
+Profondeur · fondations	Depth · foundations
+Largeur au sol · fondations	Ground width · foundations
+Profondeur au sol · fondations	Ground depth · foundations
+Une fondation mesure 8 × 8 m. La hauteur limite tout le bâtiment ; la hauteur de chaque étage est calculée séparément.	Each foundation is 8 × 8 m. The height limits the entire building; floor heights are calculated separately.
+Densité	Density
+Compact	Compact
+Normal	Normal
+Aéré	Spacious
+Forme	Shape
+Rectangle	Rectangle
+Allongé	Elongated
+Découpé	Irregular
+Étages	Floors
+Étage	Floor
+Étages maximum	Maximum floors
+Un seul étage	Single floor
+Privilégier la hauteur	Prefer vertical layout
+Limiter les étages	Limit floors
+Garder de la place pour l’habillage	Reserve space for architecture
+Auto adapte le terrain ; un format choisi reste imposé. Convoyeurs et électricité inclus.	Auto adjusts the plot; a chosen size stays fixed. Conveyors and power included.
+Réglages avancés	Advanced settings
+Hauteur entre étages	Floor spacing
+Minimale · selon les machines	Minimum · based on machines
+Sol d’usine	Factory floor
+Cadre · ajouré	Frame · open
+Usine · plancher métallique	Factory · metal floor
+Fondation · dalle pleine	Foundation · solid slab
+Épaisseur des sols	Floor thickness
+Priorité	Priority
+Production · volume maximum	Production · maximum volume
+Architecture · marges pour les façades	Architecture · facade clearance
+Style de l’enveloppe	Building style
+Tous les styles · bac à sable	All styles · sandbox
+Convoyeurs économiques · Mk.1 → Mk.5 selon le débit	Efficient conveyors · Mk.1 → Mk.5 based on rate
+Importer depuis Satisfactory Calculator	Import from Satisfactory Calculator
+Lien de partage ou JSON	Share link or JSON
+Importer les objectifs	Import targets
+Chaque sortie Auto reçoit une part équivalente des entrées restantes. Les débits fixés sont prioritaires.	Auto outputs share the remaining inputs equally. Fixed rates take priority.
+Créer la chaîne de production	Generate production chain
+Importer / Exporter ▾	Import / Export ▾
+Importer un projet	Import project
+Exporter le projet (.json)	Export project (.json)
+Projet ouvert → blueprint du jeu	Current project → game blueprint
+Machines, recettes, sols, convoyeurs et élévateurs du plan ouvert. Vérifiez les vrais raccords en 3D avant l’export. Une conversion annulable est proposée pour les anciens plans compatibles.	Machines, recipes, floors, conveyors and lifts from the current plan. Check native connections in 3D before exporting. Compatible older plans can be converted with undo support.
+Vérifier et voir les convoyeurs natifs	Check and preview native conveyors
+Voir tous les trajets à corriger	Show all routes needing repair
+Conversion proposée : mêmes entrées/sorties et même format, machines et réseaux replacés avec des raccords natifs. Le nom, les couleurs et le tampon sont conservés. Annulable.	Proposed conversion: the same inputs, outputs and size, with machines and networks rebuilt using native connections. The name, colors and buffer are preserved. Undo is available.
+Convertir le plan en réseau natif	Convert plan to native network
+Enregistrer ce projet dans le jeu (.sbp)	Save this project to the game (.sbp)
+Session du jeu	Game session
+Modules de test prédéfinis	Preset test modules
+Module	Module
+Modules natifs : fer → plaques renforcées, jusqu’à 10/min. Hauteur, planchers et rangs des convoyeurs configurables.	Native modules: iron → reinforced plates, up to 10/min. Configurable height, floors and conveyor tiers.
+Un seul étage	Single floor
+Recalculer avec les modules compacts	Recalculate with compact modules
+Enregistrer ce module de test (.sbp)	Save this test module (.sbp)
+Comprendre les modules compacts	About compact modules
+Nom du blueprint	Blueprint name
+Enregistrer	Save
+Mes projets ▾	My projects ▾
+Projets de ce navigateur	Projects in this browser
+Ouvrir	Open
+Supprimer	Delete
+Gestes utiles	Controls
+Shift + clic : ajouter / retirer	Shift + click: add / remove
+Glisser une sélection : prendre le groupe	Drag a selection to move the group
+Glisser sur le vide : encadrer	Drag empty space to select an area
+R : tourner, même pendant le déplacement	R: rotate, including while moving
+Échap : annuler la prise	Esc: cancel move
+Tampon : mettre de côté	Buffer: set aside
+Hors cadre et tampon : supprimer	Outside the plot and buffer: delete
+Suppr : supprimer · Ctrl Z : annuler	Del: delete · Ctrl Z: undo
+F : sélection · Ctrl S : enregistrer	F: select · Ctrl S: save
+IMPLANTATION	LAYOUT
+Patterns de production	Production patterns
+Une rangée répétable, un réseau séparé.	A repeatable row, a separate network.
+Fonderie	Smelter
+Constructeur	Constructor
+Assembleuse	Assembler
+Nombre de machines	Number of machines
+Machines en rangée	Machines in rows
+Convoyeurs · 4 m libres	Conveyors · 4 m clearance
+Créer le pattern	Generate pattern
+Placement manuel & réseaux	Manual placement & networks
+Convoyeurs	Conveyors
+Relier entrée → sortie	Connect input → output
+Retirer les convoyeurs	Remove conveyors
+Convoyeur	Conveyor
+Auto · rang minimum	Auto · lowest tier
+Le réseau suit les recettes des machines. Les repères définissent ses entrées et ses sorties.	The network follows machine recipes. Markers define its inputs and outputs.
+Construire	Build
+Placement électrique	Power placement
+Raccords muraux des modules	Module wall connectors
+Un poteau par machine	One power pole per machine
+Poteaux partagés	Shared power poles
+Relier l’électricité	Connect power
+Réseau & capacités	Network & capacity
+Électricité	Power
+Capacité du réseau	Network capacity
+Capacités locales théoriques. Les pointillés sont des liaisons logiques non routées. Survolez une liaison pour ses débits.	Theoretical local capacities. Dashed lines are unrouted logical connections. Hover over a connection to see its rates.
+DESIGN DU BLUEPRINT	BLUEPRINT DESIGN
+Implantation	Layout
+Apparences	Appearance
+Peinture	Paint
+Façades	Facades
+Choisir un pattern de production	Choose a production pattern
+Fonderies, constructeurs ou assembleuses au-dessus d’un Logistics floor de 4 m.	Smelters, constructors or assemblers above a 4 m logistics floor.
+Terrain	Plot
+Auto · terrain libre	Auto · flexible plot
+Dimensions	Dimensions
+Auto peut agrandir le terrain. Un format choisi reste imposé.	Auto can enlarge the plot. A chosen size stays fixed.
+Une fondation = 8 × 8 m. Ces dimensions sont une contrainte ; les étages se règlent ci-dessous.	One foundation = 8 × 8 m. These dimensions are a constraint; floor settings are below.
+Étages maximum pour réorganiser	Maximum floors when reorganizing
+Garder de la place pour l’habillage	Reserve space for architecture
+Réorganiser l’usine	Reorganize factory
+Réorganiser les machines et les réseaux	Reorganize machines and networks
+Replace les machines, les étages et leurs réseaux. Annulable.	Repositions machines, floors and networks. Undo is available.
+Exemple aéré · 4 fonderies + 4 constructeurs	Spacious example · 4 smelters + 4 constructors
+Super compact	Very compact
+Équilibré	Balanced
+Minimum sans chevauchement	Minimum without overlap
+Recalculer	Recalculate
+Couleur commune	Shared color
+Couleurs appliquées aux bâtiments exportés en jeu. Les machines gardent leurs couleurs de lecture en 3D ; l’habillage prévisualise la peinture.	Colors apply to buildings exported to the game. Machines retain their identifying 3D colors; architecture previews the paint.
+Appliquer la palette	Apply palette
+Revenir à l’affichage neutre	Reset to neutral appearance
+Apparence du blueprint	Blueprint appearance
+Personnaliser les couleurs	Custom colors
+Appliquer à tout le blueprint	Apply to entire blueprint
+Style de l’usine	Factory style
+Choisir un design	Choose a design
+Chaque famille garde sa trame, ses matières et ses proportions. Rafraîchir l’habillage renouvelle les volumes, les fenêtres, la palette et la toiture. Les retraits utilisent uniquement les zones libres.	Each style keeps its grid, materials and proportions. Refreshing the architecture changes volumes, windows, palette and roof. Setbacks use free areas only.
+Rafraîchir l’habillage	Refresh architecture
+Retirer le style	Remove style
+Appliquer conserve l’implantation et agrandit le terrain si nécessaire. Adapter réorganise la production avec des dégagements de 8 m. Les blocs natifs restent entiers ; les plans standards réservent une galerie de 4 m avant le placement. Annulable.	Apply preserves the layout and enlarges the plot if needed. Adapt reorganizes production with 8 m clearance. Native blocks remain intact; standard plans reserve a 4 m gallery before placement. Undo is available.
+Adapter l’usine à cette création	Adapt factory to this creation
+Examiner la création ↗	Explore creation ↗
+Rythme du style	Style rhythm
+Détails du style	Style details
+Matière du style	Style material
+Le numéro de motif change la disposition des fenêtres, sans déplacer les machines.	The pattern number changes the window layout without moving machines.
+Personnaliser murs et toiture	Customize walls and roof
+Matière des panneaux pleins	Solid panel material
+Béton	Concrete
+Béton FICSIT	FICSIT concrete
+Béton brut	Raw concrete
+Béton ciré	Polished concrete
+Métal / FICSIT	Metal / FICSIT
+Industriel · FICSIT	Industrial · FICSIT
+Verre	Glass
+Motif des murs	Wall pattern
+Sobre · sans bandeau	Minimal · no trim
+Motif	Pattern
+Chaque travée	Every bay
+Une travée sur deux	Every second bay
+Une travée sur trois	Every third bay
+Une travée sur quatre	Every fourth bay
+Sans entrée	No entrance
+Accès piéton	Pedestrian access
+Entrée piétonne	Pedestrian entrance
+Largeur	Width
+Longueur	Length
+Façade avant	Front facade
+Façade arrière	Rear facade
+Façade gauche	Left facade
+Façade droite	Right facade
+Ajouter l’entrée	Add entrance
+Couvrir le dernier étage	Cover the top floor
+Ajoute un toit exportable au-dessus des machines.	Adds an exportable roof above the machines.
+Style du toit	Roof style
+Terrasse · goudron	Terrace · tar
+Verrière	Skylight
+Composition des verrières	Skylight layout
+Auto · compositions variées	Auto · varied layouts
+Un puits central	Central skylight
+Deux groupes symétriques	Two symmetrical groups
+Quatre groupes symétriques	Four symmetrical groups
+Trois groupes · alignés ou en triangle	Three groups · in a line or triangle
+Verrière longitudinale	Longitudinal skylight
+Couronne vitrée	Glazed ring
+Forme du toit	Roof shape
+Procédural · adapté au motif	Procedural · fitted to the pattern
+Terrasse plane	Flat roof
+Pentes et verrières	Slopes and skylights
+Lanterneau surélevé	Raised roof monitor
+Toiture en sheds	Sawtooth roof
+Contenu débloqué	Unlocked content
+Choix manuel pour ce projet. La progression de la sauvegarde n’est pas encore importée.	Manual selection for this project. Save progression is not imported yet.
+Générer l’habillage	Generate architecture
+Style observé dans l’explorateur	Style observed in explorer
+Modules originaux :	Original modules:
+. Assemblage de pièces existantes ; aperçu sans les modèles 3D du jeu.	. Assembled from existing parts; preview does not use game models.
+Murs, fenêtres, piliers, bandeaux et toitures sont inclus dans l’export natif. Les ouvertures imposées par les machines sont regroupées en baies et encadrées si la place le permet. Les angles en retrait utilisent uniquement des zones libres ; les fondations extérieures forment des terrasses. Agrandir le format réserve une marge autour de la chaîne. Les volumes 3D restent schématiques.	Walls, windows, pillars, trim and roofs are included in native exports. Machine openings are grouped into bays and framed where space allows. Setbacks use free areas; outer foundations form terraces. A larger plot reserves room around the production chain. 3D volumes remain schematic.
+Vue du projet	Project view
+Calques	Layers
+Logistique et élévateurs	Logistics and lifts
+Affichage uniquement · tous les étages	Display only · all floors
+Éléments opaques	Opaque elements
+Convoyeurs : vert / orange / rouge selon la charge · ⚡ câbles : jaune	Conveyors: green / orange / red by load · ⚡ wires: yellow
+Sols	Floors
+Matière	Material
+Asphalte	Asphalt
+Tôle antidérapante	Anti-slip metal
+Changer de matière	Change material
+Appliquer aux sols	Apply to floors
+Vue 3D ↗	3D view ↗
+Annuler	Undo
+Rétablir	Redo
+Supprimer le groupe	Delete group
+Copier	Copy
+Tourner	Rotate
+Grille de 1 m · R pour tourner	1 m grid · R to rotate
+Sélection	Selection
+Cliquez sur une machine ou encadrez un groupe.	Click a machine or drag to select a group.
+Nom	Name
+Réglage manuel de recette	Manual recipe settings
+Aucune recette	No recipe
+Définissez une sortie ou choisissez une machine.	Set an output or select a machine.
+Confirmer	Confirm
+Continuer	Continue
+Vue 3D du blueprint	Blueprint 3D view
+Lecture seule · tous les étages · hors tampon	Read only · all floors · excludes buffer
+Voir le Logistics floor	Show logistics floor
+Coupe du bâtiment	Building cutaway
+Perspective	Perspective
+Réinitialiser la perspective	Reset perspective
+Glisser : tourner · Molette : zoomer	Drag to orbit · Scroll to zoom
+Vue en élévation	Elevation view
+Face	Front
+Côté	Side
+Volumes schématiques du plan, pas les modèles du jeu. Pointillés : réseau logique ou gaine réservée. La vérification native affiche les convoyeurs, élévateurs et passages de plancher réellement exportés. Survolez un volume pour son nom et sa hauteur.	Schematic plan volumes, not game models. Dashed lines show logical networks or reserved shafts. Native verification displays the actual exported conveyors, lifts and floor openings. Hover over a volume for its name and height.
+Retour au design	Back to design
+TAMPON	BUFFER
+objets ·	objects ·
+Dessinez votre usine.	Design your factory.
+Réseau logique proposé	Proposed logical network
+Échelle	Scale
+ATELIER D’ARCHITECTURE / SATISFACTORY	ARCHITECTURE WORKSHOP / SATISFACTORY
+Nos créations	Our creations
+Nos créations · Factory Manager	Our creations · Factory Manager
+Des intérieurs à habiter. Des bâtiments à explorer.	Interiors to inhabit. Buildings to explore.
+Choisissez une ambiance intérieure ou une silhouette extérieure.	Choose an interior atmosphere or an exterior silhouette.
+ÉTUDES ARCHITECTURALES	ARCHITECTURAL STUDIES
+EN PIÈCES NATIVES	BUILT WITH NATIVE PARTS
+Toutes	All
+MAQUETTES INTERACTIVES	INTERACTIVE MODELS
+Aucune création dans cette catégorie.	No creations in this category.
+COLLECTION 01 / ARCHITECTURES COMPOSÉES	COLLECTION 01 / AUTHORED ARCHITECTURE
+Largeur et longueur réglables par travées de 8 m.	Width and length adjustable in 8 m bays.
+Aperçus géométriques ; matériaux et placement à valider dans le jeu.	Geometric previews; materials and placement require in-game checks.
+Intérieurs	Interiors
+Extérieurs	Exteriors
+Nouvelles études	New studies
+Industriel	Industrial
+Futuriste	Futuristic
+Organique	Organic
+Brutaliste	Brutalist
+Explorer	Explore
+Ouvrir l’étude ↗	Open study ↗
+COMPOSITION	COMPOSITION
+INTÉRIEUR · UN NIVEAU	INTERIOR · ONE FLOOR
+Toutes les créations	All creations
+UNE HALLE, QUATRE ÉCHELLES	ONE HALL, FOUR SCALES
+Étude architecturale	Architectural study
+Une halle haute ouverte sur un atrium, accompagnée d’une galerie basse et d’une bande technique.	A tall hall opening onto an atrium, with a low gallery and service strip.
+Une silhouette composée	A composed silhouette
+Auvent bas, terrasse, grande halle et tour technique.	Low canopy, terrace, main hall and service tower.
+Des plans en profondeur	Layers of depth
+Portiques avancés, vitrage reculé et marquise intérieure.	Projecting frames, recessed glazing and an interior canopy.
+Une circulation dessinée	Designed circulation
+Escalier, terrasse et belvédère sur la production.	Stairs, terrace and an overlook above production.
+La fonction donne le détail	Function shapes the details
+Charpente, ventilation et convoyeurs participent à la composition.	Structure, ventilation and conveyors shape the composition.
+Télécharger la maquette JSON	Download model JSON
+À importer dans l’atelier pour l’examiner. Largeur de 64 à 96 m et longueur de 48 à 80 m, par travées de 8 m. Les machines restent en place, les collisions sont refusées. Votre projet ouvert est conservé.	Import into the workshop to inspect it. Width: 64–96 m; length: 48–80 m, in 8 m bays. Machines stay in place; collisions are rejected. Your current project is preserved.
+Références de conception	Design references
+Profondeur et finitions · TotalXclipse	Depth and details · TotalXclipse
+Espace, fonctions et éclairage · TotalXclipse	Space, function and lighting · TotalXclipse
+Ruptures de lignes · Reekitect	Breaking up lines · Reekitect
+Composition industrielle · Tenhope	Industrial composition · Tenhope
+Relief et panneaux lumineux · TotalXclipse	Depth and luminous panels · TotalXclipse
+Mega Tower · salles, noyau et étages	Mega Tower · rooms, core and floors
+Composition	Composition
+Façade	Facade
+Coupe habitée	Interior cutaway
+Arrière	Rear
+LED	LED
+Couleur du panneau LED	LED panel color
+Ambre	Amber
+Blanc	White
+Intérieur	Interior
+Fonderie	Smelter
+Clair	Light
+High-tech	High-tech
+Niveaux	Levels
+Inspecter	Inspect
+Ensemble	All levels
+Niveau	Level
+Hauteur utile	Usable height
+Vitrages	Glazing
+COMPOSITION / VUE D’ARRIVÉE	COMPOSITION / ARRIVAL VIEW
+PIÈCES NATIVES · MACHINES SCHÉMATIQUES	NATIVE PARTS · SCHEMATIC MACHINES
+Chargement de la composition…	Loading model…
+Aperçu géométrique local. Les matériaux, la lumière et les parcours restent à contrôler dans Satisfactory.	Local geometric preview. Materials, lighting and access routes still require checks in Satisfactory.
+Lecture du module	Module guide
+Des raccords calibrés.	Calibrated connections.
+Positions et connexions extraites de tes blueprints kouyère. Vues schématiques, sans modification des fichiers.	Positions and connections extracted from the kouyère blueprints. Schematic views; original files are unchanged.
+Une arrivée commune, deux machines, une collecte commune.	One shared input, two machines, one shared output.
+5 m pour les fonderies, 8 m pour les constructeurs, sans couloir ajouté entre chaque rangée.	5 m for smelters, 8 m for constructors, without an extra aisle between rows.
+Une paire face à face.	A face-to-face pair.
+Répartiteur en bas, fusionneur au-dessus ; pas de seconde rangée de logistique au sol.	Splitter below, merger above; no second logistics row on the floor.
+Une colonne centrale à plusieurs hauteurs.	A central column at multiple heights.
+L’électricité suit le module.	Power follows the module.
+Raccord mural sous la collecte pour les paires ; un poteau par machine lorsque le module ne fournit pas de support.	Wall connector below the paired output; one power pole per machine when the module has no support.
+Tous les niveaux	All levels
+Vue de dessus	Top view
+X / hauteur	X / height
+Y / hauteur	Y / height
+Laissez le débit vide pour le calculer automatiquement.	Leave the rate blank to calculate it automatically.
+Débit disponible / min	Available rate / min
+Débit disponible m³ / min	Available rate m³ / min
+Retirer	Remove
+Produit	Product
+Chargement…	Loading…
+Catalogue en cours de chargement.	Catalog is loading.
+Catalogue indisponible.	Catalog unavailable.
+Catalogue indisponible	Catalog unavailable
+Choisissez des produits distincts et un débit positif pour chacun.	Choose distinct products and a positive rate for each.
+Ajustez les produits ou les débits pour calculer votre recette.	Adjust the products or rates to calculate the recipe.
+Chaîne complète depuis les ressources brutes. Sous-produits calculés sans recyclage automatique.	Complete chain from raw resources. By-products are calculated without automatic recycling.
+Sous-produits à récupérer ou évacuer	By-products to recover or dispose of
+Maximum théorique pour les entrées choisies.	Theoretical maximum for the selected inputs.
+Sorties ajustées aux entrées disponibles :	Outputs adjusted to available inputs:
+de l’objectif.	of the target.
+MW théoriques	MW theoretical
+consommation variable de certaines machines	variable consumption for some machines
+chacune	each
+à 100 %	at 100%
+à	at
+Choisissez entre 1 et 16 machines.	Choose between 1 and 16 machines.
+Choisissez une recette compatible avec ce pattern.	Choose a recipe compatible with this pattern.
+Le manifold dépasse 1 200 unités/min. Réduisez le nombre de machines.	The manifold exceeds 1,200 units/min. Reduce the machine count.
+Création des rangées et de leur réseau…	Generating rows and their network…
+Ce pattern ne peut pas être raccordé.	This pattern cannot be connected.
+Le projet a changé. Relancez la création du pattern.	The project has changed. Generate the pattern again.
+Le pattern n’a pas pu être appliqué.	The pattern could not be applied.
+Annuler pour revenir au plan précédent.	Undo to return to the previous plan.
+Choisir une sauvegarde…	Choose a save…
+Aucune sauvegarde trouvée	No saves found
+Choisir un fichier .sav…	Choose a .sav file…
+Liste indisponible. Utilisez Ouvrir la sauvegarde.	Save list unavailable. Use Open save.
+Liste indisponible	Save list unavailable
+Lecture locale en cours…	Reading locally…
+Données invalides.	Invalid data.
+Échec de lecture.	Read failed.
+Aucun bâtiment dans cet instantané.	No buildings in this snapshot.
+Cette sauvegarde est lisible. Essayez une partie plus avancée.	This save can be read. Try a more developed save.
+Instantané restauré	Snapshot restored
+Cache local	Local cache
+Cache navigateur indisponible ; le cache serveur reste utilisable.	Browser cache unavailable; the server cache is still available.
+Position X / Y	Position X / Y
+Recette enregistrée	Saved recipe
+Non renseignée	Not specified
+Connexions	Connections
+Débit réel	Actual flow rate
+Non mesuré	Not measured
+Fond de carte indisponible. La grille reste utilisable.	Map background unavailable. The grid is still available.
+Rechercher	Search
+Machines	Machines
+Convoyeurs & ascenseurs	Conveyors & lifts
+Répartiteurs & fusions	Splitters & mergers
+Stockage	Storage
+Murs & fenêtres	Walls & windows
+Fondations & rampes	Foundations & ramps
+Toitures	Roofs
+Décoration, éclairage & panneaux	Decoration, lighting & signs
+Poutres, passerelles & escaliers	Beams, walkways & stairs
+Autres constructions	Other buildings
+Poteau	Power pole
+Répartiteur	Splitter
+Fusion	Merger
+Élévateur	Conveyor lift
+Coffre	Storage container
+LOGISTIQUE	LOGISTICS
+MACHINES	MACHINES
+ÉLECTRICITÉ	POWER
+Capacités	Capacities
+Capacités locales	Local capacities
+Réseau natif	Native network
+Réseau estimé · vérifier avant export	Estimated network · check before export
+Rangées simples · Logistics floor de 4 m	Simple rows · 4 m logistics floor
+Entrée ressource	Resource input
+Sortie usine	Factory output
+Traversée vers le vide technique	Lift to logistics floor
+Électricité au plafond	Ceiling power connector
+Raccords au plafond	Ceiling connectors
+Manifold entrée	Input manifold
+Manifold sortie	Output manifold
+Brouillon conservé automatiquement · Enregistrer pour nommer cette version.	Draft saved automatically · Save to name this version.
+Projet enregistré dans ce navigateur.	Project saved in this browser.
+Donnez un nom au projet.	Enter a project name.
+Choisir un projet…	Choose a project…
+Projet enregistré.	Project saved.
+Nom modifié · Enregistrer pour conserver cette version.	Name changed · Save to keep this version.
+Modification annulée.	Change undone.
+Modification rétablie.	Change redone.
+Recherche d’une implantation…	Finding a layout…
+Recherche	Searching
+Le calcul a été interrompu. Le plan actuel est conservé.	Calculation interrupted. The current plan is preserved.
+Cette implantation prend trop de temps. Essayez Rectangle et Auto, ou réduisez les débits. Le plan actuel est conservé.	This layout is taking too long. Try Rectangle and Auto, or reduce the rates. The current plan is preserved.
+Le projet a changé pendant le calcul. Relancez la création.	The project changed during calculation. Generate it again.
+Le projet a changé pendant le calcul. Relancez la réorganisation.	The project changed during calculation. Reorganize it again.
+Cette implantation a été refusée. Le plan précédent est conservé.	This layout was rejected. The previous plan is preserved.
+Ajoutez les entrées/sorties dans Calculator pour réorganiser cette usine.	Add inputs and outputs in Production targets to reorganize this factory.
+Ajoutez une sortie pour commencer.	Add an output to get started.
+Auto · le terrain peut grandir. Débordements d’habillage acceptés.	Auto · the plot can grow. Architecture overhangs are allowed.
+Terrain imposé · aucune extension automatique. Débordements d’habillage acceptés.	Fixed plot · no automatic expansion. Architecture overhangs are allowed.
+Terrain imposé · façades complètes demandées.	Fixed plot · complete facades required.
+Rangées de machines indépendantes · production sur un niveau · Logistics floor de 4 m.	Independent machine rows · one production floor · 4 m logistics floor.
+Raccord natif	Native connection
+raccord natif	native connection
+trajet schématique	schematic route
+estimation théorique	theoretical estimate
+objectif servi	target supplied
+charge	load
+réserve	spare capacity
+débit inconnu	unknown rate
+ports présents	saved ports
+goulot(s)	bottleneck(s)
+Aucune capacité locale dépassée parmi les débits connus.	No local capacity exceeded for known rates.
+Ajoutez une liaison ou calculez une chaîne.	Add a connection or calculate a production chain.
+Enveloppes sans collision · convoyeurs à vérifier	No bounding-box collisions · check conveyors
+Implantation actuelle : dégagements non réservés. Optimisez pour créer les sols et la logistique.	Current layout: clearance is not reserved. Optimize to generate floors and logistics.
+Débit inconnu	Unknown flow rate
+Goulot	Bottleneck
+Raccords électriques	Power connections
+Réserve	Spare capacity
+≥ 90 % chargé	≥ 90% loaded
+Réserver la marge · agrandir si nécessaire	Reserve clearance · enlarge if needed
+Relier la chaîne entrée → sortie	Connect the chain from input → output
+Réorganiser avec ce terrain	Reorganize within this plot
+Rafraîchir les murs	Refresh walls
+Rafraîchir le toit	Refresh roof
+Choisissez une famille	Choose a style
+Appliquer	Apply
+Appliquer ce design	Apply this design
+Appliquer la création	Apply creation
+Ouvrir la maquette	Open model
+Aucun habillage appliqué	No architecture applied
+Appliqué	Applied
+Style verrouillé.	Style locked.
+Plan éditable	Editable plan
+Cliquer pour modifier	Click to edit
+Palette	Palette
+Mon blueprint	My blueprint
+Mon usine	My factory
+Continuer	Continue
+Étude	Study
+ARCHITECTURES COMPOSÉES	AUTHORED ARCHITECTURE
+ÉTUDE LOCALE · LECTURE SEULE	LOCAL STUDY · READ ONLY
+ARCHITECTURE SEULE · RÉSERVES LOGISTIQUES	ARCHITECTURE ONLY · LOGISTICS CLEARANCE
+Architecture et décoration · emplacements libres · machines et convoyeurs non inclus	Architecture and decoration · free placement · machines and conveyors not included
+COMPOSITION / ENSEMBLE	COMPOSITION / ALL LEVELS
+FAÇADE / VOLUMES ET PROFONDEUR	FACADE / VOLUMES AND DEPTH
+COUPE / ESPACES ET PRODUCTION	CUTAWAY / SPACES AND PRODUCTION
+ARRIÈRE / VOLUMES ET DÉTAILS	REAR / VOLUMES AND DETAILS
+INTÉRIEUR / UN NIVEAU DE PRODUCTION	INTERIOR / ONE PRODUCTION FLOOR
+Couleur	Color
+Plafond	Ceiling
+Plancher	Floor slab
+Vitrage	Glass pane
+Ossature de verrière	Skylight frame
+Convoyeur natif	Native conveyor
+élévateur natif	native lift
+gaine réservée	reserved shaft
+Sol d’usine · plancher métallique	Factory floor · metal decking
+Chaîne complète	Complete chain
+Sortie(s)	Output(s)
+Entrée(s)	Input(s)
+Nouveau projet	New project
+Ouvrir la vue d’architecte ↗	Open architectural view ↗
+Angles en retrait · selon la place libre	Setback corners · where space allows
+Auto · chercher une travée libre	Auto · find a free bay
+Aéré · priorité aux espaces	Spacious · prioritize clearance
+Bandeau contrasté en couronnement	Contrasting roof trim
+Bas	Low
+Haut	High
+Contour de l’usine	Factory footprint
+Contreventements en croix	Cross bracing
+Convoyeur sur un étage. Raccords, supports et câbles schématiques ; aucune garantie de construction en jeu.	Single-floor conveyor. Schematic connections, supports and wires; in-game construction is not guaranteed.
+Convoyeurs et accessoires	Conveyors and accessories
+Coupe	Cutaway
+Cour ouverte · forme en U	Open courtyard · U shape
+Deux ailes · forme en L	Two wings · L shape
+Emprise du bâtiment	Building footprint
+Encadrer les baies industrielles	Frame industrial windows
+Entrepôt · blocs et grandes baies en retrait	Warehouse · blocks and large recessed windows
+Export XL expérimental au-delà des designers standards ; à valider en jeu.	Experimental XL export beyond standard designers; requires in-game validation.
+Façade LED	LED facade
+Façade plane	Flat facade
+Finition des raccords	Connection finish
+Galeries · travées et volumes saillants	Galleries · bays and projecting volumes
+Gradins · étages en retrait et terrasses	Steps · setbacks and terraces
+Habillage	Architecture
+Habillage mural	Wall detailing
+Intégrée au bardage	Integrated into the cladding
+Le réseau des paires compactes conserve ses raccords muraux calibrés. Utilisez Construction pour ajouter ou déplacer les objets.	Compact pairs retain their calibrated wall connectors. Use Construction to add or move objects.
+Le terrain est une limite maximale. Le contour adapté suit machines et convoyeurs, avec des retraits dans les zones inutilisées.	The plot is a maximum boundary. The fitted outline follows machines and conveyors, with setbacks in unused areas.
+Les volumes affichés simplifient les corps et les antennes. Les traits électriques représentent les connexions, pas le tracé précis des câbles. Les petits espacements observés ne constituent pas des limites universelles du jeu. Cette page est une référence de conception ; le placement automatique actuel n’applique pas encore ces modules verticaux.	Displayed volumes simplify bodies and antennas. Power lines show connections, not exact wire paths. Observed clearances are not universal game limits. This page is a design reference; automatic placement does not yet use these vertical modules.
+Montants contrastés	Contrasting columns
+Murs	Walls
+Murs pleins	Solid walls
+Occuper tout le terrain	Use the entire plot
+Ossature et motifs	Structure and patterns
+Ouvertures	Openings
+Planchers / cadres	Floor slabs / frames
+Portail ouvert encadré de poutres, sans porte mobile. Passage vérifié contre machines et convoyeurs ; les ressources gardent leurs propres entrées/sorties.	Open beam-framed entrance, without a moving door. Clearance is checked against machines and conveyors; resources keep their own inputs and outputs.
+Poutres et cadres	Beams and frames
+Poutres et diagonales	Beams and diagonals
+Quatre retraits · forme en croix	Four setbacks · cross shape
+Rectangle · enveloppe complète	Rectangle · full envelope
+Relief des façades	Facade depth
+Repère de frontière : ne crée pas de bâtiment dans le jeu.	Boundary marker: does not create an in-game building.
+Revêtement des sols	Floor finish
+Règles à réutiliser	Reusable rules
+Référence	Reference
+Répartir au prorata des ressources consommées	Distribute in proportion to consumed resources
+Réutiliser les géométries natives et leurs élévateurs, puis vérifier chaque jonction entre modules.	Reuse native geometry and lifts, then check every connection between modules.
+Signature · volumes composés	Signature · composed volumes
+Sobre · sans poutres	Minimal · no beams
+Sols, machines, logistique et poteaux, sur tous les étages et dans le tampon.	Floors, machines, logistics and poles on all levels and in the buffer.
+Suivre les bâtiments · marge de 4 m	Follow buildings · 4 m margin
+Super compact · modules par paires	Very compact · paired modules
+Terrasse et puits de lumière	Terrace and skylights
+Toits	Roofs
+Une largeur de répétition par famille.	A repeating width for each style.
+Équilibré · plus de dégagement	Balanced · more clearance
+Étaler sur un seul étage	Spread across one floor
+Compact en hauteur	Compact vertical layout
+Centrer le plan pour les façades	Center the plan for facades
+Collecte	Collection
+Distribution	Distribution
+Élévateurs	Lifts
+Limiter le nombre d’étages	Limit the floor count
+Auto · choisir l’implantation	Auto · choose layout
+M05 · Kit procédural	M05 · Procedural kit
+Classiques procéduraux	Procedural classics
+Atelier signature	Signature workshop
+M05 · Modules de JazzFrank	M05 · JazzFrank modules
+Entrepôt modulaire	Modular warehouse
+Hangar industriel	Industrial hangar
+FICSIT industriel	Industrial FICSIT
+Campus vitré	Glazed campus
+Façade technologique	High-tech facade
+Atelier béton	Concrete workshop
+Béton monumental	Monumental concrete
+Pavillons en L	L-shaped pavilions
+Cour industrielle	Industrial courtyard
+Atelier en croix	Cross-shaped workshop
+Atlas · halle industrielle	Atlas · industrial hall
+Halle Atlas · étude 01	Atlas Hall · study 01
+Une halle, quatre échelles	One hall, four scales
+Portiques profonds, galerie habitée et lanterneau haut.	Deep frames, a usable gallery and a raised roof monitor.
+Halle haute, atrium en retrait, galerie basse et terrasse desservie par un escalier. Composition fixe de 64 × 48 m.	Tall hall, recessed atrium, low gallery and a terrace served by stairs. Fixed 64 × 48 m composition.
+Lumen · pavillon futuriste	Lumen · futuristic pavilion
+Coque claire et horizon vitré	Light shell and glazed horizon
+Une silhouette basse, une grande visière et un pavillon asymétrique.	A low silhouette, a large canopy and an asymmetric pavilion.
+Coque claire à pans coupés, bandeau panoramique et pavillon asymétrique. Étude futuriste, sans structure industrielle exposée.	A light faceted shell, panoramic glazing and an asymmetric pavilion. A futuristic study without exposed industrial structure.
+Sylva · terrasses habitées	Sylva · inhabited terraces
+Un paysage en gradins	A stepped landscape
+Terrasses décalées, teintes sauge et pavillon vitré en retrait.	Offset terraces, sage tones and a recessed glazed pavilion.
+Une architecture de paysage : les volumes descendent en gradins autour d’un pavillon haut, avec des rives claires et une palette sauge.	Landscape architecture: volumes step down around an elevated pavilion, with light edges and a sage palette.
+Une silhouette étagée	A stepped silhouette
+Trois niveaux de terrasses remplacent la façade verticale unique.	Three terrace levels replace a single vertical facade.
+Un pavillon décentré	An off-center pavilion
+Le petit volume supérieur laisse lire un grand plateau autour de lui.	The small upper volume leaves a generous open platform around it.
+Des limites épaisses	Thick edges
+Les rives claires soulignent les changements de niveau.	Light edges emphasize changes in level.
+Une palette de paysage	A landscape palette
+Sauge et pierre claire ; les jardinières sont vides, sans végétation simulée.	Sage and light stone; planters are empty, without simulated vegetation.
+Monolithe · porte monumentale	Monolithe · monumental gateway
+Le plein encadre le vide	Solid frames the void
+Deux massifs opaques, un couronnement haut et une entrée profondément reculée.	Two opaque masses, a tall crown and a deeply recessed entrance.
+Une porte monumentale en pierre grise : deux massifs pleins encadrent un vide central, tandis qu’un seuil bas donne une échelle plus intime à l’entrée.	A monumental gray stone gateway: two solid masses frame a central void, while a low threshold gives the entrance a more intimate scale.
+Des masses pleines	Solid masses
+Deux volumes porteurs de 8 m de largeur donnent le poids visuel.	Two 8 m wide supporting volumes provide visual weight.
+Un vide profond	A deep void
+Le vitrage se recule de quatre mètres derrière la façade monumentale.	Glazing is recessed four metres behind the monumental facade.
+Deux échelles	Two scales
+Le grand linteau haut surplombe un auvent d’entrée bas.	The large upper lintel overhangs a low entrance canopy.
+Un détail rare	Restrained detailing
+Un seul filet bronze accompagne le seuil sombre.	A single bronze line accents the dark threshold.
+Canopée · coque enveloppante	Canopée · enclosing shell
+Une courbe habitée	An inhabited curve
+Une voûte douce, une verrière au sommet et un porche arrondi.	A gentle vault, a skylight at the top and a rounded porch.
+Une coque continue enveloppe la halle. Sept facettes dessinent une voûte douce, soulignée par des rives épaisses et un petit porche arrondi à l’entrée.	A continuous shell encloses the hall. Seven facets form a gentle vault, highlighted by thick edges and a small rounded entrance porch.
+Une silhouette continue	A continuous silhouette
+La toiture remplace les volumes superposés par une grande enveloppe.	The roof replaces stacked volumes with one large shell.
+Des courbes par facettes	Faceted curves
+Sept panneaux inclinés composent le profil, sans étirer les pièces natives.	Seven inclined panels form the profile without stretching native parts.
+Une lumière zénithale	Light from above
+La bande vitrée occupe le sommet presque horizontal de la voûte.	A glazed strip occupies the almost horizontal top of the vault.
+Une entrée à petite échelle	A smaller-scale entrance
+Un porche arrondi reprend le geste de la grande coque.	A rounded porch echoes the main shell.
+Bastion · cour et strates	Bastion · courtyard and layers
+L’horizon plutôt que la tour	Horizon over tower
+Dalles épaisses, ailes basses et cour traversante à l’échelle du sol.	Thick slabs, low wings and a ground-level through courtyard.
+Une architecture basse ancrée dans le terrain. De grandes dalles protègent une façade reculée, tandis que deux ailes encadrent une cour traversante à gauche.	Low architecture anchored to the ground. Large slabs protect a recessed facade while two wings frame a through courtyard on the left.
+Une composition horizontale	A horizontal composition
+La dalle principale reste basse et s’avance largement devant le vitrage.	The main slab stays low and extends well beyond the glazing.
+Une cour traversante	A through courtyard
+Un passage au niveau du sol relie les deux ouvertures de l’aile gauche.	A ground-level passage connects the two openings in the left wing.
+Des masses stratifiées	Layered masses
+Les bandeaux pleins et les volumes secondaires dessinent plusieurs horizons.	Solid bands and secondary volumes form several horizons.
+Des ombres profondes	Deep shadows
+Le vitrage sombre se recule sous les dalles plutôt que de couvrir la façade.	Dark glazing sits beneath the slabs instead of covering the facade.
+Aurore · campus lumineux	Aurore · luminous campus
+L’architecture avant la production	Architecture before production
+Trois hauteurs, une promenade sous lanterneau et des panneaux lumineux intégrés à des façades profondes.	Three heights, a skylit promenade and luminous panels integrated into deep facades.
+Trois volumes décalés : un pavillon bas, une halle latérale et une promenade plus haute sous verrière. La façade recule derrière un portail et de vrais panneaux lumineux ; un belvédère regarde la halle réservée aux manifolds.	Three offset volumes: a low pavilion, a side hall and a higher glazed promenade. The facade sits behind a gateway and native luminous panels; an overlook faces the hall reserved for manifolds.
+Trois hauteurs de toiture	Three roof heights
+Pavillon bas à 13 m, halle à 17 m et promenade vitrée à 21 m : la silhouette ne forme pas un couvercle unique.	A low pavilion at 13 m, a hall at 17 m and a glazed promenade at 21 m break up the roofline.
+Des murs qui éclairent	Walls that light the space
+Signes natifs à fond cyan ou ivoire, émission 3, intégrés dans des reliefs.	Native cyan or ivory signs with emission 3, integrated into facade relief.
+Un intérieur dessiné	A designed interior
+Promenade de 8 m, alcôves et belvédère relié par deux volées natives.	An 8 m promenade, alcoves and an overlook connected by two native stair flights.
+Des travées de manifolds	Manifold bays
+Une machine par travée de 8 m ; le bâtiment se prolonge sans dépendre des anciennes paires.	One machine per 8 m bay; the building expands independently of the old paired modules.
+Noyau · salles et circulations	Noyau · rooms and circulation
+Trame spatiale · 1 à 3 niveaux	Spatial grid · 1 to 3 levels
+Salles, gaine vitrée et passerelles. Le style intérieur se choisit indépendamment du nombre de niveaux.	Rooms, a glazed shaft and walkways. Interior style is independent of the number of levels.
+Une trame de salles et de circulations, à ouvrir par défaut sur un niveau. Choisissez librement la finition industrielle, claire ou high-tech : elle ne dépend plus de l’étage.	A grid of rooms and circulation, opening on one level by default. Choose industrial, light or high-tech finishes independently of the floor count.
+Des salles adaptées aux machines	Rooms fitted to machines
+16 × 16 m pour la fusion et la fabrication ; 16 × 32 m pour une assembleuse et ses dégagements.	16 × 16 m for smelting and construction; 16 × 32 m for an assembler and its clearance.
+Un noyau lisible	A clear core
+Une colonne vitrée continue de 8 × 8 m, réservée aux flux verticaux.	A continuous 8 × 8 m glazed column reserved for vertical flows.
+Deux réseaux séparés	Two separate networks
+Passerelles et paliers pour les personnes ; sas de 2,8 m et gaines réservées aux convoyeurs.	Walkways and landings for people; 2.8 m openings and shafts reserved for conveyors.
+Un style indépendant de la hauteur	A style independent of height
+Une même finition sur un ou plusieurs niveaux ; les trois études d’intérieur détaillent chacune leur aménagement.	The same finish on one or several levels; three interior studies each detail their layout.
+Compact · angle et couronnement	Compact · corner and crown
+Une usine carrée · étude du module	A square factory · module study
+Entrée unique sous les LED, accueil par la zone de contrôle, escalier vers la production et éclairage réparti.	One entrance beneath the LEDs, a control area, stairs to production and distributed lighting.
+Module carré 48 × 48 m avec un pan coupé à 45°. Toute la surface centrale de cette face devient un panneau LED de 8 × 15 m, intégré entre les montants. Sa couleur est réglable et conservée dans le JSON et l’export natif.	A square 48 × 48 m module with a 45° cut corner. Its central face is an 8 × 15 m LED panel integrated between columns. Its adjustable color is preserved in JSON and native exports.
+Un vrai pan coupé	A real cut corner
+Une travée de 8 m retirée de chaque face. La nouvelle paroi diagonale accueille la façade LED.	An 8 m bay removed from each face. The new diagonal wall holds the LED facade.
+Une toiture plane	A flat roof
+Toutes les dalles de toiture natives sont horizontales, à la même altitude. Les émergences techniques restent distinctes.	All native roof slabs are horizontal and at the same height. Service structures remain separate.
+Une entrée sous les LED	An entrance beneath the LEDs
+Porte centrale unique au niveau de la zone de contrôle ; accès latéraux refermés et approche extérieure par un escalier de 2 m.	One central door at control-area level; side openings are closed and the exterior approach uses 2 m stairs.
+Une galerie, pas des objets isolés	A gallery rather than isolated objects
+Socle en béton ciré, rampe native avec garde-corps, vitrage continu à bordure transparente et couverture. Distribution électrique regroupée au plafond.	Polished concrete base, native ramp and railings, continuous borderless glazing and a roof. Power distribution is grouped at the ceiling.
+Prisme · cristal facetté	Prisme · faceted crystal
+Des plans qui captent la lumière	Planes that capture light
+Un volume facetté, des pans obliques et une faille vitrée dans la toiture.	A faceted volume, inclined planes and a glazed roof opening.
+Un volume cristallin unique enveloppe la production. Ses pans inclinés portent un vitrage oblique, avec des pignons ajustés au profil.	A single crystalline volume encloses production. Its inclined planes hold angled glazing, with gables fitted to the profile.
+Un volume sculpté	A sculpted volume
+Une seule silhouette facettée, dégagée de tout pavillon secondaire.	One faceted silhouette without a secondary pavilion.
+Des facettes réelles	Real facets
+Les panneaux natifs de 8 m sont inclinés sans être déformés.	Native 8 m panels are tilted without deformation.
+Une faille vitrée	A glazed opening
+Le vitrage suit un pan oblique avant de rejoindre le sommet.	Glazing follows an inclined plane up to the top.
+Des pignons ajustés	Fitted gables
+Les fenêtres restent sous la pente ; des cours de poutres ferment les pointes.	Windows stay below the slope; rows of beams close the tips.
+Aster · ailes en flèche	Aster · swept wings
+Une coque déployée	A spread shell
+Ailes inclinées, épine vitrée haute et appuis en diagonale.	Inclined wings, a high glazed spine and diagonal supports.
+Une architecture inspirée d’un appareil posé au sol : des ailes en pente encadrent une épine vitrée, avec un nez bas et des appuis inclinés.	Architecture inspired by a grounded aircraft: sloping wings frame a glazed spine, with a low nose and inclined supports.
+Une toiture déployée	A spread roof
+Les pans descendent vers les extrémités au lieu de former un couvercle plat.	Roof planes slope down toward the edges instead of forming a flat lid.
+Une épine centrale	A central spine
+Un bandeau vitré haut éclaire la longueur du volume.	A high glazed band lights the length of the volume.
+Des appuis en diagonale	Diagonal supports
+Les soutiens suivent la direction des ailes et dégagent le vitrage.	Supports follow the wings and keep the glazing clear.
+Un nez plus bas	A lower nose
+L’entrée possède sa propre avancée et un joint cuivré discret.	The entrance has its own projection and a subtle copper seam.
+Cuivrière · halle de cuivre	Cuivrière · copper hall
+Cuivre patiné / vitrages géométriques	Patinated copper / geometric glazing
+La halle Copper de kouyère : façades triangulaires, toiture plate et circulations conservées.	The Copper hall from kouyère: triangular facades, a flat roof and preserved circulation.
+Architecture extraite du bâtiment Copper de kouyère_autosave_0. Le format original de 104 × 88 m conserve les pièces et leurs orientations, les vitrages, les circulations et les finitions métalliques. Les extensions ajoutent des travées centrales de 8 m, sans étirer les pièces. Machines et réseaux de production non inclus.	Architecture extracted from the Copper building in kouyère_autosave_0. The original 104 × 88 m format preserves parts and orientations, glazing, circulation and metal finishes. Extensions add central 8 m bays without stretching parts. Production machines and networks are not included.
+La façade d’origine	The original facade
+Panneaux de cuivre et grands vitrages croisés, avec les motifs triangulaires de la sauvegarde.	Copper panels and large cross-braced windows, with the save's triangular patterns.
+Des pièces conservées	Preserved parts
+Les orientations et dimensions natives restent celles du bâtiment Copper.	Native orientations and dimensions match the Copper building.
+Des travées extensibles	Expandable bays
+Largeur de 104 à 136 m et longueur de 88 à 120 m, par pas de 8 m.	Width from 104 to 136 m and length from 88 to 120 m, in 8 m steps.
+Une enveloppe disponible	A ready envelope
+Planchers, passerelles et escaliers conservés ; production à implanter dans l’atelier.	Floors, walkways and stairs preserved; place production in the workshop.
+% du potentiel des filons sollicité	% of resource node potential used
+% identifié	% identified
+: cliquez dans le plan. R pour tourner avant de poser.	: click the plan. Press R to rotate before placing.
+fondations · bâtiment	foundations · building
+liaisons à router	connections to route
+mineur(s) relié(s)	connected miner(s)
+objet(s) mis de côté. Leurs liaisons ont été détachées.	object(s) set aside. Their connections were detached.
+objet(s) posé(s).	object(s) placed.
+objet(s) supprimé(s) hors du cadre.	object(s) deleted outside the plot.
+objet(s) supprimé(s).	object(s) deleted.
+objet(s) supprimé(s). Ctrl+Z pour restaurer le groupe.	object(s) deleted. Ctrl+Z to restore the group.
+objets sélectionnés	selected objects
+objets tournés.	objects rotated.
+objets · glisser un objet sélectionné pour déplacer le groupe	objects · drag a selected object to move the group
+par min · potentiel à la cadence enregistrée	per min · potential at the saved clock speed
+passage(s) inférieur(s) à	passage(s) narrower than
+pièces architecturales natives	native architectural parts
+posé. R pour tourner, F pour sélectionner.	placed. R to rotate, F to select.
+sortie(s) du périmètre	output(s) from the area
+25 premiers affichés	first 25 shown
+Brouillon non conservé : exportez le projet.	Draft not saved: export the project.
+noyau et sas réservés · sans production	reserved core and openings · no production
+prise annulée, objets conservés.	move canceled, objects preserved.
+source partagée avec d’autres branches	source shared with other branches
+/ min estimés	/ min estimated
+60 minerais de cuivre → 60 lingots/min théoriques · réseau exporté :	60 copper ore → 60 ingots/min theoretical · exported network:
+Aperçu limité à 10 000 constructions.	Preview limited to 10,000 buildings.
+Architecture Copper · 104–136 m × 88–120 m · travées de 8 m · sans machines ni réseaux de production.	Copper architecture · 104–136 m × 88–120 m · 8 m bays · no production machines or networks.
+Architecture et décoration · 64 / 80 / 96 m de largeur · 48 / 64 / 80 m de longueur.	Architecture and decoration · width 64 / 80 / 96 m · length 48 / 64 / 80 m.
+Architecture seule · 64 ou 96 m de largeur · 48 / 64 / 80 m de longueur · 1 à 3 niveaux. Aucun layout existant n’est imposé.	Architecture only · width 64 or 96 m · length 48 / 64 / 80 m · 1 to 3 levels. No existing layout is imposed.
+Architecture seule · largeur 64 à 96 m et longueur 48 à 80 m par travées de 8 m.	Architecture only · width 64–96 m and length 48–80 m, in 8 m bays.
+Arrêt au stockage	Stops at storage
+Arrêt aux premières machines ou aux stockages amont. Débit d’extraction non déduit du seul nombre de mineurs.	Stops at the first upstream machines or storage. Extraction rate is not inferred from the miner count alone.
+Arrêt à la machine	Stops at the machine
+Atelier à productions multiples	Multi-product workshop
+Aucun besoin externe identifié.	No external demand identified.
+Aucun bâtiment visible dans cette zone. Vérifiez les calques et l’altitude.	No visible buildings in this area. Check the layers and elevation.
+Aucun coffre terminal retrouvé sur les chemins pris en charge.	No terminal storage found along supported routes.
+Aucun port convoyeur sérialisé. Les ports par défaut absents du fichier ne sont pas inventés.	No serialized conveyor ports. Default ports absent from the file are not inferred.
+Aucun trajet sortant relié aux recettes lues.	No outgoing route linked to the saved recipes.
+Aucune connexion convoyeur externe résolue dans ce périmètre.	No resolved external conveyor connections in this area.
+Aucune place libre pour cette copie.	No free space for this copy.
+Aucune production calculable dans cette sélection.	No calculable production in this selection.
+Aucune recette enregistrée dans cette sélection. Les bâtiments seuls ne suffisent pas à établir sa production.	No saved recipes in this selection. Buildings alone do not establish its production.
+Aucune ressource identifiée dans cette catégorie.	No resources identified in this category.
+Besoin des recettes	Recipe requirements
+Bâtiment inconnu	Unknown building
+Cadence enregistrée	Saved clock speed
+Capacité convoyeur limitante	Limiting conveyor capacity
+Capacité des chemins identifiés :	Identified route capacity:
+Capacité théorique : consommation et production nettes des recettes calculables, avec alimentation suffisante. Les mines, générateurs, fluides, blocages, arrêts et pertes de routage ne sont pas simulés. Un excédent interne n’est pas une sortie observée et un besoin net n’est pas une mesure d’entrée.	Theoretical capacity: net consumption and production of calculable recipes with sufficient supply. Mines, generators, fluids, blockages, stops and routing losses are not simulated. Internal surplus is not an observed output; net demand is not a measured input.
+Capacités estimées depuis la sauvegarde. Débit réel en jeu non mesuré.	Capacities estimated from the save. Actual in-game rates are not measured.
+Cette recette ne correspond pas à la machine.	This recipe is incompatible with the machine.
+Chargez d’abord une sauvegarde.	Load a save first.
+Choisir une usine…	Choose a factory…
+Choisissez les sorties à maximiser. Avec plusieurs sorties, les proportions sont conservées (ex. 1 plaque pour 2 barres).	Choose the outputs to maximize. Multiple outputs retain their proportions, e.g. 1 plate for 2 rods.
+Choisissez un fichier .sav de 1 octet à 64 Mo.	Choose a .sav file between 1 byte and 64 MB.
+Choisissez un projet enregistré.	Choose a saved project.
+Choisissez un rayon de 10 à 300 m.	Choose a radius between 10 and 300 m.
+Comprendre les pourcentages	Understanding percentages
+Connexions et hypothèses du bilan	Connections and balance assumptions
+Copie placée à proximité, sans chevauchement.	Copy placed nearby without overlap.
+Couleurs des bâtiments conservées · Convoyeurs : gris bleuté · Blocage : orange / rouge · Glisser : tourner · Molette : zoomer · Maj + glisser ou clic droit : déplacer	Building colors preserved · Conveyors: blue-gray · Blockage: orange / red · Drag: orbit · Scroll: zoom · Shift + drag or right-click: pan
+Des services intégrés	Integrated services
+Dimensions : 1 à 64 fondations par axe, hauteur de 8 à 512 m par pas de 8 m.	Dimensions: 1–64 foundations per axis; height 8–512 m in 8 m steps.
+Directions : noms Input/Output ou déduction par les connexions réciproques des convoyeurs. Les directions ambiguës restent inconnues.	Directions use Input/Output names or reciprocal conveyor connections. Ambiguous directions remain unknown.
+Disponible après besoins internes	Available after internal demand
+Débit entrant non mesuré : pureté, cadence et acheminement à confirmer.	Input rate not measured: purity, clock speed and routing require confirmation.
+Débit souhaité	Desired rate
+Débouché non identifié	Unidentified destination
+Dégagements réservés	Clearance reserved
+Détail de l’efficacité	Efficiency details
+Détails de production et diagnostic	Production and diagnostic details
+Détails et destinations	Details and destinations
+Détails et limites	Details and limitations
+Effacer le tracé	Clear trace
+Efficacité estimée	Estimated efficiency
+Estimation provisoire : cadences supposées et/ou versions différentes.	Provisional estimate: assumed clock speeds and/or different versions.
+Fabrication de fils / câbles	Wire / cable production
+Galerie · paroi ajourée	Gallery · open wall
+Halle · pile latérale	Hall · side column
+Impossible d’enregistrer dans le navigateur. Utilisez Exporter JSON.	Cannot save in the browser. Use Export JSON.
+Intermédiaire : minimum entre la couverture du besoin interne et la part de production affectable aux besoins internes ou à un premier coffre. Sortie : part du disponible après besoins internes pouvant atteindre un premier coffre. Les besoins internes sont servis avant les coffres. Une ressource consommée sans production interne nécessite un débit externe : son pourcentage reste à confirmer.	Intermediate: the smaller of internal demand coverage and production assignable to internal demand or a first storage container. Output: the share remaining after internal demand that can reach a first storage container. Internal demand is served first. A resource consumed without internal production requires external supply; its percentage is unconfirmed.
+Le brouillon actuel contient des changements non enregistrés. Continuer et le remplacer ?	The current draft has unsaved changes. Continue and replace it?
+Le lien ne contient pas des objectifs lisibles. Copiez son adresse complète depuis le calculateur.	The link does not contain readable targets. Copy its full address from the calculator.
+Le navigateur ne conserve pas ce calcul. Vous pouvez encore ouvrir sa proposition dans l’atelier.	The browser cannot save this calculation. You can still open its proposal in the workshop.
+Le projet doit avoir un nom.	The project must have a name.
+Lecture des usines enregistrées :	Reading saved factories:
+Les angles rentrants M05 ne sont pas encore assemblés automatiquement.	M05 recessed corners are not assembled automatically yet.
+Les recettes sont proposées depuis les objectifs au centre.	Recipes are suggested from the central targets.
+Les sorties sont des plafonds. Si les entrées manquent, elles sont réduites dans la même proportion.	Outputs are limits. If inputs are insufficient, they are reduced proportionally.
+Lien récupéré :	Link imported:
+Machines à Z =	Machines at Z =
+Mineurs reliés	Connected miners
+Modifications non enregistrées	Unsaved changes
+Module de référence 48 × 48 m · étude extérieure en cours · extensions à travailler après cette base.	Reference module 48 × 48 m · exterior study in progress · extensions to be developed from this base.
+Moyenne des taux utiles par ressource identifiée. La consommation interne et les sorties utiles sont comptées. Les ressources aux trajets incomplets sont exclues du pourcentage global.	Average useful rate per identified resource, including internal consumption and useful outputs. Resources with incomplete routes are excluded from the overall percentage.
+Nom de l’usine de référence	Reference factory name
+Nom du projet modifié.	Project name changed.
+Objet tourné de 90°.	Object rotated by 90°.
+Objets possibles selon les recettes, sans mesure de débit	Possible items from recipes, without measured rates
+Pans coupés et larges rubans clairs plutôt qu’une charpente apparente.	Faceted planes and broad light strips instead of exposed framing.
+Parcours incomplet : les débouchés non identifiés ne prouvent pas un blocage.	Incomplete routes: unidentified destinations do not prove a blockage.
+Pas de recette solide calculable dans cette zone.	No calculable solid-item recipes in this area.
+Pavillon bas, porche en retrait et seuil dégagé vers la production.	Low pavilion, recessed porch and a clear threshold toward production.
+Positions, rotations et hauteurs approximatives. Les modèles, textures et formes exactes du jeu ne sont pas inclus.	Approximate positions, rotations and heights. Exact game models, textures and shapes are not included.
+Production théorique	Theoretical production
+Projet enregistré :	Project saved:
+Proposer une usine autour de ce bâtiment	Suggest a factory around this building
+Propriétés appliquées.	Properties applied.
+Périmètre enregistré	Area saved
+R : tourner · Échap : annuler · Pointillés : réseau logique non routé	R: rotate · Esc: cancel · Dashed lines: unrouted logical network
+R pour tourner · relâcher pour poser	R to rotate · release to place
+Recette à plusieurs ingrédients : attribution exacte aux ports non établie.	Multi-ingredient recipe: exact port assignment is not established.
+Relâcher pour supprimer	Release to delete
+Ressources intermédiaires et convoyeurs	Intermediate resources and conveyors
+Référence non résolue	Unresolved reference
+Références indisponibles.	References unavailable.
+Rôle indéterminé	Role undetermined
+Solde négatif :	Negative balance:
+Soldes bruts des recettes (pas les sorties)	Raw recipe balances, not outputs
+Source locale : blueprints / kouyère /	Local source: blueprints / kouyère /
+Stockage local indisponible. Exportez le projet JSON pour le conserver.	Local storage unavailable. Export the project JSON to keep it.
+Stockages et machines sont inclus comme extrémités, sans traverser leurs recettes. La sélection n’est pas sauvegardée.	Storage and machines are included as endpoints without traversing recipes. The selection is not saved.
+Suggestion à valider, déduite des noms de recettes de cette zone. Elle ne prouve ni la matière réellement fournie ni les débits. Les recettes sans matière explicite restent ambiguës.	An unconfirmed suggestion based on recipe names in this area. It proves neither actual material supply nor rates. Recipes without explicit materials remain ambiguous.
+Sélection : encadrez des objets ou utilisez Shift+clic. Glissez la sélection pour la déplacer.	Selection: drag an area or use Shift+click. Drag the selection to move it.
+Sélectionnez un seul objet pour le dupliquer.	Select one object to duplicate it.
+Sélectionnez un seul objet pour le tourner.	Select one object to rotate it.
+Tracez un rectangle autour de l’usine. Sélection de tous les bâtiments du périmètre, y compris les calques masqués. Échap pour annuler.	Draw a rectangle around the factory. All buildings inside are selected, including hidden layers. Esc to cancel.
+Tracé convoyeur issu de la géométrie enregistrée. Les symboles des bâtiments ne représentent pas leur empreinte réelle.	Conveyor route from saved geometry. Building symbols do not represent their actual footprint.
+Tracé partiel : limite de 250 bâtiments atteinte.	Partial trace: the 250-building limit was reached.
+Traversée non prise en charge	Traversal not supported
+Un horizon vitré	A glazed horizon
+Une entrée asymétrique	An asymmetric entrance
+Usine de référence	Reference factory
+Usine enregistrée sur cet ordinateur :	Factory saved on this computer:
+Usine proposée	Suggested factory
+Usine restaurée :	Factory restored:
+Utilisation du filon indéterminée : pureté inconnue	Resource node usage undetermined: unknown purity
+Vert : besoin servi · Orange : perte jusqu’à 20 % · Rouge : perte supérieure à 20 %. Gris : données insuffisantes. Un manifold plein n’est pas un goulot à lui seul.	Green: demand supplied · Orange: loss up to 20% · Red: loss above 20%. Gray: insufficient data. A full manifold alone does not indicate a bottleneck.
+Vitrage horizontal intégré entre les pleins de la coque.	Horizontal glazing integrated between solid shell panels.
+Voir les destinations	Show destinations
+Voir les sources et le transport	Show sources and transport
+Zone trop petite : tracez un rectangle autour de plusieurs bâtiments.	Area too small: draw a rectangle around several buildings.
+enveloppe guidée par les murs	wall-guided envelope
+objet indéterminé	unknown item
+périmètre proposé à confirmer	suggested area to confirm
+Suivre l’entrée	Trace input
+Catégorie de design	Design category
+Couleur de la façade LED	LED facade color
+Couleur Électricité	Power color
+Couleurs du panneau LED	LED panel colors
+Dimensions de la création	Creation dimensions
+Fermer la vue 3D	Close 3D view
+Filtrer les créations	Filter creations
+Finition intérieure	Interior finish
+Largeur du bâtiment	Building width
+Longueur du bâtiment	Building length
+Maquette 3D de la halle Atlas. Glisser pour tourner, molette ou réglage pour zoomer, flèches pour orienter.	Atlas Hall 3D model. Drag to orbit, scroll or use the slider to zoom, arrow keys to rotate.
+Niveau à inspecter	Level to inspect
+Nombre de niveaux	Number of levels
+Pattern de machine	Machine pattern
+Perspective du blueprint, glisser pour tourner et utiliser la molette pour zoomer	Blueprint perspective; drag to orbit and scroll to zoom
+Plan éditable de 6 par 6 fondations	Editable plan of 6 by 6 foundations
+Point de vue	Viewpoint
+Retirer les convoyeurs et élévateurs du plan. Conserver machines et électricité. Ctrl Z pour annuler.	Remove conveyors and lifts from the plan. Keep machines and power. Ctrl Z to undo.
+Terrain de l’implantation	Layout plot
+Vue de dessus du blueprint de référence	Reference blueprint top view
+Vue en élévation du blueprint	Blueprint elevation view
+Vue en élévation du blueprint de référence	Reference blueprint elevation view
+Zoom de la maquette	Model zoom
+Étage du pattern	Pattern floor
+Étages de la création	Creation floors
+Pattern de production impossible	Production pattern failed
+Export impossible	Export failed
+Préparation impossible	Preparation failed
+Conversion impossible	Conversion failed
+Projet vide ou trop volumineux.	Project is empty or too large.
+Choisissez une ressource dans les résultats de recherche.	Choose a resource from the search results.
+Aucune ressource trouvée.	No resources found.
+Indiquez un débit supérieur à zéro, au maximum 100 000 par minute.	Enter a rate above zero, up to 100,000 per minute.
+Ce produit n’est pas encore pris en charge :	This product is not supported yet:
+Ce lien ne contient aucune sortie cible.	This link contains no output targets.
+Enregistrez votre premier blueprint pour le retrouver ici.	Save your first blueprint to find it here.
+Sortie à définir	Output not set
+Enregistrer les changements ?	Save changes?
+Supprimer ce projet ?	Delete this project?
+Choisir	Choose
+Fermer	Close
+Échec	Failed
+Étage affiché	Displayed floor
+Monde	World
+Unités	Units
+fait	complete
+de largeur	wide
+de longueur	long
+par travées de 8 m	in 8 m bays
+largeur	width
+longueur	length
+sans machines ni réseaux de production	without production machines or networks
+natifs	native
+théoriques	theoretical
+pièces	parts
+fonderies	smelters
+constructeurs	constructors
+assembleuses	assemblers
+étage(s)	floor(s)
+fondations	foundations
+goulots	bottlenecks
+références non résolues	unresolved references
+directions inconnues	unknown directions
+pièce(s)	part(s)
+à confirmer	to confirm
+non mesuré	not measured
+non résolu	unresolved
+amont	upstream
+aval	downstream
+Périmètre	Area
+Ouverture	Opening
+Collection	Collection
+Enveloppe	Envelope
+Débit	Flow rate
+Éclairage	Lighting
+Épaisseur	Thickness
+Hauteur	Height
+Indiquez les débits de sortie souhaités ; les entrées seront calculées.	Enter the desired output rates; inputs will be calculated.
+Affectation théorique par ressource. Le premier coffre termine la chaîne ; son contenu redistribué appartient à une autre liaison.	Theoretical allocation per resource. The first storage container ends the chain; redistributed contents belong to another connection.
+Annexe basse fermée ; accents cyan peints, sans émission lumineuse.	Enclosed low annex; painted cyan accents without light emission.
+Calcul sur les chemins de convoyeurs ordinaires et les capacités des recettes ; ne traverse ni machine ni coffre. Capacités des convoyeurs, règles avancées de répartition, niveau des coffres, énergie et débit réel non simulés. Un déficit ne réduit pas encore les capacités des recettes aval dans ce calcul. Les volumes vers les coffres sont des potentiels, sans preuve de débit réel. Optimisation réelle : non mesurée.	Calculated along ordinary conveyor paths and recipe capacities without traversing machines or storage. Conveyor capacity, advanced splitter rules, storage levels, power and actual flow are not simulated. Deficits do not yet reduce downstream recipe capacity. Volumes toward storage are potential, not measured rates. Actual optimization is not measured.
+Débit entrant estimé ; extraction et alimentation effective non mesurées.	Estimated input rate; actual extraction and supply are not measured.
+Estimation sur les chemins identifiés ; certaines références ou ressources restent inconnues.	Estimate based on identified paths; some references or resources remain unknown.
+Trait = largeur du mur ; petit repère = face locale +X. Angle du trait : 0° vers la droite, 90° vertical. Projection schématique de 8 m, sans géométrie exacte des variantes.	Line = wall width; small marker = local +X face. Line angle: 0° rightward, 90° vertical. Schematic 8 m projection without exact variant geometry.
+référence unique	single reference
+autres connexions de frontière.	other boundary connections.
+constructions isolées. Référence à vérifier avec vos débits connus.	isolated buildings. Check the reference against known rates.
+construction(s) absente(s) : périmètre à revoir.	missing building(s): review the area.
+premier coffre terminal identifié sur un chemin de sortie. Débit réel non mesuré.	first terminal storage identified on an output path. Actual flow is not measured.
+raccords muraux	wall connectors
+raccord mural	wall connector
+poteaux	power poles
+bâtiments sélectionnés par le tracé	buildings selected by the trace
+source(s) amont trouvée(s)	upstream source(s) found
+parcours partiel	partial route
+machine(s) calculée(s)	calculated machine(s)
+recette(s) non calculée(s)	uncalculated recipe(s)
+machine(s) utilisent une cadence ou un bonus de 1× supposé, faute de valeur enregistrée.	machine(s) use an assumed 1× clock speed or boost because no value was saved.
+sortie(s) à la frontière	output(s) at the boundary
+entrée(s)	input(s)
+sortie(s)	output(s)
+port(s) de frontière non résolus.	unresolved boundary port(s).
+Catalogue installé build	Installed catalog build
+sauvegarde build	save build
+Versions différentes : chiffres à confirmer.	Different versions: figures require confirmation.
+Proposition locale	Local proposal
+liaison(s) arrêtée(s) aux limites de rayon ou d’activité.	connection(s) stopped at radius or activity boundaries.
+Limite de 350 objets de production atteinte.	350 production-object limit reached.
+À valider puis enregistrer.	Confirm before saving.
+entrées, ressources intermédiaires et sorties du périmètre. Frontières à confirmer.	inputs, intermediate resources and outputs in the area. Boundaries require confirmation.
+usine proposée	suggested factory
+inconnu	unknown
+degrés	degrees
+usine	factory
+à router	to route
+sans trajet	without a route
+Quatre faces coordonnées : verrières, portiques et galeries en retrait. Toits à lanterneau, double pente, sheds ou pavillon technique, avec appuis continus. Pièces natives ; verrières basses si le volume manque.	Four coordinated facades: skylights, frames and recessed galleries. Monitor, pitched, sawtooth or service-pavilion roofs with continuous supports. Native parts; lower skylights where height is limited.
+Les anciennes familles réunies : industrie, vitrage, béton et volumes. Varier explore leurs compositions.	The original styles combined: industry, glazing, concrete and volumes. Vary explores their compositions.
+Trois compositions : Horizon, Faille et Ossature. Volumes décalés, vitrages profonds, rives et détails localisés.	Three compositions: Horizon, Faille and Ossature. Offset volumes, deep glazing, edges and localized details.
+C1/C2 + M1–M6 + IN1 réels. Assemblage symétrique par modules de 40 m : verrières, coursives, évents et volumes en retrait. Terrain adapté à partir de 80 × 80 m.	Native C1/C2 + M1–M6 + IN1. Symmetrical assembly of 40 m modules: skylights, walkways, vents and recessed volumes. Plots from 80 × 80 m.
+Volumes saillants, baies en retrait et terrasses étagées, inspirés du M05.	Projecting volumes, recessed windows and stepped terraces inspired by M05.
+Façades pleines, éclairage haut et grandes lignes de charpente.	Solid facades, high-level lighting and broad structural lines.
+Bardage sombre, ossature orange et vitrages rythmés.	Dark cladding, orange structure and rhythmic glazing.
+Façades vitrées, retraits et verrières symétriques.	Glazed facades, setbacks and symmetrical skylights.
+Montants réguliers, vitrage alterné et contrastes froids.	Regular columns, alternating glazing and cool contrasts.
+Socle minéral, fenêtres groupées et puits central.	Stone base, grouped windows and a central skylight.
+Masses pleines, pilastres et bandeaux vitrés horizontaux.	Solid masses, pilasters and horizontal glazed bands.
+Deux ailes et une terrasse, selon les volumes occupés.	Two wings and a terrace fitted to occupied volumes.
+Une cour ouverte et des façades tournées vers le vide.	An open courtyard and facades facing the central void.
+Quatre retraits profonds et une silhouette cruciforme.	Four deep setbacks and a cross-shaped silhouette.
+Halle industrielle composée, adaptable en largeur et en longueur par travées de 8 m.	An authored industrial hall, adjustable in width and length in 8 m bays.
+M05 · Entrepôt modulaire	M05 · Modular warehouse
+Chapitre II · Architectures composées	Chapter II · Authored architecture
+Maquette 3D de	3D model of
+Glisser pour tourner ; molette pour zoomer.	Drag to orbit; scroll to zoom.
+Altitude	Elevation
+Visualisation 3D	3D view
+Modèle	Model
+Modèles	Models
+Source locale	Local source
+Connexion	Connection
+Enregistrer cette usine	Save this factory
+Sortie du pattern	Pattern output
+Réseau natif prêt pour l’export	Native network ready for export
+Calcul des convoyeurs et élévateurs natifs…	Calculating native conveyors and lifts…
+Rechercher un produit…	Search products…
+Couleur Machines	Machine color
+Couleur Logistique	Logistics color
+Couleur Sols	Floor color
+Couleur Murs	Wall color
+Couleur Ossature	Frame color
+Couleur Vitrages	Glass color
+Couleur Toiture	Roof color
+bâtiment	building
+Analyser la zone	Analyze area
+Répartition	Distribution
+Modifier une entrée	Edit input
+Modifier une sortie	Edit output
+Enregistrer les modifications	Save changes
+Ajouter la sortie	Add output
+Modifier	Edit
+Indiquez un débit entre 0 et 100 000 par minute (zéro exclu).	Enter a rate above 0 and up to 100,000 per minute.
+Cette ressource figure déjà dans cette colonne.	This resource is already in this column.
+Ajouter une	Add an
+Annuler la modification	Cancel edit
+
+Ajouter un logistics floor séparé (4 m)	Add a separate logistics floor (4 m)
+Une chaîne en rangées simples, avec un étage logistique optionnel.	A production chain in simple rows, with an optional logistics floor.
+
+Fonderies, constructeurs ou assembleuses, avec un logistics floor optionnel.	Smelters, constructors or assemblers, with an optional logistics floor.

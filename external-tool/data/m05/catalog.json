@@ -1,0 +1,90 @@
+{
+  "author": "JazzFrank",
+  "url": "https://satisfactoryblueprints.com/author/jazzfrank",
+  "modules": [
+    {
+      "module": "C1",
+      "url": "https://satisfactoryblueprints.com/blueprint/12c74a4a-c97e-4ad3-b256-ac3606ef8e0e",
+      "file": "C1.sbp",
+      "actors": 460,
+      "sha256": "423969a9490ef010d08dec519ef5c853c4a2cc6696aa475bc1b7d7e5b5bdbf1e"
+    },
+    {
+      "module": "C2",
+      "url": "https://satisfactoryblueprints.com/blueprint/85e2c777-c25c-413f-af92-f1233aa8477e",
+      "file": "C2.sbp",
+      "actors": 447,
+      "sha256": "73f22047cbb6454285222cf8f5f04f4f28e0a85083d284418ebcf62905532e0e"
+    },
+    {
+      "module": "M1",
+      "url": "https://satisfactoryblueprints.com/blueprint/f92bbb4b-6f78-4f54-ae50-46c3aa404924",
+      "file": "M1.sbp",
+      "actors": 300,
+      "sha256": "e38908f29fd47c91ea33c3079c95bfceaea13379181cdbd14981cd190a428473"
+    },
+    {
+      "module": "M2",
+      "url": "https://satisfactoryblueprints.com/blueprint/22a87086-8189-4ae2-9831-ce11789a00bd",
+      "file": "M2.sbp",
+      "actors": 276,
+      "sha256": "d88ab4cbe1936945a321877efccc209271ab92e5f234e1e2505fb5d5946e5a4d"
+    },
+    {
+      "module": "M3",
+      "url": "https://satisfactoryblueprints.com/blueprint/f5aed4ec-e644-40e5-86dc-4e8773dadc17",
+      "file": "M3.sbp",
+      "actors": 311,
+      "sha256": "9ea3a3ecedd651a6daaf705f0ea906d73c70336c7908086969b04c0adc9270c4"
+    },
+    {
+      "module": "M4",
+      "url": "https://satisfactoryblueprints.com/blueprint/1b46b980-a3ac-4a10-9178-6f5c51a5753c",
+      "file": "M4.sbp",
+      "actors": 266,
+      "sha256": "60b11e41aea0e408eaf0d5d3d14db1386edd78efc17f0a148934817086c11c88"
+    },
+    {
+      "module": "M5",
+      "url": "https://satisfactoryblueprints.com/blueprint/c255f7b1-4337-4197-b6f6-56223b05e4a1",
+      "file": "M5.sbp",
+      "actors": 289,
+      "sha256": "4cc3094d3bcf4696aa036224d2b3359386d9149e4e9dbbd4855c037bf83f61af"
+    },
+    {
+      "module": "M6",
+      "url": "https://satisfactoryblueprints.com/blueprint/72feb1aa-c54a-4aa5-92fe-779b98d3dd8e",
+      "file": "M6.sbp",
+      "actors": 302,
+      "sha256": "ab23d6749031b0d8e8111ae94174883b99e593c123f07647a95b988c4b1ff5b6"
+    },
+    {
+      "module": "IN1",
+      "url": "https://satisfactoryblueprints.com/blueprint/0d9eb2cf-7d8a-4f90-a315-f18abd310b8b",
+      "file": "IN1.sbp",
+      "actors": 100,
+      "sha256": "e126974aaacb039e99a11c81c9b08d7d508fd75b402267275166d29d3a179011"
+    },
+    {
+      "module": "IN2",
+      "url": "https://satisfactoryblueprints.com/blueprint/0042882e-40de-4713-baa6-a64a3a26295c",
+      "file": "IN2.sbp",
+      "actors": 158,
+      "sha256": "e179028cc98281ac13cd2549b0167a22dceb09661e9cf85c42048a03a5ffc82f"
+    },
+    {
+      "module": "IC1",
+      "url": "https://satisfactoryblueprints.com/blueprint/deffb913-201d-4b84-9575-26aeb5d03ad7",
+      "file": "IC1.sbp",
+      "actors": 284,
+      "sha256": "1f1c3b4d7e9ff02d293950195dc0e782e0f19d98bd8bd88c38780dc596d7ad49"
+    },
+    {
+      "module": "IC2",
+      "url": "https://satisfactoryblueprints.com/blueprint/c4ae7a98-699a-4aab-af31-61f99cfd71f0",
+      "file": "IC2.sbp",
+      "actors": 316,
+      "sha256": "f20020d3fad3f2e93a2ab8e9c6c9dc863ed9289bdc331961fc6aa0d90241c4e9"
+    }
+  ]
+}

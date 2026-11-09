@@ -1,0 +1,11 @@
+const assert=require('node:assert/strict'),M=require('../dist/workshop-model.js');
+const p=M.fresh('buffer'),o=(id,x,y)=>({id,type:'constructor',name:id,x,y,z:0,h:6,w:8,d:10,rotation:0,recipe:null,clock:1});
+p.objects=[o('a',12,12),o('b',28,12)];p.links=[{kind:'belt',from:'a',to:'b'}];
+const stored=M.storeHeld(p,[{...p.objects[0],x:-20,y:100,rotation:90}]);assert.equal(stored.objects.length,1);assert.equal(stored.buffer.length,1);assert.equal(stored.links.length,0);assert.equal(p.objects.length,2,'Buffering is transactional');assert.equal(stored.buffer[0].rotation,90);assert.deepEqual(M.read(JSON.stringify(stored)),stored);
+const returned=M.placeHeld(stored,[{...stored.buffer[0],x:12,y:12}]);assert.equal(returned.buffer.length,0);assert.equal(returned.objects.length,2);
+assert.throws(()=>M.placeHeld(stored,[{...stored.buffer[0],x:28,y:12}]),/chevauche/);assert.equal(stored.buffer.length,1,'Failed drop keeps stored object');
+const held=M.heldTransform(p.objects,{x:20,y:12},{x:20,y:20},1);assert.deepEqual(held.map(o=>[o.x,o.y,o.rotation]),[[20,12,90],[20,28,90]]);assert.doesNotThrow(()=>M.placeHeld(p,held));assert.equal(p.objects[0].rotation,0,'Rotation in hand does not mutate before drop');
+const self=o('self',20,20),one={...M.fresh('self'),objects:[self]};assert.doesNotThrow(()=>M.placeHeld(one,[{...self,rotation:90}]),'Original footprint is removed before placement');
+assert.equal(M.removeSelection(stored,['a']).buffer.length,0);assert.throws(()=>M.read({...p,buffer:[p.objects[0]]}),/dupliqué/);assert.throws(()=>M.read({...p,buffer:[{...p.objects[0],id:'bad',rotation:45}]}));
+const old={...p};delete old.buffer;assert.deepEqual(M.read(old).buffer,[]);
+console.log('PASS: persistent buffer, detached links, atomic restore/collision, rotate held group, no self-collision, delete and legacy import');

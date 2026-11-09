@@ -1,0 +1,263 @@
+{
+  "schemaVersion": 2,
+  "kind": "factory-tools-paper-blueprint",
+  "size": 64,
+  "depth": 48,
+  "height": 40,
+  "id": "atlas-study-01",
+  "name": "Halle Atlas · étude 01",
+  "objects": [
+    {
+      "id": "calc-0",
+      "type": "smelter",
+      "name": "Lingot de cuivre",
+      "x": 36,
+      "y": 23,
+      "w": 5,
+      "d": 10,
+      "rotation": 0,
+      "z": 1,
+      "h": 8.5,
+      "recipe": "Recipe_IngotCopper_C",
+      "clock": 1
+    },
+    {
+      "id": "calc-1",
+      "type": "smelter",
+      "name": "Lingot de cuivre",
+      "x": 46,
+      "y": 23,
+      "w": 5,
+      "d": 10,
+      "rotation": 0,
+      "z": 1,
+      "h": 8.5,
+      "recipe": "Recipe_IngotCopper_C",
+      "clock": 1
+    },
+    {
+      "id": "net-3",
+      "type": "storage",
+      "name": "Sortie · Lingot de cuivre",
+      "x": 45,
+      "y": 34,
+      "w": 5,
+      "d": 11,
+      "rotation": 90,
+      "z": 1,
+      "h": 4,
+      "recipe": null,
+      "clock": 1,
+      "io": {
+        "side": "output",
+        "item": "Desc_CopperIngot_C",
+        "rate": 60
+      }
+    },
+    {
+      "id": "net-4",
+      "type": "port",
+      "name": "Entrée · Minerai de cuivre",
+      "x": 31,
+      "y": 12,
+      "w": 2,
+      "d": 2,
+      "rotation": 90,
+      "z": 1,
+      "h": 2,
+      "recipe": null,
+      "clock": 1,
+      "io": {
+        "side": "input",
+        "item": "Desc_OreCopper_C",
+        "rate": 60
+      }
+    },
+    {
+      "id": "net-6",
+      "type": "splitter",
+      "name": "Répartition · Minerai de cuivre",
+      "x": 31,
+      "y": 15,
+      "w": 3,
+      "d": 3,
+      "rotation": 90,
+      "z": 1,
+      "h": 2,
+      "recipe": null,
+      "clock": 1
+    },
+    {
+      "id": "net-9",
+      "type": "merger",
+      "name": "Fusion · Lingot de cuivre",
+      "x": 31,
+      "y": 33,
+      "w": 3,
+      "d": 3,
+      "rotation": 90,
+      "z": 1,
+      "h": 2,
+      "recipe": null,
+      "clock": 1
+    },
+    {
+      "id": "atlas-power-1",
+      "type": "pole",
+      "name": "Alimentation de la halle",
+      "x": 39.5,
+      "y": 27,
+      "w": 1,
+      "d": 1,
+      "rotation": 0,
+      "z": 1,
+      "h": 7,
+      "recipe": null,
+      "clock": 1
+    },
+    {
+      "id": "atlas-power-2",
+      "type": "pole",
+      "name": "Alimentation de la halle",
+      "x": 49.5,
+      "y": 27,
+      "w": 1,
+      "d": 1,
+      "rotation": 0,
+      "z": 1,
+      "h": 7,
+      "recipe": null,
+      "clock": 1
+    }
+  ],
+  "flows": {
+    "inputs": [
+      {
+        "id": "Desc_OreCopper_C",
+        "rate": 60
+      }
+    ],
+    "outputs": [
+      {
+        "id": "Desc_CopperIngot_C",
+        "rate": 60
+      }
+    ]
+  },
+  "links": [
+    {
+      "kind": "belt",
+      "from": "net-4",
+      "to": "net-6",
+      "item": "Desc_OreCopper_C",
+      "rate": 60,
+      "capacity": 60
+    },
+    {
+      "kind": "belt",
+      "from": "net-6",
+      "to": "calc-0",
+      "item": "Desc_OreCopper_C",
+      "rate": 30,
+      "capacity": 60
+    },
+    {
+      "kind": "belt",
+      "from": "net-6",
+      "to": "calc-1",
+      "item": "Desc_OreCopper_C",
+      "rate": 30,
+      "capacity": 60
+    },
+    {
+      "kind": "belt",
+      "from": "calc-0",
+      "to": "net-9",
+      "item": "Desc_CopperIngot_C",
+      "rate": 30,
+      "capacity": 60
+    },
+    {
+      "kind": "belt",
+      "from": "calc-1",
+      "to": "net-9",
+      "item": "Desc_CopperIngot_C",
+      "rate": 30,
+      "capacity": 60
+    },
+    {
+      "kind": "belt",
+      "from": "net-9",
+      "to": "net-3",
+      "item": "Desc_CopperIngot_C",
+      "rate": 60,
+      "capacity": 60
+    },
+    {
+      "kind": "power",
+      "from": "atlas-power-1",
+      "to": "calc-0"
+    },
+    {
+      "kind": "power",
+      "from": "atlas-power-2",
+      "to": "calc-1"
+    },
+    {
+      "kind": "power",
+      "from": "atlas-power-1",
+      "to": "atlas-power-2"
+    }
+  ],
+  "buffer": [],
+  "design": {
+    "fit": "plot",
+    "facadeForm": "flat",
+    "enabled": true,
+    "style": "glass",
+    "family": "atlas",
+    "variant": 1,
+    "palette": "signature-chalk",
+    "pattern": "full",
+    "structure": "none",
+    "entryTreatment": "frame",
+    "seed": 1,
+    "roofSeed": 1,
+    "roofForm": "flat",
+    "roofLayout": "band",
+    "wallDecoration": "none",
+    "footprint": "rectangle",
+    "entrance": "auto",
+    "roof": true,
+    "roofStyle": "tar",
+    "detail": "none",
+    "windowEvery": 0,
+    "cornerWidth": 0.5,
+    "packs": [
+      "concrete",
+      "metal",
+      "glass"
+    ],
+    "colors": {},
+    "wallMaterial": "original",
+    "nativeStudy": "atlas"
+  },
+  "structure": {
+    "gap": 4,
+    "pitch": "minimum",
+    "thickness": 1,
+    "material": "concrete",
+    "color": "#536454"
+  },
+  "floors": [
+    {
+      "z": 0,
+      "thickness": 1,
+      "material": "concrete",
+      "color": "#777f78",
+      "shaft": 2,
+      "profile": "solid",
+      "holes": []
+    }
+  ]
+}
