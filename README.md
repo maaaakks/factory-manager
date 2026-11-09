@@ -2,9 +2,13 @@
 
 ![Factory Manager](Factory_Manager.png)
 
-An open-source local tool for exploring Satisfactory saves, planning factories, and designing their architecture. Built with Python and browser JavaScript.
+Factory Manager aims to bring factory management into one interface: understand production, identify bottlenecks and improve factory efficiency, decorate buildings, generate optimized layouts, and import creations directly into your world.
 
-**Work in progress. Development is moving slowly for now.** Two workstreams are underway and need further development. Contributions to either are welcome.
+The interface runs locally in a web browser today. The long-term goal is to make these tools available in-game, so you can inspect, improve, and expand your factories without leaving Satisfactory.
+
+**This is an early foundation, not the finished vision. Development is moving slowly for now.** Save exploration, production planning, workshop editing, and architecture previews are already taking shape. There is still substantial work ahead on layout optimization, conveyor routing, procedural decoration, refining the Creations templates, and direct in-game integration and imports. Contributions to these areas are welcome.
+
+The current open-source prototype is built with Python and browser JavaScript.
 
 ## Features
 
