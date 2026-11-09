@@ -73,9 +73,9 @@ Previews use simplified geometry, not the game's models. Native exports, collisi
 
 ## Project structure
 
-- `external-tool/` — the current app, generators, and tests.
-- `documentation/` — implementation notes and known limitations, mostly in French.
-- `starter-project/` — attribution and upstream link for an earlier Unreal starter; its full checkout is not included.
+- `external-tool/` - the current app, generators, and tests.
+- `documentation/` - implementation notes and known limitations, mostly in French.
+- `starter-project/` - attribution and upstream link for an earlier Unreal starter; its full checkout is not included.
 
 ## License and credits
 
